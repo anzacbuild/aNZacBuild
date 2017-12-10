@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.0.0" provider-name="anzacbuild.mooo.com">
 	<extension point="xbmc.addon.repository" name="aNZac Build Repository">
-		<info compressed="false">ftp://repo.anzacbuild.mooo.com/repository/addons.xml</info>
-		<checksum>ftp://repo.anzacbuild.mooo.com/repository/addons.xml.md5</checksum>
-		<datadir zip="true">ftp://repo.anzacbuild.mooo.com/repository/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/</datadir>
 		<hashes>false</hashes>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary>aNZacBuild Local Repository</summary>
-		<description lang="en">aNZacBuild Local Repository</description>
+		<summary>aNZac Build Repository</summary>
+		<description lang="en">aNZac Build Repository</description>
 		<license>None</license>
 		<language></language>
 		<website>http://anzacbuild.mooo.com</website>
