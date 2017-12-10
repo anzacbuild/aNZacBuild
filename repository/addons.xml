@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+
+<addon id="plugin.program.apkupdate" name="[B]APK Update[/B]" version="1.0.0" provider-name="anzacbuild.mooo.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.12.4"/>    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">APK Update</summary>
+    <description lang="en">This Software is designed to give you an easy way to update APKs directly to your android device already running Kodi</description>
+    <disclaimer lang="en">None</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>None</license>
+    <forum></forum>
+    <website>http://anzacbuild.mooo.com</website>
+    <email></email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon>resources/art/icon.png</icon>
+        <fanart>resources/art/fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="plugin.program.apkupdatelocal" name="[B]APK Update[/B] (Local)" version="1.0.0" provider-name="anzacbuild.mooo.com">
+  <requires>
+	 <import addon="xbmc.python" version="2.1.0"/>
+	 <import addon="script.module.requests" version="2.12.4"/>    
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+	 <provides>program executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	 <summary lang="en">APK Update</summary>
+	 <description lang="en">This Software is designed to give you an easy way to update APKs directly to your android device already running Kodi</description>
+	 <disclaimer lang="en">None</disclaimer>
+	 <language></language>
+	 <platform>all</platform>
+	 <license>None</license>
+	 <forum></forum>
+	 <website>http://anzacbuild.mooo.com</website>
+	 <email></email>
+	 <source></source>
+	 <news></news>
+	 <assets>
+	     <icon>resources/art/icon.png</icon>
+	     <fanart>resources/art/fanart.jpg</fanart>
+	 </assets>
+  </extension>
+</addon>
+
+<addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.0.0" provider-name="anzacbuild.mooo.com">
+	<extension point="xbmc.addon.repository" name="aNZac Build Repository">
+		<info compressed="false">ftp://repo.anzacbuild.mooo.com/repository/addons.xml</info>
+		<checksum>ftp://repo.anzacbuild.mooo.com/repository/addons.xml.md5</checksum>
+		<datadir zip="true">ftp://repo.anzacbuild.mooo.com/repository/</datadir>
+		<hashes>false</hashes>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>aNZacBuild Local Repository</summary>
+		<description lang="en">aNZacBuild Local Repository</description>
+		<license>None</license>
+		<language></language>
+		<website>http://anzacbuild.mooo.com</website>
+		<news>
+1.0.0 (01/12/2017)
+aNZac Build Repository Created
+		</news>
+	</extension>
+</addon>
+
+<addon id="repository.anzaclocal" name="aNZac Build Local Repository" version="1.0.0" provider-name="anzacbuild.mooo.com">
+	<extension point="xbmc.addon.repository" name="aNZac Build Local Repository">
+		<info compressed="false">ftp://192.168.1.15/repository/addons.xml</info>
+		<checksum>ftp://192.168.1.15/repository/addons.xml.md5</checksum>
+		<datadir zip="true">ftp://192.168.1.15/repository/</datadir>
+		<hashes>false</hashes>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>aNZacBuild Local Repository</summary>
+		<description lang="en">aNZacBuild Local Repository</description>
+		<license>None</license>
+		<language></language>
+		<website>http://anzacbuild.mooo.com</website>
+		<news>
+1.0.0 (01/12/2017)
+aNZac Build Repository Created
+		</news>
+	</extension>
+</addon>
+
+<addon id="script.update" name="Update" version="1.1.0" provider-name="anzacbuild.mooo.com">
+  <requires>
+	<!-- jarvis -->
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.httplib2" version="0.8.0" />
+    <import addon="script.module.oauth2client" version="4.1.2" />
+    <import addon="script.module.uritemplate" version="0.6" />
+    <import addon="script.module.yaml" version="3.11"/>
+    <import addon="script.module.googleapi" version="1.6.4" />
+	<import addon="script.module.requests" version="2.9.1" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py"> 
+     <provides>executable</provides> 
+  </extension> 
+  <extension point="xbmc.service" library="scheduler.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">aNZac Build Updater</summary>
+    <summary lang="en_NZ">aNZac Build Updater</summary>
+    <summary lang="en_US">aNZac Build Updater</summary>
+    <description lang="en">Update to the latest Version</description>
+    <description lang="en_NZ">Update to the latest Version</description>
+    <description lang="en_US">Update to the latest Version</description>
+    <language></language>
+    <platform>all</platform>
+    <license>The MIT License</license>
+    <forum>Not Supported</forum>
+    <source>http://anzacbuild.mooo.com</source>
+  </extension>
+</addon>
+
+</addons>
