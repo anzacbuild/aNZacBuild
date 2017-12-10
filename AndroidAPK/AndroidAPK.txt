@@ -15,7 +15,7 @@ version="11.7.46"
 description="Google Play Services"
 
 name="Kodi 17"
-url="ftp://192.168.1.15/AndroidAPK/kodi17.apk"
+url="http://mirrors.kodi.tv/releases/android/arm/kodi-17.6-Krypton-armeabi-v7a.apk"
 video="http://"
 icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/icon.png"
 fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/Splash.png"
