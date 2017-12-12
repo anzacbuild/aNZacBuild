@@ -5,6 +5,6 @@
    <item><title>6.3</title></item>
    <item><title>12-12-2017</title></item>
    <item><title>A Kodi build for the lands down under</title></item>
-   <item><title>NOTE: If you get a {Backup Error} you will need to click [OK] twice on settings. Then go down to {Addons} and click [OK]. Then click [OK] on {My Addons} and go down to {Program Addons} and click [OK]. Now go down to {Backup} and click [OK]. Now scroll to {Update} and click [OK]. Update the addon to version {1.1.0} and click [BACK] until you are at the start and repeat the update process.</title></item>
+   <item><title>NOTE: If you get a {Backup Error} you will need to click [OK] twice on settings. Then go down to {Addons} and click [OK]. Then click [OK] on {My Addons} and go down to {Program Addons} and click [OK]. Now go down to {Backup} and click [OK]. Now scroll to {Update} and click [OK]. Update the addon to version {1.1.0} and click [BACK] until you are at the start. Now restart the aNZac Update process and click [OK] on {Restore}.</title></item>
    
 </channel></rss>
