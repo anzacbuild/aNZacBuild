@@ -2,14 +2,14 @@
 <addons>
 
 <addon id="plugin.program.apkupdate" name="[B]APK Update[/B]" version="1.0.0" provider-name="anzacbuild.mooo.com">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests" version="2.12.4"/>    
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>program executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.requests" version="2.12.4"/>    
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>program executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
     <summary lang="en">APK Update</summary>
     <description lang="en">This Software is designed to give you an easy way to update APKs directly to your android device already running Kodi</description>
     <disclaimer lang="en">None</disclaimer>
@@ -49,6 +49,28 @@ aNZac Build Repository Created
 	</extension>
 </addon>
 
+<addon id="repository.matthuisman" name="MattHuisman.nz Repository" version="0.0.4" provider-name="MattHuisman.nz">
+  <extension point="xbmc.addon.repository" name="MattHuisman.nz Repository">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">Addons by MattHuisman.nz</description>
+    <license>GNU General Public License, v2</license>
+    <language></language>
+    <website>http://www.matthuisman.nz</website>
+    <news>0.0.4 (18/07/2017)
+- Move repo to github
+
+0.0.3 (18/07/2017)
+- Move repo to bitbucket</news>
+  </extension>
+</addon>
+	
 <addon id="script.update" name="Update" version="1.1.0" provider-name="anzacbuild.mooo.com">
   <requires>
 	<!-- jarvis -->
