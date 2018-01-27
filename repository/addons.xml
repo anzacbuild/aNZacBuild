@@ -28,7 +28,7 @@
   </extension>
 </addon>
 
-<addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.0.1" provider-name="anzacbuild.mooo.com">
+<addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.0.2" provider-name="anzacbuild.mooo.com">
 	<extension point="xbmc.addon.repository" name="aNZac Build Repository">
 		<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
@@ -47,6 +47,96 @@
 aNZac Build Repository Created
 		</news>
 	</extension>
+</addon>
+
+<addon id="repository.arnubox" name="ARNU Box Repository" version="1.0.3" provider-name="ARNU Box">
+	<extension point="xbmc.addon.repository" name="ARNU Box Repository">
+		<info compressed="false">http://www.arnuboxota.com/repo/addons/addons.xml</info>
+		<checksum>http://www.arnuboxota.com/repo/addons/addons.xml.md5</checksum>
+		<datadir zip="true">http://www.arnuboxota.com/repo/addons</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The official ARNU Box XBMC/KODI Repository</summary>
+		<description>The official ARNU Box XBMC/KODI Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.0.4" provider-name="Blamo">
+	<extension point="xbmc.addon.repository" name="Blamos">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/teverz/blamo/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/teverz/blamo/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/teverz/blamo/master/zips/</datadir>		
+		</dir>
+		<dir>
+		<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>		
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en">The Official Repo for Blamo</description>
+		<genre>movies,usa</genre>
+	</extension>
+</addon>
+
+<addon id="repository.cerebro" name=".CrebroTVRepo" version="1.2" provider-name="Biglad">
+	<extension point="xbmc.addon.repository" name=".CrebroTVRepo">
+		<info compressed="false">https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/zips/</datadir>  
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description>Cerebro TV Repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.Deliverance" name="Deliverance" version="1.0.0" provider-name="Deliverance">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Deliverance">
+            <info compressed="false">https://raw.githubusercontent.com/paspden10/DELIVERANCE/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/paspden10/DELIVERANCE/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/paspden10/DELIVERANCE/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>communal addon repo</summary>
+            <description>Deliverance Repo</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+    <addon id="lanik.repo" name="Lanik Repository" version="1.0.2" provider-name="Dalibor Lanik">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Lanik Repository">
+            <info compressed="false">http://kodi.lanik.org/_repo/addons.xml</info>
+            <checksum>http://kodi.lanik.org/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://kodi.lanik.org/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Repository for my KODI plugins</summary>
+            <description>KODI Repository for stuff made by D. Lanik</description>
+            <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="repository.matthuisman" name="MattHuisman.nz Repository" version="0.0.4" provider-name="MattHuisman.nz">
@@ -69,6 +159,93 @@ aNZac Build Repository Created
 0.0.3 (18/07/2017)
 - Move repo to bitbucket</news>
   </extension>
+</addon>
+
+<addon id="repository.Rising.Tides" name="[COLOR red][B]R[/B][/COLOR][COLOR white][B]ising[/B][/COLOR] [COLOR pink][B]T[/B][/COLOR][COLOR white][B]ides[/B][/COLOR] Repository" version="0.3" provider-name="[COLOR turquoise][B]@mullafabz[/B][/COLOR]">
+	<extension point="xbmc.addon.repository" name="[COLOR red][B]R[/B][/COLOR]ising [COLOR pink][B]T[/B][/COLOR]ides Repository">
+		<info compressed="false">http://mullafabz.net.rw/Plugins/addons.xml</info>
+		<checksum>http://mullafabz.net.rw/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://mullafabz.net.rw/Plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>All types of Contents</summary>
+		<description>Find any type of content</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon 	id="repository.streamhub" 
+		name="[COLOR red]StreamHub Repository[/COLOR]" 
+		version="1.2" 
+		provider-name="sClarke">
+	<extension point="xbmc.addon.repository" name="[COLOR red]StreamHub Repository[/COLOR]">
+		<info compressed="false">https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Repo_Files/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Repo_Files/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Repo_Files/Zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>StreamHub</summary>
+		<description>StreamHub Repository - Bringing You StreamHub</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.supremacy" name="supremacy" version="1.5" provider-name="supremacy">
+	<extension point="xbmc.addon.repository" name="supremacy">
+		<info compressed="false">http://supremacy.org.uk/zip/plugin/addon.xml</info>
+		<checksum>http://supremacy.org.uk/zip/plugin/addons.xml.md5</checksum>
+		<datadir zip="true">http://supremacy.org.uk/zip/plugin/</datadir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+			<dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>video addon for supremacy</summary>
+		<description>Latest Addon Updates For Supremacy Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.teamx" name="Team X Kodi" version="2.3" provider-name="TeamXKodi">
+	<requires>
+        <import addon="repository.lookingglass" />
+    </requires>
+	<extension point="xbmc.addon.repository" name="Team X Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/tdbnz123/repository.teamx/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/tdbnz123/repository.teamx/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/tdbnz123/repository.teamx/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">@teamxkodi twitter</summary>
+		<description lang="en">Get all Team X addons here</description>
+		<genre></genre>
+	</extension>
+</addon>
+
+<addon id="xbmc.repo.ivueguide" name="iVue2 TV Guide Repo" version="0.0.1" provider-name="iVue">
+	<extension point="xbmc.addon.repository" name="iVue2 TV Guide Add-ons Repository">
+		<info compressed="false">https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/totaltec2014/ivue2/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install iVue2 TV Guide </summary>
+		<description>Download and install for iVue2 Tv guide addons </description>
+		<disclaimer> Repo for iVue2 Tv guide addon </disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 	
 <addon id="script.update" name="Update" version="1.1.0" provider-name="anzacbuild.mooo.com">
