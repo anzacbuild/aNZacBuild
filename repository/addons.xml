@@ -28,7 +28,7 @@
   </extension>
 </addon>
 
-<addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.0.2" provider-name="anzacbuild.mooo.com">
+<addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.1" provider-name="anzacbuild.mooo.com">
 	<extension point="xbmc.addon.repository" name="aNZac Build Repository">
 		<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
@@ -122,21 +122,29 @@ aNZac Build Repository Created
     </extension>
 </addon>
 
-    <addon id="lanik.repo" name="Lanik Repository" version="1.0.2" provider-name="Dalibor Lanik">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="Lanik Repository">
-            <info compressed="false">http://kodi.lanik.org/_repo/addons.xml</info>
-            <checksum>http://kodi.lanik.org/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">http://kodi.lanik.org/_repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Repository for my KODI plugins</summary>
-            <description>KODI Repository for stuff made by D. Lanik</description>
-            <platform>all</platform>
-    </extension>
+<addon id="repository.lookingglass" name="[COLOR cyan]L[/COLOR][COLOR magenta]ooking[/COLOR] [COLOR cyan]G[/COLOR][COLOR magenta]lass[/COLOR]" version="0.0.7" provider-name="Looking Glass Team">
+	<extension point="xbmc.addon.repository" name="lookingglass">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">http://www.lookingglass.rocks/zips/addons.xml</info>
+			<checksum>http://www.lookingglass.rocks/zips/addons.xml.md5</checksum>
+			<datadir zip="true">http://www.lookingglass.rocks/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/Etree100/eccentrictree/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Etree100/eccentrictree/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Etree100/eccentrictree/master/zips/</datadir>		
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en">The Official Repo for the Looking Glass Team</description>
+		<genre>movies,usa</genre>
+	</extension>
 </addon>
 
 <addon id="repository.matthuisman" name="MattHuisman.nz Repository" version="0.0.4" provider-name="MattHuisman.nz">
@@ -213,15 +221,17 @@ aNZac Build Repository Created
 	</extension>
 </addon>
 
-<addon id="repository.teamx" name="Team X Kodi" version="2.3" provider-name="TeamXKodi">
-	<requires>
-        <import addon="repository.lookingglass" />
-    </requires>
+<addon id="repository.teamx" name="Team X Kodi" version="2.5" provider-name="TeamXKodi">
 	<extension point="xbmc.addon.repository" name="Team X Repo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+
+            <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+            <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+  
 		</dir>
 		<info compressed="false">https://raw.githubusercontent.com/tdbnz123/repository.teamx/master/zips/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/tdbnz123/repository.teamx/master/zips/addons.xml.md5</checksum>
@@ -234,20 +244,6 @@ aNZac Build Repository Created
 	</extension>
 </addon>
 
-<addon id="xbmc.repo.ivueguide" name="iVue2 TV Guide Repo" version="0.0.1" provider-name="iVue">
-	<extension point="xbmc.addon.repository" name="iVue2 TV Guide Add-ons Repository">
-		<info compressed="false">https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/totaltec2014/ivue2/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install iVue2 TV Guide </summary>
-		<description>Download and install for iVue2 Tv guide addons </description>
-		<disclaimer> Repo for iVue2 Tv guide addon </disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-	
 <addon id="script.update" name="Update" version="1.1.0" provider-name="anzacbuild.mooo.com">
   <requires>
 	<!-- jarvis -->
@@ -277,5 +273,20 @@ aNZac Build Repository Created
     <source>http://anzacbuild.mooo.com</source>
   </extension>
 </addon>
+
+<addon id="xbmc.repo.ivueguide" name="iVue2 TV Guide Repo" version="0.0.1" provider-name="iVue">
+	<extension point="xbmc.addon.repository" name="iVue2 TV Guide Add-ons Repository">
+		<info compressed="false">https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/totaltec2014/ivue2/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install iVue2 TV Guide </summary>
+		<description>Download and install for iVue2 Tv guide addons </description>
+		<disclaimer> Repo for iVue2 Tv guide addon </disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+	
 
 </addons>
