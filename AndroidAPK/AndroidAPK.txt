@@ -14,13 +14,13 @@ fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/Splash.pn
 version="11.7.46"
 description="Google Play Services"
 
-name="Kodi 17"
+name="Kodi"
 url="http://mirrors.kodi.tv/releases/android/arm/kodi-17.6-Krypton-armeabi-v7a.apk"
 video="http://"
 icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/icon.png"
 fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/Splash.png"
 version="17.6"
-description="Kodi 17 (Latest Version)"
+description="Kodi (Latest Version)"
 
 name="TVNZ On Demand"
 url="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/2.9.4-mattrix.apk"
