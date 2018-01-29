@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>aNZac Build</title>
-   <item><title>6.4</title></item>
-   <item><title>07-01-2018</title></item>
+   <item><title>6.5</title></item>
+   <item><title>29-01-2018</title></item>
    <item><title>A Kodi build for the lands down under</title></item>
    
-   <item><title>Updates for Neptune and Covenant.</title></item>
-   <item><title>Added Placenta and removed Fantastic.</title></item>
-   <item><title>Updated Supremacy and added Rising Tides.</title></item>
+   <item><title>Removed Covenant as no longer being updated.</title></item>
+   <item><title>Added Cerebro IPTV.</title></item>
+   <item><title>General tidy up of the build.</title></item>
    
    <item><title></title></item>
 </channel></rss>
