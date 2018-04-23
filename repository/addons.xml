@@ -68,27 +68,6 @@
   </extension>
 </addon>
 
-<addon
-  id="plugin.video.videodevil"
-  version="1.7.172"
-  name="VideoDevil"
-  provider-name="xbmc-adult">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-  </requires>
-  <extension 
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Play videos from different adult streaming sites</summary>
-    <description>This addon plays videos from YouPorn, Tube8, Boysfood, MoviesAnd, PornoTube, xHamster, KeezMovies and some other adult streaming sites. It contains explicit adult material. You may only view this addon if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content. If you do not meet these requirements, then you do not have permission to use this addon. </description>
-    <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
 <addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.4" provider-name="anzacbuild.mooo.com">
 	<extension point="xbmc.addon.repository" name="aNZac Build Repository">
 		<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
@@ -161,35 +140,6 @@ aNZac Build Repository Created
         </extension>
     </addon>
 
-<addon id="repository.cerebro" name=".CrebroTVRepo" version="1.2" provider-name="Biglad">
-	<extension point="xbmc.addon.repository" name=".CrebroTVRepo">
-		<info compressed="false">https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/biglad/CerebroTVRepo/master/zips/</datadir>  
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary></summary>
-		<description>Cerebro TV Repo</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.Deliverance" name="Deliverance" version="1.0.0" provider-name="Deliverance">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="Deliverance">
-            <info compressed="false">https://raw.githubusercontent.com/paspden10/DELIVERANCE/master/_repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/paspden10/DELIVERANCE/master/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/paspden10/DELIVERANCE/master/_repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>communal addon repo</summary>
-            <description>Deliverance Repo</description>
-            <platform>all</platform>
-    </extension>
-</addon>
 
 <addon id="repository.matthuisman" name="MattHuisman.nz Repository" version="0.0.4" provider-name="MattHuisman.nz">
   <extension point="xbmc.addon.repository" name="MattHuisman.nz Repository">
@@ -226,6 +176,24 @@ aNZac Build Repository Created
 	</extension>
 </addon>
 
+	
+<addon id="repository.Sarcasm" name="Sarcasm" version="1.0.1" provider-name="JimmyJones">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Sarcasm">
+            <info compressed="false">https://raw.githubusercontent.com/j1mmyjones/sarcasm/master/_zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/j1mmyjones/sarcasm/master/_zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/j1mmyjones/sarcasm/master/_zips/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Addons for XBMC/Kodi.</summary>
+            <description>Some addons may contain Adult content YOU have been warned.</description>
+            <platform>all</platform>
+    </extension>
+</addon>	
+	
 <addon 	id="repository.streamhub" 
 		name="[COLOR red]StreamHub Repository[/COLOR]" 
 		version="1.2" 
@@ -262,29 +230,6 @@ aNZac Build Repository Created
 		<summary>video addon for supremacy</summary>
 		<description>Latest Addon Updates For Supremacy Repository</description>
 		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.teamx" name="Team X Kodi" version="2.5" provider-name="TeamXKodi">
-	<extension point="xbmc.addon.repository" name="Team X Repo">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
-
-            <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-            <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-  
-		</dir>
-		<info compressed="false">https://raw.githubusercontent.com/tdbnz123/repository.teamx/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/tdbnz123/repository.teamx/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/tdbnz123/repository.teamx/master/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">@teamxkodi twitter</summary>
-		<description lang="en">Get all Team X addons here</description>
-		<genre></genre>
 	</extension>
 </addon>
 
