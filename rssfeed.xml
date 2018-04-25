@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>aNZac Build</title>
-   <item><title>6.5</title></item>
-   <item><title>29-01-2018</title></item>
+   <item><title>6.6</title></item>
+   <item><title>25-04-2018 (The aNZac Update)</title></item>
    <item><title>A Kodi build for the lands down under</title></item>
    
-   <item><title>Removed Covenant as no longer being updated.</title></item>
-   <item><title>Added Cerebro IPTV.</title></item>
-   <item><title>General tidy up of the build.</title></item>
+   <item><title>Removed Cerebro IPTV and Deliverance as no longer being updated.</title></item>
+   <item><title>Added tvOne for live tv</title></item>
    
    <item><title></title></item>
 </channel></rss>
