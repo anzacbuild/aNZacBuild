@@ -89,28 +89,18 @@ aNZac Build Repository Created
 	</extension>
 </addon>
 
-<addon id="repository.arnubox" name="ARNU Box Repository" version="1.0.3" provider-name="ARNU Box">
-	<extension point="xbmc.addon.repository" name="ARNU Box Repository">
-		<info compressed="false">http://www.arnuboxota.com/repo/addons/addons.xml</info>
-		<checksum>http://www.arnuboxota.com/repo/addons/addons.xml.md5</checksum>
-		<datadir zip="true">http://www.arnuboxota.com/repo/addons</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>The official ARNU Box XBMC/KODI Repository</summary>
-		<description>The official ARNU Box XBMC/KODI Repository</description>
-		<platform>all</platform>
-	</extension>
-</addon>
 
-    <addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.1.1" provider-name="Mr Blamo">
+     <addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.1.4" provider-name="Mr Blamo">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="[COLOR red]Blamo Repo[/COLOR]">
-            <info compressed="false">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml</info>
+            <dir>
+			<info compressed="false">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/</datadir>
             <hashes>false</hashes>
+			</dir>
             <dir>
                 <info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
                 <checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
@@ -127,10 +117,10 @@ aNZac Build Repository Created
                 <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
             </dir>
 			<dir>
-				<info compressed="false">http://teamuniversal.xyz/modules4all/addons.xml</info>
-				<checksum>http://teamuniversal.xyz/modules4all/addons.xml.md5</checksum>
-				<datadir zip="true">http://teamuniversal.xyz/modules4all/</datadir>
-			</dir>
+                <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            </dir>
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>The Official Repo for Mr Blamo</summary>
@@ -139,23 +129,9 @@ aNZac Build Repository Created
             <genre>movies,usa</genre>
         </extension>
     </addon>
-
-
-<addon id="repository.buildstube" name="[COLOR lime]Repo Buildstube[/COLOR]" version="1.8.1" provider-name="[COLOR lime]Buildstube[/COLOR]">
-	<extension point="xbmc.addon.repository" name="Repo Buildstube">
-		<info compressed="false">http://repo.buildstuben.de/addons.xml</info>
-		<checksum>http://repo.buildstuben.de/addons.xml.md5</checksum>
-		<datadir zip="true">http://repo.buildstuben.de/Plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>[COLOR lime]Repository[/COLOR]</summary>
-		<description>[COLOR white]Das ist das offizielle Buildstuben Repository !!!! Es ermöglicht euch Addons zu installieren und alte zum Updaten. Ich habe und werde in Zukunft alle Addons in den Verzeichnissen kontrollieren, ob sie noch gehen oder ein Update schon da ist, damit ihr immer auch auf dem aktuellen Stand seid. Sollten Addon´s nicht funktionieren bitte meldet euch in meiner Gruppe (Kodi/FAQ Buildstube) damit ich es mit bekomme. Wünsche euch viel Spaß...[/COLOR]</description>
-		<platform>all</platform>
-	</extension>
-</addon>
 	
 	
-<addon id="repository.matthuisman" name="MattHuisman.nz Repository" version="0.0.4" provider-name="MattHuisman.nz">
+<addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.2.0" commit="6ebe409">
   <extension point="xbmc.addon.repository" name="MattHuisman.nz Repository">
     <dir>
       <info compressed="false">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml</info>
@@ -167,13 +143,10 @@ aNZac Build Repository Created
     <platform>all</platform>
     <description lang="en">Addons by MattHuisman.nz</description>
     <license>GNU General Public License, v2</license>
-    <language></language>
-    <website>http://www.matthuisman.nz</website>
-    <news>0.0.4 (18/07/2017)
-- Move repo to github
-
-0.0.3 (18/07/2017)
-- Move repo to bitbucket</news>
+    <language/>
+    <website>https://www.matthuisman.nz/2017/03/install-matthuisman-kodi-repo.html</website>
+    <news>0.2.0 #6ebe409 (29/06/2018)
+- Update addon.xml</news>
   </extension>
 </addon>
 
@@ -224,21 +197,26 @@ aNZac Build Repository Created
 	</extension>
 </addon>
 
-<addon id="repository.supremacy" name="supremacy" version="1.5" provider-name="supremacy">
-	<extension point="xbmc.addon.repository" name="supremacy">
+<addon id="repository.supremacy" name="[COLORaqua]supremacy[/COLOR]" version="2.5" provider-name="supremacy">
+	<extension point="xbmc.addon.repository" name="[COLORaqua]supremacy[/COLOR]">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>	
+		<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+	</dir>
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+    </dir>
+    <dir>
+        <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+    </dir>
 		<info compressed="false">http://supremacy.org.uk/zip/plugin/addon.xml</info>
 		<checksum>http://supremacy.org.uk/zip/plugin/addons.xml.md5</checksum>
 		<datadir zip="true">http://supremacy.org.uk/zip/plugin/</datadir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
-		</dir>
-			<dir>
-		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-	</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>video addon for supremacy</summary>
@@ -264,19 +242,6 @@ aNZac Build Repository Created
     </extension>
 </addon>
 
-<addon id="repository.tvone" name="[B]TvOne[/B]" version="1.0" provider-name="Optimum Bliss">
-	<extension point="xbmc.addon.repository" name="TvOne">
-		<info compressed="false">https://raw.githubusercontent.com/birdy-luis/tvonerepo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/birdy-luis/tvonerepo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/birdy-luis/tvonerepo/master/</datadir>
-	</extension>
-	  <extension point="xbmc.addon.metadata">
-		<summary lang="en">TvOne</summary>
-		<description lang="en">Visit Optimum Bliss Youtube Channel andsubscribe for free streaming solution!</description>
-		<platform>all</platform>
-	  </extension>
-</addon>
-	
 	
 <addon id="script.update" name="Update" version="1.1.0" provider-name="anzacbuild.mooo.com">
   <requires>
