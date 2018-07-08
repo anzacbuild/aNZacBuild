@@ -1,291 +1,366 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="lanik.repo" name="Lanik Repository" version="1.0.2" provider-name="Dalibor Lanik">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="Lanik Repository">
-            <info compressed="false">http://kodi.lanik.org/_repo/addons.xml</info>
-            <checksum>http://kodi.lanik.org/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">http://kodi.lanik.org/_repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Repository for my KODI plugins</summary>
-            <description>KODI Repository for stuff made by D. Lanik</description>
-            <platform>all</platform>
-    </extension>
-</addon>
+	<addon id="lanik.repo" name="Lanik Repository" version="1.0.2" provider-name="Dalibor Lanik">
+			<requires>
+				<import addon="xbmc.addon" version="12.0.0"/>
+			</requires>
+			<extension point="xbmc.addon.repository" name="Lanik Repository">
+				<info compressed="false">http://kodi.lanik.org/_repo/addons.xml</info>
+				<checksum>http://kodi.lanik.org/_repo/addons.xml.md5</checksum>
+				<datadir zip="true">http://kodi.lanik.org/_repo/</datadir>
+				<hashes>false</hashes>
+			</extension>
+			<extension point="xbmc.addon.metadata">
+				<summary>Repository for my KODI plugins</summary>
+				<description>KODI Repository for stuff made by D. Lanik</description>
+				<platform>all</platform>
+		</extension>
+	</addon>
 
-<addon id="plugin.audio.mp3streams" name="MP3 Streams" version="2017.09.09" provider-name="qahanik, kinkin, art by Marquerite">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.t0mm0.common" version="1.1.0"/>
-        <import addon="script.module.mutagen"/>
-        <import addon="script.module.requests" version="1.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>audio</provides>
-    </extension>
-    <extension point="xbmc.service" library="playerMP3.py" start="startup" />
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>A music streaming collection</summary>
-        <description>Browse, stream or download your favourite songs and albums</description>
-        <news>fixed by qahanik (thank you very much!) / changed versioning to date-format / fixed album downloading / minor cosmetic cleanups</news>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
+	<addon id="plugin.audio.mp3streams" name="MP3 Streams" version="2017.09.09" provider-name="qahanik, kinkin, art by Marquerite">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.t0mm0.common" version="1.1.0"/>
+			<import addon="script.module.mutagen"/>
+			<import addon="script.module.requests" version="1.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.service" library="playerMP3.py" start="startup" />
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<summary>A music streaming collection</summary>
+			<description>Browse, stream or download your favourite songs and albums</description>
+			<news>fixed by qahanik (thank you very much!) / changed versioning to date-format / fixed album downloading / minor cosmetic cleanups</news>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+		</extension>
+	</addon>
 
-<addon id="plugin.program.apkupdate" name="[B]APK Update[/B]" version="1.0.0" provider-name="anzacbuild.mooo.com">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.requests" version="2.12.4"/>    
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>program executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-    <summary lang="en">APK Update</summary>
-    <description lang="en">This Software is designed to give you an easy way to update APKs directly to your android device already running Kodi</description>
-    <disclaimer lang="en">None</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>None</license>
-    <forum></forum>
-    <website>http://anzacbuild.mooo.com</website>
-    <email></email>
-    <source></source>
-    <news></news>
-    <assets>
-        <icon>resources/art/icon.png</icon>
-        <fanart>resources/art/fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
+	<addon id="plugin.program.apkupdate" name="[B]APK Update[/B]" version="1.0.0" provider-name="anzacbuild.mooo.com">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.requests" version="2.12.4"/>    
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>program executable</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">APK Update</summary>
+			<description lang="en">This Software is designed to give you an easy way to update APKs directly to your android device already running Kodi</description>
+			<disclaimer lang="en">None</disclaimer>
+			<language></language>
+			<platform>all</platform>
+			<license>None</license>
+			<forum></forum>
+			<website>http://anzacbuild.mooo.com</website>
+			<email></email>
+			<source></source>
+			<news></news>
+			<assets>
+				<icon>resources/art/icon.png</icon>
+				<fanart>resources/art/fanart.jpg</fanart>
+			</assets>
+	  </extension>
+	</addon>
 
-<addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.4" provider-name="anzacbuild.mooo.com">
-	<extension point="xbmc.addon.repository" name="aNZac Build Repository">
-		<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/</datadir>
-		<hashes>false</hashes>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary>aNZac Build Repository</summary>
-		<description lang="en">aNZac Build Repository</description>
-		<license>None</license>
-		<language></language>
-		<website>http://anzacbuild.mooo.com</website>
-		<news>
-1.0.0 (01/12/2017)
-aNZac Build Repository Created
-		</news>
-	</extension>
-</addon>
+	<addon id="repository.Rising.Tides" name="[COLOR red][B]R[/B][/COLOR][COLOR white][B]ising[/B][/COLOR] [COLOR pink][B]T[/B][/COLOR][COLOR white][B]ides[/B][/COLOR] Repository" version="0.4" provider-name="[COLOR turquoise][B]@mullafabz[/B][/COLOR]">
+		<extension point="xbmc.addon.repository" name="[COLOR red][B]R[/B][/COLOR]ising [COLOR pink][B]T[/B][/COLOR]ides Repository">
+			<info compressed="false">http://mullafabz.xyz/Plugins/addons.xml</info>
+			<checksum>http://mullafabz.xyz/Plugins/addons.xml.md5</checksum>
+			<datadir zip="true">http://mullafabz.xyz/Plugins/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>All types of Contents</summary>
+			<description>Find any type of content</description>
+			<platform>all</platform>
+		</extension>
+	</addon>	
 
+	<addon id="repository.Sarcasm" name="Sarcasm" version="1.0.1" provider-name="JimmyJones">
+		<requires>
+			<import addon="xbmc.addon" version="12.0.0"/>
+		</requires>
+		<extension point="xbmc.addon.repository" name="Sarcasm">
+			<info compressed="false">https://raw.githubusercontent.com/j1mmyjones/sarcasm/master/_zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/j1mmyjones/sarcasm/master/_zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/j1mmyjones/sarcasm/master/_zips/</datadir>
+			<hashes>false</hashes>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Addons for XBMC/Kodi.</summary>
+			<description>Some addons may contain Adult content YOU have been warned.</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+	
+	<addon id="repository.aenemapy" name="Aenemapy Addons Repository" version="2018.01.04.2" provider-name="aenemapy">
+		<extension point="xbmc.addon.repository" name="Aenemapy Addons Repository">
+			<info compressed="false">https://raw.githubusercontent.com/aenemapy/aenemapyrepo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/aenemapy/aenemapyrepo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/aenemapy/aenemapyrepo/master/zips/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Aenemapy repo</summary>
+			<description>This is just a repo...</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
 
-     <addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.1.4" provider-name="Mr Blamo">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="[COLOR red]Blamo Repo[/COLOR]">
-            <dir>
-			<info compressed="false">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/</datadir>
-            <hashes>false</hashes>
-			</dir>
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
-            </dir>
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-            </dir>
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-            </dir>
+	<addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.4" provider-name="anzacbuild.mooo.com">
+		<extension point="xbmc.addon.repository" name="aNZac Build Repository">
+			<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/</datadir>
+			<hashes>false</hashes>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<summary>aNZac Build Repository</summary>
+			<description lang="en">aNZac Build Repository</description>
+			<license>None</license>
+			<language></language>
+			<website>http://anzacbuild.mooo.com</website>
+			<news>
+	1.0.0 (01/12/2017)
+	aNZac Build Repository Created
+			</news>
+		</extension>
+	</addon>
+
+	 <addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.1.4" provider-name="Mr Blamo">
+		<requires>
+			<import addon="xbmc.addon" version="12.0.0"/>
+		</requires>
+		<extension point="xbmc.addon.repository" name="[COLOR red]Blamo Repo[/COLOR]">
 			<dir>
-                <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-            </dir>
+			<info compressed="false">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/</datadir>
+			<hashes>false</hashes>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>The Official Repo for Mr Blamo</summary>
+			<description>The Official Repo for Mr Blamo</description>
+			<platform>all</platform>
+			<genre>movies,usa</genre>
+		</extension>
+	</addon>
+		
+	<addon id="repository.gaia.1" version="2.1.0" name="Gaia Repository 1" provider-name="Gaia">
+		<extension point="xbmc.addon.repository" name="Gaia Repository 1">
+			<dir>
+				<info compressed="false">https://github.com/gaiaorigin/gaiaorigin/raw/master/common/addons.xml?v=2.1.0</info>
+				<checksum>https://github.com/gaiaorigin/gaiaorigin/raw/master/common/addons.xml.md5?v=2.1.0</checksum>
+				<datadir zip="true">https://github.com/gaiaorigin/gaiaorigin/raw/master/common/</datadir>
+			</dir>
+			<info compressed="false">https://github.com/gaiaorigin/gaiaorigin/raw/master/addons.xml?v=2.1.0</info>
+			<checksum>https://github.com/gaiaorigin/gaiaorigin/raw/master/addons.xml.md5?v=2.1.0</checksum>
+			<datadir zip="true">https://github.com/gaiaorigin/gaiaorigin/raw/master/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Gaia Primary Repository</summary>
+			<description lang="en">The Gaia repository for the addon, resources, extensions, and external addons. Any of the Gaia mirror repositories can be used for installation and updates.</description>
+			<disclaimer lang="en">Gaia and its developers are not in any way affiliated with Kodi, Premiumize, OffCloud, RealDebrid, EasyNews, or any of the sites and providers used in the addon.<br/>Gaia is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes.<br/>Gaia and its developers do not host, create, or distribute any of the content displayed in the addon, it simply searches public websites.</disclaimer>
+			<platform>all</platform>
+			<license>GPL 3.0</license>
+			<website>https://gaiakodi.com</website>
+			<forum>https://gaiakodi.com/?support</forum>
+		</extension>
+	</addon>
+		
+	<addon id="repository.kodibae" name="[COLOR pink]Kodi Bae Repository[/COLOR]" version="1.0.0" provider-name="kodibae">
+		<extension point="xbmc.addon.repository" name="[COLOR pink]Kodi Bae Repository[/COLOR]">
+		<dir>
+			<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+			<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+		</dir>
+			<info compressed="false">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Unofficial Addons for Kodi</summary>
+			<description>Would you care for some salt with that fork?</description>
+			<platform>all</platform>
+		</extension>
+	</addon>		
+		
+	<addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.2.0" commit="6ebe409">
+		<extension point="xbmc.addon.repository" name="MattHuisman.nz Repository">
+			<dir>
+			  <info compressed="false">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml</info>
+			  <checksum>https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml.md5</checksum>
+			  <datadir zip="true">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<description lang="en">Addons by MattHuisman.nz</description>
+			<license>GNU General Public License, v2</license>
+			<language/>
+			<website>https://www.matthuisman.nz/2017/03/install-matthuisman-kodi-repo.html</website>
+			<news>0.2.0 #6ebe409 (29/06/2018)
+			- Update addon.xml</news>
+		</extension>
+	</addon>
+
+	<addon 	id="repository.streamhub" 
+			name="[COLOR red]StreamHub Repository[/COLOR]" 
+			version="1.2" 
+			provider-name="sClarke">
+		<extension point="xbmc.addon.repository" name="[COLOR red]StreamHub Repository[/COLOR]">
+			<info compressed="false">https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Repo_Files/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Repo_Files/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Repo_Files/Zips</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>StreamHub</summary>
+			<description>StreamHub Repository - Bringing You StreamHub</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+
+	<addon id="repository.supremacy" name="[COLORaqua]supremacy[/COLOR]" version="2.5" provider-name="supremacy">
+		<extension point="xbmc.addon.repository" name="[COLORaqua]supremacy[/COLOR]">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>	
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+		</dir>
+			<info compressed="false">http://supremacy.org.uk/zip/plugin/addon.xml</info>
+			<checksum>http://supremacy.org.uk/zip/plugin/addons.xml.md5</checksum>
+			<datadir zip="true">http://supremacy.org.uk/zip/plugin/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>video addon for supremacy</summary>
+			<description>Latest Addon Updates For Supremacy Repository</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+
+	<addon id="repository.ukodi1" name="ukodi1" version="0.0.5" provider-name="ukodi1">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="ukodi1">
+            <info compressed="false">http://ukodi1.com/_repo/addons.xml</info>
+            <checksum>http://ukodi1.com/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://ukodi1.com/_repo/</datadir>
+            <hashes>false</hashes>
+            <dir>
+				<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+			</dir>
+			<dir>
+				 <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+				 <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+				 <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+			</dir>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>The Official Repo for Mr Blamo</summary>
-            <description>The Official Repo for Mr Blamo</description>
+            <summary>Welcome to the Ukodi1 Repository</summary>
+            <description></description>
             <platform>all</platform>
-            <genre>movies,usa</genre>
+    </extension>
+	</addon>
+		
+    <addon id="repository.universalscrapers" name="universalscrapers-repository" version="1.0.0" provider-name="universalscrapers">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="universalscrapers">
+            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Scrape common video host for URL's to be playable in XBMC/Kodi.</summary>
+            <description>carrying on the dream</description>
+            <platform>all</platform>
         </extension>
     </addon>
+		
+	<addon id="script.update" name="Update" version="1.1.0" provider-name="anzacbuild.mooo.com">
+		<requires>
+		<!-- jarvis -->
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="script.module.httplib2" version="0.8.0" />
+		<import addon="script.module.oauth2client" version="4.1.2" />
+		<import addon="script.module.uritemplate" version="0.6" />
+		<import addon="script.module.yaml" version="3.11"/>
+		<import addon="script.module.googleapi" version="1.6.4" />
+		<import addon="script.module.requests" version="2.9.1" />
+		</requires>
+		<extension point="xbmc.python.script" library="default.py"> 
+			<provides>executable</provides> 
+		</extension> 
+		<extension point="xbmc.service" library="scheduler.py" start="startup" />
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">aNZac Build Updater</summary>
+			<summary lang="en_NZ">aNZac Build Updater</summary>
+			<summary lang="en_US">aNZac Build Updater</summary>
+			<description lang="en">Update to the latest Version</description>
+			<description lang="en_NZ">Update to the latest Version</description>
+			<description lang="en_US">Update to the latest Version</description>
+			<language></language>
+			<platform>all</platform>
+			<license>The MIT License</license>
+			<forum>Not Supported</forum>
+			<source>http://anzacbuild.mooo.com</source>
+		</extension>
+	</addon>
+
+	<addon id="xbmc.repo.ivueguide" name="iVue2 TV Guide Repo" version="0.0.1" provider-name="iVue">
+		<extension point="xbmc.addon.repository" name="iVue2 TV Guide Add-ons Repository">
+			<info compressed="false">https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totaltec2014/ivue2/master/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Install iVue2 TV Guide </summary>
+			<description>Download and install for iVue2 Tv guide addons </description>
+			<disclaimer> Repo for iVue2 Tv guide addon </disclaimer>
+			<platform>all</platform>
+		</extension>
+	</addon>
 	
-	
-<addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.2.0" commit="6ebe409">
-  <extension point="xbmc.addon.repository" name="MattHuisman.nz Repository">
-    <dir>
-      <info compressed="false">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/</datadir>
-    </dir>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <description lang="en">Addons by MattHuisman.nz</description>
-    <license>GNU General Public License, v2</license>
-    <language/>
-    <website>https://www.matthuisman.nz/2017/03/install-matthuisman-kodi-repo.html</website>
-    <news>0.2.0 #6ebe409 (29/06/2018)
-- Update addon.xml</news>
-  </extension>
-</addon>
-
-<addon id="repository.Rising.Tides" name="[COLOR red][B]R[/B][/COLOR][COLOR white][B]ising[/B][/COLOR] [COLOR pink][B]T[/B][/COLOR][COLOR white][B]ides[/B][/COLOR] Repository" version="0.4" provider-name="[COLOR turquoise][B]@mullafabz[/B][/COLOR]">
-	<extension point="xbmc.addon.repository" name="[COLOR red][B]R[/B][/COLOR]ising [COLOR pink][B]T[/B][/COLOR]ides Repository">
-		<info compressed="false">http://mullafabz.xyz/Plugins/addons.xml</info>
-		<checksum>http://mullafabz.xyz/Plugins/addons.xml.md5</checksum>
-		<datadir zip="true">http://mullafabz.xyz/Plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>All types of Contents</summary>
-		<description>Find any type of content</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-	
-<addon id="repository.Sarcasm" name="Sarcasm" version="1.0.1" provider-name="JimmyJones">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="Sarcasm">
-            <info compressed="false">https://raw.githubusercontent.com/j1mmyjones/sarcasm/master/_zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/j1mmyjones/sarcasm/master/_zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/j1mmyjones/sarcasm/master/_zips/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Addons for XBMC/Kodi.</summary>
-            <description>Some addons may contain Adult content YOU have been warned.</description>
-            <platform>all</platform>
-    </extension>
-</addon>	
-	
-<addon 	id="repository.streamhub" 
-		name="[COLOR red]StreamHub Repository[/COLOR]" 
-		version="1.2" 
-		provider-name="sClarke">
-	<extension point="xbmc.addon.repository" name="[COLOR red]StreamHub Repository[/COLOR]">
-		<info compressed="false">https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Repo_Files/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Repo_Files/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/sClarkeIsBack/StreamHub/master/Repo_Files/Zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>StreamHub</summary>
-		<description>StreamHub Repository - Bringing You StreamHub</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.supremacy" name="[COLORaqua]supremacy[/COLOR]" version="2.5" provider-name="supremacy">
-	<extension point="xbmc.addon.repository" name="[COLORaqua]supremacy[/COLOR]">
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>	
-		<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-	</dir>
-	<dir>
-        <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-    </dir>
-    <dir>
-        <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-    </dir>
-		<info compressed="false">http://supremacy.org.uk/zip/plugin/addon.xml</info>
-		<checksum>http://supremacy.org.uk/zip/plugin/addons.xml.md5</checksum>
-		<datadir zip="true">http://supremacy.org.uk/zip/plugin/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>video addon for supremacy</summary>
-		<description>Latest Addon Updates For Supremacy Repository</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-    <addon id="repository.tvguides" name=".[COLOR red]TV GUIDES[/COLOR] Repository" version="0.0.1" provider-name="locknload">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="TV GUIDES Repository">
-            <info compressed="false">http://tvstreamers.net/repo/tvguides/addons.xml</info>
-            <checksum>http://tvstreamers.net/repo/tvguides/addons.xml.md5</checksum>
-            <datadir zip="true">http://tvstreamers.net/repo/tvguides/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>TV GUIDES Repository</summary>
-            <description>!! TV GUIDES !!</description>
-            <platform>all</platform>
-    </extension>
-</addon>
-
-	
-<addon id="script.update" name="Update" version="1.1.0" provider-name="anzacbuild.mooo.com">
-  <requires>
-	<!-- jarvis -->
-    <import addon="xbmc.python" version="2.24.0"/>
-    <import addon="script.module.httplib2" version="0.8.0" />
-    <import addon="script.module.oauth2client" version="4.1.2" />
-    <import addon="script.module.uritemplate" version="0.6" />
-    <import addon="script.module.yaml" version="3.11"/>
-    <import addon="script.module.googleapi" version="1.6.4" />
-	<import addon="script.module.requests" version="2.9.1" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py"> 
-     <provides>executable</provides> 
-  </extension> 
-  <extension point="xbmc.service" library="scheduler.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">aNZac Build Updater</summary>
-    <summary lang="en_NZ">aNZac Build Updater</summary>
-    <summary lang="en_US">aNZac Build Updater</summary>
-    <description lang="en">Update to the latest Version</description>
-    <description lang="en_NZ">Update to the latest Version</description>
-    <description lang="en_US">Update to the latest Version</description>
-    <language></language>
-    <platform>all</platform>
-    <license>The MIT License</license>
-    <forum>Not Supported</forum>
-    <source>http://anzacbuild.mooo.com</source>
-  </extension>
-</addon>
-
-<addon id="xbmc.repo.ivueguide" name="iVue2 TV Guide Repo" version="0.0.1" provider-name="iVue">
-	<extension point="xbmc.addon.repository" name="iVue2 TV Guide Add-ons Repository">
-		<info compressed="false">https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/totaltec2014/ivue2/master/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install iVue2 TV Guide </summary>
-		<description>Download and install for iVue2 Tv guide addons </description>
-		<disclaimer> Repo for iVue2 Tv guide addon </disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-	
-
 </addons>
