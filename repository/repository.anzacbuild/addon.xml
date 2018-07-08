@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.0.2" provider-name="anzacbuild.mooo.com">
+<addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.5" provider-name="anzacbuild.mooo.com">
 	<extension point="xbmc.addon.repository" name="aNZac Build Repository">
 		<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
