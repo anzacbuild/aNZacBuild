@@ -1,9 +1,9 @@
 name="3 Now"
-url="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/2.4.1-mattrix.apk"
+url="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/2.6-mattrix.apk"
 video="http://"
 icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/icon.png" 
 fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/Splash.png"
-version="2.4.1"
+version="2.6"
 description="3 Now Android Application"
 
 name="Google Play Services"
@@ -23,11 +23,11 @@ version="17.6"
 description="Kodi (Latest Version)"
 
 name="TVNZ On Demand"
-url="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/2.9.4-mattrix.apk"
+url="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/2.11.1-mattrix.apk"
 video="http://"
 icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/icon.png"
 fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/Splash.png"
-version="2.9.4"
+version="2.11.1"
 description="TVNZ On Demand"
 
 
