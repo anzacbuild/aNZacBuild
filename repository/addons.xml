@@ -24,30 +24,30 @@
 		</extension>
 	</addon>
 
-	<addon id="plugin.program.apkupdate" name="[B]APK Update[/B]" version="1.0.0" provider-name="anzacbuild.mooo.com">
-		<requires>
-			<import addon="xbmc.python" version="2.1.0"/>
-			<import addon="script.module.requests" version="2.12.4"/>    
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>program executable</provides>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en">APK Update</summary>
-			<description lang="en">This Software is designed to give you an easy way to update APKs directly to your android device already running Kodi</description>
-			<disclaimer lang="en">None</disclaimer>
-			<language></language>
-			<platform>all</platform>
-			<license>None</license>
-			<forum></forum>
-			<website>http://anzacbuild.mooo.com</website>
-			<email></email>
-			<source></source>
-			<news></news>
-			<assets>
-				<icon>resources/art/icon.png</icon>
-				<fanart>resources/art/fanart.jpg</fanart>
-			</assets>
+	<addon id="plugin.program.apkupdate" name="[B]APK Update[/B]" version="1.0.1" provider-name="anzacbuild.mooo.com">
+	  <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.requests" version="2.12.4"/>    
+	  </requires>
+	  <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>program executable</provides>
+	  </extension>
+	  <extension point="xbmc.addon.metadata">
+		<summary lang="en">APK Update</summary>
+		<description lang="en">This Software is designed to give you an easy way to update APKs directly to your android device already running Kodi</description>
+		<disclaimer lang="en">None</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>None</license>
+		<forum></forum>
+		<website>http://anzacbuild.mooo.com</website>
+		<email></email>
+		<source></source>
+		<news></news>
+		<assets>
+			<icon>resources/art/icon.png</icon>
+			<fanart>resources/art/fanart.jpg</fanart>
+		</assets>
 	  </extension>
 	</addon>
 
