@@ -27,7 +27,7 @@ ADDONS              = os.path.join(HOME, 'addons')
 USERDATA            = os.path.join(HOME, 'userdata')
 ADDON_DATA          = xbmc.translatePath(os.path.join(USERDATA, 'addon_data'))
 ownAddon            = xbmcaddon.Addon(id=AddonID)
-URL                 = "https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/rssfeed.xml/AndroidAPK/"
+URL                 = "https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/"
 NEWSURL             = "https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/rssfeed.xml"
 ADDONTITLE          = "[B]APK Update[/B]"
 #######################################################################
