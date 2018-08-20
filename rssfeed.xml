@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>aNZac Build</title>
-   <item><title>6.7</title></item>
-   <item><title>09-07-2018 (Exodus strikes back)</title></item>
+   <item><title>6.8</title></item>
+   <item><title>19-08-2018</title></item>
    <item><title>A Kodi build for the lands down under</title></item>
    
-   <item><title> ----- ReAdded Exodus as Primary On Demand AddOn ----- Added HeiHei for the little ones (On Demand)----- Updated TVNZ OnDemand and 3Now (On Demand)----- Added Just Sports (Live TV) ----- Updated Supremacy to Supremacy Sports (Live TV) ----- </title></item>
-   <item><title> ----- Removes TvOne and Sports Devel (Live TV) ----- Added Subscriptions for those with a Light Box or Fan Pass subscription (Spark Users) ----- </title></item>
+   <item><title> Replaced Just Sports with Tap Tv APP. Replaced Supremacy Sports with Aspis Live TV. Removed Stream Hub (Live TV)</title></item>
+   <item><title> Added SKY GO and Showmax (Subscriptions)</title></item>
    <item><title> ----- A special shout out to Matt Huisman for your awsome addon development! We all owe you a beer! ----- </title></item>
    <item><title></title></item>
 </channel></rss>
