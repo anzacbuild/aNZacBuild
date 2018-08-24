@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>aNZac Build</title>
-   <item><title>6.9</title></item>
-   <item><title>21-08-2018 (Bug Fixes)</title></item>
-   <item><title>A Kodi build for the lands down under</title></item>
+   <item><title> 7.0 </title></item>
+   <item><title> 24-08-2018 </title></item>
+   <item><title> A Kodi build for the lands down under </title></item>
    
-   <item><title> Replaced Just Sports with Tap Tv APP. Replaced Supremacy Sports with Aspis Live TV. Removed Stream Hub (Live TV)</title></item>
-   <item><title> Added SKY GO and Showmax (Subscriptions)</title></item>
+   <item><title> ----- Added Sports365 Linked TapTV APP to Main Guide (Live TV) ----- </title></item>
+   <item><title> ----- ----- </title></item>
    <item><title> ----- A special shout out to Matt Huisman for your awesome addon development! We all owe you a beer! ----- </title></item>
    <item><title></title></item>
 </channel></rss>
