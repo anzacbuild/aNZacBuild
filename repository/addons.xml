@@ -162,68 +162,6 @@
 			</news>
 		</extension>
 	</addon>
-
-	 <addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.1.4" provider-name="Mr Blamo">
-		<requires>
-			<import addon="xbmc.addon" version="12.0.0"/>
-		</requires>
-		<extension point="xbmc.addon.repository" name="[COLOR red]Blamo Repo[/COLOR]">
-			<dir>
-			<info compressed="false">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/</datadir>
-			<hashes>false</hashes>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-			</dir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>The Official Repo for Mr Blamo</summary>
-			<description>The Official Repo for Mr Blamo</description>
-			<platform>all</platform>
-			<genre>movies,usa</genre>
-		</extension>
-	</addon>
-		
-	<addon id="repository.gaia.1" version="2.1.0" name="Gaia Repository 1" provider-name="Gaia">
-		<extension point="xbmc.addon.repository" name="Gaia Repository 1">
-			<dir>
-				<info compressed="false">https://github.com/gaiaorigin/gaiaorigin/raw/master/common/addons.xml?v=2.1.0</info>
-				<checksum>https://github.com/gaiaorigin/gaiaorigin/raw/master/common/addons.xml.md5?v=2.1.0</checksum>
-				<datadir zip="true">https://github.com/gaiaorigin/gaiaorigin/raw/master/common/</datadir>
-			</dir>
-			<info compressed="false">https://github.com/gaiaorigin/gaiaorigin/raw/master/addons.xml?v=2.1.0</info>
-			<checksum>https://github.com/gaiaorigin/gaiaorigin/raw/master/addons.xml.md5?v=2.1.0</checksum>
-			<datadir zip="true">https://github.com/gaiaorigin/gaiaorigin/raw/master/</datadir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en">Gaia Primary Repository</summary>
-			<description lang="en">The Gaia repository for the addon, resources, extensions, and external addons. Any of the Gaia mirror repositories can be used for installation and updates.</description>
-			<disclaimer lang="en">Gaia and its developers are not in any way affiliated with Kodi, Premiumize, OffCloud, RealDebrid, EasyNews, or any of the sites and providers used in the addon.<br/>Gaia is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes.<br/>Gaia and its developers do not host, create, or distribute any of the content displayed in the addon, it simply searches public websites.</disclaimer>
-			<platform>all</platform>
-			<license>GPL 3.0</license>
-			<website>https://gaiakodi.com</website>
-			<forum>https://gaiakodi.com/?support</forum>
-		</extension>
-	</addon>
 		
 	<addon id="repository.kodibae" name="[COLOR pink]Kodi Bae Repository[/COLOR]" version="1.0.0" provider-name="kodibae">
 		<extension point="xbmc.addon.repository" name="[COLOR pink]Kodi Bae Repository[/COLOR]">
@@ -262,6 +200,34 @@
 		</extension>
 	</addon>
 
+<addon id="repository.skydarks" name="Skydark's Repository" version="7.0.6" provider-name="Skydarks">
+	<extension point="xbmc.addon.repository" name="Skydark's Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">http://lillywhiteyid.tk/byb/addons/addons.xml</info>
+			<checksum>http://lillywhiteyid.tk/byb/addons/addons.xml.md5</checksum>
+			<datadir zip="true">http://lillywhiteyid.tk/byb/addons/</datadir>
+		</dir>
+		    <dir>
+                <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            </dir>
+		<info compressed="false">http://skydarks.com/skydarks/addons.xml</info>
+		<checksum>http://skydarks.com/skydarks/addons.xml.md5</checksum>
+		<datadir zip="true">http://skydarks.com/files/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>	
+	
 	<addon id="repository.supremacy" name="[COLORaqua]supremacy[/COLOR]" version="2.5" provider-name="supremacy">
 		<extension point="xbmc.addon.repository" name="[COLORaqua]supremacy[/COLOR]">
 		<dir>
@@ -375,6 +341,105 @@
 			<description>Download and install for iVue2 Tv guide addons </description>
 			<disclaimer> Repo for iVue2 Tv guide addon </disclaimer>
 			<platform>all</platform>
+		</extension>
+	</addon>
+	
+	<addon
+	  id="skin.mimic"
+	  version="6.0.0"
+	  name="Mimic"
+	  provider-name="braz">
+		<requires>
+			<import addon="xbmc.gui" version="5.13.0"/>
+			<import addon="resource.images.studios.white" version="0.0.4"/>
+			<import addon="script.skinshortcuts" version="0.6.6"/>
+			<import addon="script.toolbox" version="1.0.0"/>
+		</requires>
+		<extension
+		  point="xbmc.gui.skin"
+		  debugging="false"
+		  effectslowdown="0.75">
+			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="bg_BG">Mimic от braz</summary>
+			<summary lang="ca_ES">Mimic per braz</summary>
+			<summary lang="cs_CZ">Mimic od braz</summary>
+			<summary lang="de_DE">Mimic von braz</summary>
+			<summary lang="en_AU">Mimic by braz</summary>
+			<summary lang="en_GB">Mimic by braz</summary>
+			<summary lang="en_NZ">Mimic by braz</summary>
+			<summary lang="en_US">Mimic by braz</summary>
+			<summary lang="es_ES">Mimic por braz</summary>
+			<summary lang="et_EE">Mimic autorilt braz</summary>
+			<summary lang="fi_FI">Mimic-ulkoasu, tekijänä braz</summary>
+			<summary lang="fr_CA">Mimic par braz</summary>
+			<summary lang="fr_FR">Mimic par braz</summary>
+			<summary lang="gl_ES">Mimic por braz</summary>
+			<summary lang="hu_HU">Mimic braz-tól</summary>
+			<summary lang="it_IT">Mimic by braz</summary>
+			<summary lang="ko_KR">braz가 만든 Mimic</summary>
+			<summary lang="lt_LT">Mimic, sukurta braz</summary>
+			<summary lang="ms_MY">Mimic oleh byranbrazil</summary>
+			<summary lang="nb_NO">Mimic av braz</summary>
+			<summary lang="nl_NL">Mimic door braz</summary>
+			<summary lang="pl_PL">Mimic autorstwa braz</summary>
+			<summary lang="pt_BR">Mimic por braz</summary>
+			<summary lang="pt_PT">Mimic por braz</summary>
+			<summary lang="ro_RO">Mimic de braz</summary>
+			<summary lang="ru_RU">Mimic от braz</summary>
+			<summary lang="sk_SK">Mimic od braz</summary>
+			<summary lang="sr_RS@latin">Mimic od braz</summary>
+			<summary lang="sv_SE">Mimic av braz</summary>
+			<summary lang="tr_TR">Mimic, yazan: braz</summary>
+			<summary lang="zh_CN">Mimic by braz</summary>
+			<description lang="bg_BG">Mimic: Облик за Kodi съдържащ елементи от Aeon Nox, reFocus и Arctic Zephyr.</description>
+			<description lang="ca_ES">Mimic: Una aparença amb tocs de reFocus i d'Aeon Nox. Gràcies a BigNoid i Jeroen.</description>
+			<description lang="de_DE">Mimic: Eine dreiste Zusammenstellung von Features meiner Lieblings-Skins, darunter Aeon Nox, reFocus und Artic Zephyr.</description>
+			<description lang="en_AU">Mimic: A shameless amalgamation of features from my favourite skins, including Aeon Nox, reFocus, and Arctic Zephyr.</description>
+			<description lang="en_GB">Mimic: A shameless amalgamation of features from my favourite skins, including Aeon Nox, reFocus, and Arctic Zephyr.</description>
+			<description lang="en_NZ">Mimic: A shameless amalgamation of features from my favourite skins, including Aeon Nox, reFocus, and Arctic Zephyr.</description>
+			<description lang="en_US">Mimic: A shameless amalgamation of features from my favorite skins, including Aeon Nox, reFocus, and Arctic Zephyr.</description>
+			<description lang="es_ES">Mimic: Un amalgama desvergonzada de funciones de mis skins favoritas, incluyendo Aeon Nox, reFocus y Arctic Zephyr.</description>
+			<description lang="et_EE">Mimic on Kodi rüü, mis on saanud mõjutusi reFocus ja Aeon Nox rüüdest. Suured tänud, BigNoid ja Jeroen.</description>
+			<description lang="fi_FI">Mimic on tehty lainailemalla häpeämättömästi ominaisuuksia suosikkiulkoasuistani, kuten Aeon Nox, reFocus ja Arctic Zephyr.</description>
+			<description lang="fr_CA">Mimic : un habillage de Kodi avec des airs de reFocus et d’Aeon Nox grâce à BigNoid et Jeroen.</description>
+			<description lang="fr_FR">Mimic : un habillage pour Kodi avec des touches d'inspiration de reFocus et Aeon Nox. De grands mercis à BigNoid et Jeroen.</description>
+			<description lang="gl_ES">Mimic: Un tema para Kodi con toques do reFocus e Aeon Nox. Moitas grazas a BigNoid e Jeroen.</description>
+			<description lang="it_IT">Mimic: Una spudorata fusione di funzioni dalle mie skin preferite, tra cui Aeon Nox, reFocus, e Arctic Zephyr.</description>
+			<description lang="ko_KR">Mimic: Aeon Nox, reFocus와 Arctic Zephyr 등 제가 가장 좋아하는 스킨들의 기능들을 염치없이 모아놓은 스킨.</description>
+			<description lang="lt_LT">Mimic: Kodi teminė išvaizda, kurioje panaudoti elementai iš reFocus ir Aeon Nox. Didelis ačiū BigNoid ir Jeroen.</description>
+			<description lang="ms_MY">Mimic: Kulit Kodi dengan sentuhan reFocus dan Aeon Nox. Ucapan terima kasih buat BigNoid dan Jeroen.</description>
+			<description lang="nl_NL">Mimic is een Kodi skin geinspireerd door reFocus en Aeon Nox. Met dank aan BigNoid en Jeroen.</description>
+			<description lang="pl_PL">Mimic: Skóra Kodi z domieszką skór reFocus i Aeon Nox. Wielkie podziękowania dla BigNoid i Jeroen.</description>
+			<description lang="pt_BR">Mimic: Uma skin Kodi con toques da reFocus e Aeon Nox. Meus agradecimentos a BigNoid e Jeroen.</description>
+			<description lang="ru_RU">Mimic: Бесстыдное слияние свойств из любимых скинов ,включая Aeon Nox, reFocus и Arctic Zephyr.</description>
+			<description lang="sk_SK">Mimic: Trúfalé zlúčenie doplnkov z mojich obľúbených skinov, vrátane Aeon Nox, reFocus a Arctic Zephyr</description>
+			<description lang="sr_RS@latin">Mimic: Kodi maska sa dozom reFocus i Aeon Nox. Mnogo hvala BigNoid i Jeroen.</description>
+			<description lang="sv_SE">Mimic: Ett Kodi-skal med en touch av reFocus och Aeon Nox. Många tack till BigNoid och Jeroen.</description>
+			<description lang="tr_TR">Mimic: Benim en sevdiğim  Aeon Nox, reFocus, ve Arctic Zephyr dış görünümlerin özelliklerinin utanmazca birleşmesi.</description>
+			<description lang="uk_UA">Mimic: Безсоромне об'єднання функцій з моїх улюблених скінів, включаючи Aeon Nox, reFocus, and Arctic Zephyr.</description>
+			<platform>all</platform>
+			<license>CC BY-NC-SA 4.0</license>
+			<forum>http://forum.kodi.tv/forumdisplay.php?fid=218</forum>
+			<website></website>
+			<email></email>
+			<source>https://github.com/braz96/skin.mimic</source>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<screenshot>resources/screenshot-01.jpg</screenshot>
+				<screenshot>resources/screenshot-02.jpg</screenshot>
+				<screenshot>resources/screenshot-03.jpg</screenshot>
+				<screenshot>resources/screenshot-04.jpg</screenshot>
+				<screenshot>resources/screenshot-05.jpg</screenshot>
+				<screenshot>resources/screenshot-06.jpg</screenshot>
+				<screenshot>resources/screenshot-07.jpg</screenshot>
+				<screenshot>resources/screenshot-08.jpg</screenshot>
+				<screenshot>resources/screenshot-09.jpg</screenshot>
+				<screenshot>resources/screenshot-10.jpg</screenshot>
+			</assets>
+			<news>6.0.0[CR]- Updated for Kodi 18 Leia.[CR]- Removed support for skin.helper.service and colorbox scripts.</news>
 		</extension>
 	</addon>
 	
