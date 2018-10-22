@@ -14,7 +14,7 @@ fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/Splash.pn
 version="11.7.46"
 description="Google Play Services"
 
-name="Kodi"
+name="Kodi 17"
 url="http://mirrors.kodi.tv/releases/android/arm/kodi-17.6-Krypton-armeabi-v7a.apk"
 video="http://"
 icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/icon.png"
@@ -22,12 +22,21 @@ fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/Splash.pn
 version="17.6"
 description="Kodi (Latest Version)"
 
-name="TVNZ On Demand"
-url="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/2.11.1-mattrix.apk"
+
+name="Kodi 18"
+url="https://kodi.tv/download-thanks?u=http://mirrors.kodi.tv/releases/android/arm/kodi-18.0-Leia_beta3-armeabi-v7a.apk"
 video="http://"
 icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/icon.png"
 fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/Splash.png"
-version="2.11.1"
+version="18 Beta 3"
+description="Kodi (18 Beta Version)"
+
+name="TVNZ On Demand"
+url="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/2.11.11-mattrix.apk"
+video="http://"
+icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/icon.png"
+fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/Splash.png"
+version="2.11.11"
 description="TVNZ On Demand"
 
 

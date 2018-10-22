@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-	<addon id="incursion.repository" name="Incursion Repository" version="0.0.3" provider-name="NixGates">
-		<extension point="xbmc.addon.repository" name="Incursion Repository">
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-			</dir>
-			<info compressed="false">https://raw.githubusercontent.com/nixgates/Incursion/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/nixgates/Incursion/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/nixgates/Incursion/master/repo</datadir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>Incursion Video Repo</summary>
-			<description>A Covenant Fork</description>
-			<disclaimer></disclaimer>
-			<platform>all</platform>
-		</extension>
-	</addon>
-
 	<addon id="plugin.audio.mp3streams" name="MP3 Streams" version="2017.09.09" provider-name="qahanik, kinkin, art by Marquerite">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
@@ -139,19 +120,6 @@
 	  </extension>
 	</addon>
 
-	<addon id="repository.Rising.Tides" name="[COLOR red][B]R[/B][/COLOR][COLOR white][B]ising[/B][/COLOR] [COLOR pink][B]T[/B][/COLOR][COLOR white][B]ides[/B][/COLOR] Repository" version="0.4" provider-name="[COLOR turquoise][B]@mullafabz[/B][/COLOR]">
-		<extension point="xbmc.addon.repository" name="[COLOR red][B]R[/B][/COLOR]ising [COLOR pink][B]T[/B][/COLOR]ides Repository">
-			<info compressed="false">http://mullafabz.xyz/Plugins/addons.xml</info>
-			<checksum>http://mullafabz.xyz/Plugins/addons.xml.md5</checksum>
-			<datadir zip="true">http://mullafabz.xyz/Plugins/</datadir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>All types of Contents</summary>
-			<description>Find any type of content</description>
-			<platform>all</platform>
-		</extension>
-	</addon>	
-	
 	<addon id="repository.aenemapy" name="Aenemapy Addons Repository" version="2018.01.04.2" provider-name="aenemapy">
 		<extension point="xbmc.addon.repository" name="Aenemapy Addons Repository">
 			<info compressed="false">https://raw.githubusercontent.com/aenemapy/aenemapyrepo/master/addons.xml</info>
@@ -165,7 +133,7 @@
 		</extension>
 	</addon>
 
-	<addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.6" provider-name="anzacbuild.mooo.com">
+	<addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.7" provider-name="anzacbuild.mooo.com">
 		<extension point="xbmc.addon.repository" name="aNZac Build Repository">
 			<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
@@ -185,7 +153,75 @@
 			</news>
 		</extension>
 	</addon>
-		
+
+	<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.4" provider-name="I-A-C">
+		<extension point="xbmc.addon.repository" name="Exodus Redux Repo">
+			  <dir>
+			<info compressed="false">https://raw.githubusercontent.com/I-A-C/ExodusReduxRepo/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/I-A-C/ExodusReduxRepo/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/I-A-C/ExodusReduxRepo/master/zips/</datadir>
+			  </dir>
+			  <dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+			  </dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Exodus Redux is a educational add-on. We do not host any of the contents streamed.</summary>
+			<description lang="en"></description>
+			<platform>all</platform>
+		</extension>
+	</addon>
+
+    <addon id="repository.jewrepo" name="[COLOR purple]JewRepo[/COLOR]" version="1.5.1" provider-name="JewBMX">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="[COLOR purple]JewRepo[/COLOR]">
+            <info compressed="false">https://raw.githubusercontent.com/jewbmx/repo/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/jewbmx/repo/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/jewbmx/repo/master/zips/</datadir>
+            <hashes>false</hashes>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+            </dir>
+            <dir>
+                <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+            </dir>
+            <dir>
+	            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
+	            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
+	            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+	        </dir>
+			<dir>
+		        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+		        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+		        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+		    </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Free the People, Free the World!</summary>
+            <description>JewBMX's Official Repository</description>
+            <platform>all</platform>
+            <genre>movies,usa</genre>
+        </extension>
+    </addon>
+	
 	<addon id="repository.kodibae" name="[COLOR pink]Kodi Bae Repository[/COLOR]" version="1.0.0" provider-name="kodibae">
 		<extension point="xbmc.addon.repository" name="[COLOR pink]Kodi Bae Repository[/COLOR]">
 		<dir>
@@ -204,66 +240,37 @@
 		</extension>
 	</addon>		
 
-	<addon id="repository.magicality" name="Magicality Repo" version="0.0.4" provider-name="Wilson Magic">
-		<extension point="xbmc.addon.repository" name="Magicality Repo">
-			<info compressed="false">https://raw.githubusercontent.com/Wilson-Magic/repository.magicality/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/Wilson-Magic/repository.magicality/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/Wilson-Magic/repository.magicality/master/zips</datadir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>Magicality</summary>
-			<description>Magicality - Home of Masterani Redux</description>
-			<disclaimer></disclaimer>
-			<platform>all</platform>
-		</extension>
-	</addon>
-	
-	<addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.2.0" commit="6ebe409">
-		<extension point="xbmc.addon.repository" name="MattHuisman.nz Repository">
-			<dir>
-			  <info compressed="false">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml</info>
-			  <checksum>https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml.md5</checksum>
-			  <datadir zip="true">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/</datadir>
-			</dir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
-			<description lang="en">Addons by MattHuisman.nz</description>
-			<license>GNU General Public License, v2</license>
-			<language/>
-			<website>https://www.matthuisman.nz/2017/03/install-matthuisman-kodi-repo.html</website>
-			<news>0.2.0 #6ebe409 (29/06/2018)
-			- Update addon.xml</news>
-		</extension>
+	<addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.4.1">
+	  <extension point="xbmc.addon.repository" name="MattHuisman.nz Repository">
+		<dir>
+		  <info compressed="false">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml</info>
+		  <checksum>https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml.md5</checksum>
+		  <datadir zip="true">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/</datadir>
+		</dir>
+	  </extension>
+	  <extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<description lang="en">Addons by MattHuisman.nz</description>
+		<license>GNU General Public License, v2</license>
+		<language/>
+		<website>https://www.matthuisman.nz/2017/03/install-matthuisman-kodi-repo.html</website>
+		<news>0.4.1 #605c97a (06/08/2018)
+	- Move back to master</news>
+	  </extension>
 	</addon>
 
-<addon id="repository.skydarks" name="Skydark's Repository" version="7.0.6" provider-name="Skydarks">
-	<extension point="xbmc.addon.repository" name="Skydark's Repository">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">http://lillywhiteyid.tk/byb/addons/addons.xml</info>
-			<checksum>http://lillywhiteyid.tk/byb/addons/addons.xml.md5</checksum>
-			<datadir zip="true">http://lillywhiteyid.tk/byb/addons/</datadir>
-		</dir>
-		    <dir>
-                <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-            </dir>
-		<info compressed="false">http://skydarks.com/skydarks/addons.xml</info>
-		<checksum>http://skydarks.com/skydarks/addons.xml.md5</checksum>
-		<datadir zip="true">http://skydarks.com/files/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary></summary>
-		<description></description>
-		<platform>all</platform>
-	</extension>
-</addon>	
+	<addon id="repository.Rising.Tides" name="[COLOR red][B]R[/B][/COLOR][COLOR white][B]ising[/B][/COLOR] [COLOR pink][B]T[/B][/COLOR][COLOR white][B]ides[/B][/COLOR] Repository" version="0.4" provider-name="[COLOR turquoise][B]@mullafabz[/B][/COLOR]">
+		<extension point="xbmc.addon.repository" name="[COLOR red][B]R[/B][/COLOR]ising [COLOR pink][B]T[/B][/COLOR]ides Repository">
+			<info compressed="false">http://mullafabz.xyz/Plugins/addons.xml</info>
+			<checksum>http://mullafabz.xyz/Plugins/addons.xml.md5</checksum>
+			<datadir zip="true">http://mullafabz.xyz/Plugins/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>All types of Contents</summary>
+			<description>Find any type of content</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
 	
 	<addon id="repository.supremacy" name="[COLORaqua]supremacy[/COLOR]" version="2.5" provider-name="supremacy">
 		<extension point="xbmc.addon.repository" name="[COLORaqua]supremacy[/COLOR]">
@@ -292,50 +299,6 @@
 			<platform>all</platform>
 		</extension>
 	</addon>
-
-	<addon id="repository.ukodi1" name="ukodi1" version="0.0.5" provider-name="ukodi1">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="ukodi1">
-            <info compressed="false">http://ukodi1.com/_repo/addons.xml</info>
-            <checksum>http://ukodi1.com/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">http://ukodi1.com/_repo/</datadir>
-            <hashes>false</hashes>
-            <dir>
-				<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-			</dir>
-			<dir>
-				 <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-				 <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-				 <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-			</dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Welcome to the Ukodi1 Repository</summary>
-            <description></description>
-            <platform>all</platform>
-    </extension>
-	</addon>
-		
-    <addon id="repository.universalscrapers" name="universalscrapers-repository" version="1.0.0" provider-name="universalscrapers">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="universalscrapers">
-            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Scrape common video host for URL's to be playable in XBMC/Kodi.</summary>
-            <description>carrying on the dream</description>
-            <platform>all</platform>
-        </extension>
-    </addon>
 		
 	<addon id="script.update" name="Update" version="1.1.0" provider-name="anzacbuild.mooo.com">
 		<requires>
@@ -366,20 +329,36 @@
 			<source>http://anzacbuild.mooo.com</source>
 		</extension>
 	</addon>
-
-	<addon id="xbmc.repo.ivueguide" name="iVue2 TV Guide Repo" version="0.0.1" provider-name="iVue">
-		<extension point="xbmc.addon.repository" name="iVue2 TV Guide Add-ons Repository">
-			<info compressed="false">https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/totaltec2014/ivue2/master/</datadir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>Install iVue2 TV Guide </summary>
-			<description>Download and install for iVue2 Tv guide addons </description>
-			<disclaimer> Repo for iVue2 Tv guide addon </disclaimer>
-			<platform>all</platform>
-		</extension>
-	</addon>
+	
+	<addon id="script.update18" name="Update18" version="1.1.0" provider-name="anzacbuild.mooo.com">
+	  <requires>
+		<!-- jarvis -->
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="script.module.httplib2" version="0.8.0" />
+		<import addon="script.module.oauth2client" version="4.1.2" />
+		<import addon="script.module.uritemplate" version="0.6" />
+		<import addon="script.module.yaml" version="3.11"/>
+		<import addon="script.module.googleapi" version="1.6.4" />
+		<import addon="script.module.requests" version="2.9.1" />
+	  </requires>
+	  <extension point="xbmc.python.script" library="default.py"> 
+		 <provides>executable</provides> 
+	  </extension> 
+	  <extension point="xbmc.service" library="scheduler.py" start="startup" />
+	  <extension point="xbmc.addon.metadata">
+		<summary lang="en">aNZac Build Updater</summary>
+		<summary lang="en_NZ">aNZac Build Updater</summary>
+		<summary lang="en_US">aNZac Build Updater</summary>
+		<description lang="en">Update to the latest Version</description>
+		<description lang="en_NZ">Update to the latest Version</description>
+		<description lang="en_US">Update to the latest Version</description>
+		<language></language>
+		<platform>all</platform>
+		<license>The MIT License</license>
+		<forum>Not Supported</forum>
+		<source>http://anzacbuild.mooo.com</source>
+	  </extension>
+	</addon>	
 	
 	<addon
 	  id="skin.mimic"
@@ -427,6 +406,20 @@
 				<screenshot>resources/screenshot-10.jpg</screenshot>
 			</assets>
 			<news>6.0.0[CR]- Updated for Kodi 18 Leia.[CR]- Removed support for skin.helper.service and colorbox scripts.</news>
+		</extension>
+	</addon>	
+	
+	<addon id="xbmc.repo.ivueguide" name="iVue2 TV Guide Repo" version="0.0.1" provider-name="iVue">
+		<extension point="xbmc.addon.repository" name="iVue2 TV Guide Add-ons Repository">
+			<info compressed="false">https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totaltec2014/ivue2/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totaltec2014/ivue2/master/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Install iVue2 TV Guide </summary>
+			<description>Download and install for iVue2 Tv guide addons </description>
+			<disclaimer> Repo for iVue2 Tv guide addon </disclaimer>
+			<platform>all</platform>
 		</extension>
 	</addon>
 	
