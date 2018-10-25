@@ -24,7 +24,7 @@ description="Kodi (Latest Version)"
 
 
 name="Kodi 18"
-url="https://kodi.tv/download-thanks?u=http://mirrors.kodi.tv/releases/android/arm/kodi-18.0-Leia_beta3-armeabi-v7a.apk"
+url="http://mirrors.kodi.tv/releases/android/arm/kodi-18.0-Leia_beta3-armeabi-v7a.apk"
 video="http://"
 icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/icon.png"
 fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/Splash.png"
