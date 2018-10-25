@@ -2,7 +2,7 @@ import xbmc
 import xbmcgui
 import xbmcaddon
 
-__addon_id__= 'script.update'
+__addon_id__= 'script.update18'
 __Addon = xbmcaddon.Addon(__addon_id__)
 
 def data_dir():
