@@ -1,0 +1,6 @@
+name="[KODI 17] aNZac 7.1"
+url="https://archive.org/download/aNZac7_1/aNZac7_1.zip"
+img="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/Wizard/icon.png"
+fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/Wizard/fanart.jpg"
+description="Install aNZac Build for Kodi 17"
+version="7.1"
