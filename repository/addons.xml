@@ -157,7 +157,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		</extension>
 	</addon>
 
-<addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.9" provider-name="anzacbuild.mooo.com">
+<addon id="repository.anzacbuild" name="aNZac Build Repository" version="2.0" provider-name="anzacbuild.mooo.com">
 	<extension point="xbmc.addon.repository" name="aNZac Build Repository">
 		<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
@@ -170,33 +170,30 @@ We have no control over the links on any site that we provide a link to. If you 
 		<description lang="en">aNZac Build Repository</description>
 		<license>None</license>
 		<language></language>
-		<website>http://anzacbuild.mooo.com</website>
-		<news>
-1.0.0 (01/12/2017)
-aNZac Build Repository Created
-		</news>
+		<website>https://anzacbuild.github.io</website>
+		<news></news>
 	</extension>
 </addon>
 
-	<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.4" provider-name="I-A-C">
-		<extension point="xbmc.addon.repository" name="Exodus Redux Repo">
-			  <dir>
-			<info compressed="false">https://raw.githubusercontent.com/I-A-C/ExodusReduxRepo/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/I-A-C/ExodusReduxRepo/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/I-A-C/ExodusReduxRepo/master/zips/</datadir>
-			  </dir>
-			  <dir>
-			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-			  </dir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en">Exodus Redux is a educational add-on. We do not host any of the contents streamed.</summary>
-			<description lang="en"></description>
-			<platform>all</platform>
-		</extension>
-	</addon>
+<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.6" provider-name="I-A-C">
+	<extension point="xbmc.addon.repository" name="Exodus Redux Repo">
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/I-A-C/zips/master/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Exodus Redux is a educational add-on. We do not host any of the contents streamed.</summary>
+		<description lang="en"></description>
+		<platform>all</platform>
+	</extension>
+</addon>
 
     <addon id="repository.jewrepo" name="[COLOR purple]JewRepo[/COLOR]" version="1.5.1" provider-name="JewBMX">
         <requires>
@@ -354,41 +351,7 @@ aNZac Build Repository Created
 		</extension>
 	</addon>
 	
-<addon id="script.update18" name="Update 18" version="1.1.1" provider-name="anzacbuild.mooo.com">
-  <requires>
-	<!-- jarvis -->
-    <import addon="xbmc.python" version="2.24.0"/>
-    <import addon="script.module.httplib2" version="0.8.0" />
-    <import addon="script.module.oauth2client" version="4.1.2" />
-    <import addon="script.module.uritemplate" version="0.6" />
-    <import addon="script.module.yaml" version="3.11"/>
-    <import addon="script.module.googleapi" version="1.6.4" />
-	<import addon="script.module.requests" version="2.9.1" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py"> 
-     <provides>executable</provides> 
-  </extension> 
-  <extension point="xbmc.service" library="scheduler.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">aNZac Build Updater</summary>
-    <summary lang="en_NZ">aNZac Build Updater</summary>
-    <summary lang="en_US">aNZac Build Updater</summary>
-    <description lang="en">Update to the latest Version</description>
-    <description lang="en_NZ">Update to the latest Version</description>
-    <description lang="en_US">Update to the latest Version</description>
-    <language></language>
-    <platform>all</platform>
-    <license>The MIT License</license>
-    <forum>Not Supported</forum>
-    <source>http://anzacbuild.mooo.com</source>
-  </extension>
-</addon>
-	
-	<addon
-	  id="skin.mimic"
-	  version="6.0.0"
-	  name="Mimic"
-	  provider-name="braz">
+	<addon id="skin.mimic" version="6.0.0" name="Mimic" provider-name="braz">
 		<requires>
 			<import addon="xbmc.gui" version="5.13.0"/>
 			<import addon="resource.images.studios.white" version="0.0.4"/>
