@@ -157,7 +157,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		</extension>
 	</addon>
 
-<addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.8" provider-name="anzacbuild.mooo.com">
+<addon id="repository.anzacbuild" name="aNZac Build Repository" version="1.9" provider-name="anzacbuild.mooo.com">
 	<extension point="xbmc.addon.repository" name="aNZac Build Repository">
 		<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
