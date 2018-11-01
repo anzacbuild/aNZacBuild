@@ -56,7 +56,7 @@ SPACER         = '____'
 COLOR1         = 'deepskyblue'
 COLOR2         = 'deepskyblue'
 # Primary menu items   / %s is the menu item and is required
-THEME1         = '[COLOR '+COLOR1+'][B][I]([COLOR '+COLOR2+']Luxurywizard[/COLOR])[/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR][/I]'
+THEME1         = '[COLOR '+COLOR1+'][B][I]([COLOR '+COLOR2+']aNZacTools[/COLOR])[/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR][/I]'
 # Build Names          / %s is the menu item and is required
 THEME2         = '[COLOR '+COLOR2+']%s[/COLOR]'
 # Alternate items      / %s is the menu item and is required
@@ -91,7 +91,7 @@ WIZARDFILE     = 'https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master
 # Enable Auto Install 'Yes' or 'No'
 AUTOINSTALL    = 'yes'
 # Addon ID for the repository
-REPOID         = 'repository.luxury'
+REPOID         = 'repository.anzacbuild'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
 REPOADDONXML   = 'https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml'
 # Url to folder zip is located in

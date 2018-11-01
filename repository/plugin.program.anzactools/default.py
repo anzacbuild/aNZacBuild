@@ -2265,7 +2265,7 @@ def net_tools(view=None):
 	addFile ('Speed Tester' ,'speed', icon=ICONSPEED, themeit=THEME1)
 
 def speedMenu():
-	xbmc.executebuiltin('Runscript("special://home/addons/plugin.program.luxurywizard/speedtest.py")')
+	xbmc.executebuiltin('Runscript("special://home/addons/plugin.program.anzactools/speedtest.py")')
 ######################################################################################################################
 def setView(content, viewType):
 	if wiz.getS('auto-view')=='false':
