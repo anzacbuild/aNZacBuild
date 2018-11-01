@@ -22,7 +22,7 @@ preview="http://"
 adult="no"
 description="Install aNZac Build for Kodi 18 Libre Elec"
 
-name="[KODI 18] [Android] aNZac 8.1"
+name="aNZac8_1_Android"
 version="8.1"
 url="https://archive.org/download/aNZac8_1_Android/aNZac8_1_Android.zip"
 gui="http://"
