@@ -24,7 +24,7 @@
 		</extension>
 	</addon>
 
-<addon id="plugin.program.anzactools" name="aNZac Tools" version="1.1" provider-name="anzactools">
+<addon id="plugin.program.anzactools" name="aNZac Tools" version="1.2" provider-name="anzactools">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>

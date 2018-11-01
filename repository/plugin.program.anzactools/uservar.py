@@ -53,10 +53,10 @@ SPACER         = '____'
 
 # You can edit these however you want, just make sure that you have a %s in each of the
 # THEME's so it grabs the text from the menu item
-COLOR1         = 'deepskyblue'
-COLOR2         = 'deepskyblue'
+COLOR1         = 'yellow'
+COLOR2         = 'cyan'
 # Primary menu items   / %s is the menu item and is required
-THEME1         = '[COLOR '+COLOR1+'][B][I]([COLOR '+COLOR2+']aNZacTools[/COLOR])[/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR][/I]'
+THEME1         = '[COLOR '+COLOR1+'][B][I]([COLOR '+COLOR2+']aNZacTools123[/COLOR])[/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR][/I]'
 # Build Names          / %s is the menu item and is required
 THEME2         = '[COLOR '+COLOR2+']%s[/COLOR]'
 # Alternate items      / %s is the menu item and is required
@@ -70,7 +70,7 @@ THEME5         = '[COLOR '+COLOR1+']Current Theme:[/COLOR] [COLOR '+COLOR2+']%s[
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
 HIDECONTACT    = 'No'
 # You can add \n to do line breaks
-CONTACT        = '[COLOR red]Contact me on Twitter @Matt59631[/COLOR]'
+CONTACT        = 'aNZac Build'
 #Images used for the contact window.  http:// for default icon and fanart
 CONTACTICON    = 'http://'
 CONTACTFANART  = 'http://'
@@ -109,7 +109,7 @@ NOTIFICATION   = 'https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master
 HEADERTYPE     = 'Text'
 HEADERMESSAGE  = 'aNZac Build Tools'
 # url to image if using Image 424x180
-HEADERIMAGE    = ''
+HEADERIMAGE    = 'http://'
 # Background for Notification Window
 BACKGROUND     = 'http://'
 #########################################################
