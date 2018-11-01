@@ -1,0 +1,7 @@
+name="Video Title"
+section="no"
+url=""
+icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/icon.png"
+fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/fanart.png"
+description="Video Description"
+

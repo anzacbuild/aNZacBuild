@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.anzactools" name="aNZac Tools" version="1.0" provider-name="anzactools">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">aNZac Tools</summary>
+    <description lang="en">aNZac Tools provides a complete tool set for the aNZac Build</description>
+    <platform>all</platform>
+  </extension>
+</addon>

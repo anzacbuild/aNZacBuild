@@ -24,6 +24,20 @@
 		</extension>
 	</addon>
 
+<addon id="plugin.program.anzactools" name="aNZac Tools" version="1.0" provider-name="anzactools">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">aNZac Tools</summary>
+    <description lang="en">aNZac Tools provides a complete tool set for the aNZac Build</description>
+    <platform>all</platform>
+  </extension>
+</addon>
 	
 <addon id="plugin.program.anzacwizard" name="aNZac Wizard" version="1.0" provider-name="aNZac Build">
   <requires>
@@ -157,7 +171,7 @@ We have no control over the links on any site that we provide a link to. If you 
 		</extension>
 	</addon>
 
-<addon id="repository.anzacbuild" name="aNZac Build Repository" version="2.0" provider-name="anzacbuild.mooo.com">
+<addon id="repository.anzacbuild" name="aNZac Build Repository" version="2.1" provider-name="anzacbuild.mooo.com">
 	<extension point="xbmc.addon.repository" name="aNZac Build Repository">
 		<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
