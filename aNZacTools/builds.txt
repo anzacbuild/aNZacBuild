@@ -10,7 +10,7 @@ preview="http://"
 adult="no"
 description="aNZac Build for Kodi 17 (Libre Elec and Android)"
 
-name="[KODI 18] [Libre Elec] aNZac 8.1"
+name="aNZac"
 version="8.1"
 url="https://archive.org/download/aNZac8_1/aNZac8_1.zip"
 gui="http://"
