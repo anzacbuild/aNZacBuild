@@ -47,7 +47,7 @@ ICONLOGIN      = 'https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master
 ICONCONTACT    = 'https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/defaulticon.png'
 ICONSETTINGS   = 'https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/icon.png'
 # Hide the ====== seperators 'Yes' or 'No'
-HIDESPACERS    = 'No'
+HIDESPACERS    = 'Yes'
 # Character used in seperator
 SPACER         = '____'
 
