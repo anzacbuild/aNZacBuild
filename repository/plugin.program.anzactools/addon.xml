@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.anzactools" name="aNZac Tools" version="1.2" provider-name="anzactools">
+<addon id="plugin.program.anzactools" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B]" version="1.3" provider-name="aNZac Build">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -8,8 +8,8 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">aNZac Tools</summary>
-    <description lang="en">aNZac Tools provides a complete tool set for the aNZac Build</description>
+    <summary lang="en">[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B]</summary>
+    <description lang="en">[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B] provides a complete tool set for the aNZac Build</description>
     <platform>all</platform>
   </extension>
 </addon>
