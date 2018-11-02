@@ -14,8 +14,8 @@ UPDATECHECK    = 0
 # Text File with apk info in it.
 APKFILE        = 'https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/apk.txt'
 # Text File with Youtube Videos urls.  Leave as 'http://' to ignore
-YOUTUBETITLE   = 'YouTube Help'
-YOUTUBEFILE    = 'https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/youtube.txt'
+YOUTUBETITLE   = ''
+YOUTUBEFILE    = 'http://'
 # Text File for addon installer.  Leave as 'http://' to ignore
 ADDONFILE      = 'http://'
 # Text File for advanced settings.  Leave as 'http://' to ignore
@@ -53,10 +53,10 @@ SPACER         = '____'
 
 # You can edit these however you want, just make sure that you have a %s in each of the
 # THEME's so it grabs the text from the menu item
-COLOR1         = 'yellow'
-COLOR2         = 'cyan'
+COLOR1         = 'white'
+COLOR2         = 'green'
 # Primary menu items   / %s is the menu item and is required
-THEME1         = '[COLOR '+COLOR1+'][B][I]([COLOR '+COLOR2+']aNZacTools123[/COLOR])[/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR][/I]'
+THEME1         = '[COLOR '+COLOR1+'][B]%s[/B][/COLOR]'
 # Build Names          / %s is the menu item and is required
 THEME2         = '[COLOR '+COLOR2+']%s[/COLOR]'
 # Alternate items      / %s is the menu item and is required
@@ -68,7 +68,7 @@ THEME5         = '[COLOR '+COLOR1+']Current Theme:[/COLOR] [COLOR '+COLOR2+']%s[
 
 # Message for Contact Page
 # Enable 'Contact' menu item 'Yes' hide or 'No' dont hide
-HIDECONTACT    = 'No'
+HIDECONTACT    = 'Yes'
 # You can add \n to do line breaks
 CONTACT        = 'aNZac Build'
 #Images used for the contact window.  http:// for default icon and fanart
@@ -89,7 +89,7 @@ WIZARDFILE     = 'https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master
 ### AUTO INSTALL ########################################
 ########## REPO IF NOT INSTALLED ########################
 # Enable Auto Install 'Yes' or 'No'
-AUTOINSTALL    = 'yes'
+AUTOINSTALL    = 'Yes'
 # Addon ID for the repository
 REPOID         = 'repository.anzacbuild'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)

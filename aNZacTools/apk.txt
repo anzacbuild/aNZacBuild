@@ -1,11 +1,3 @@
-name="[COLOR red]=========Android APK's=========[/COLOR]"
-section="yes"
-url="http://"
-icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/apkicon.png"
-fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/apkfanart.jpg"
-adult="no"
-description="Android Applications"
-
 name="[B]3 Now[/B] V.2.6"
 section="no"
 url="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/2.6-mattrix.apk"
