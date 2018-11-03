@@ -1,36 +1,25 @@
 95
 |||
-[COLOR white][B]
 
 
-Welcome to the Luxury Wizard, I hope you enjoy the builds that have to offer. Here I will tell you whats in the future updates. 
-Donations are excepted but by no means required [COLOR white]paypal.me/luxurywizard[/COLOR]. 
-Any questions or help needed feel free to message me on Twitter @matt59631 also feel free to let me know if working, Thanks.
+[COLOR green][B]DISCLAIMER[/B][/COLOR]
+[COLOR white]
+	aNZac Build is not responsible for the content streamed to your device and neither does it condone piracy so you must satisfy yourself that either you or the sites accessed for streaming have the copyright agreements in place and are entitled to access this content.
+
+	aNZac Build does not host or upload any video, films, media file, live streams (avi, mov, flv, mpg, mpeg, divx, dvd rip, mp3, mp4, torrent, ipod, psp). 
+
+	aNZac Build is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of streamed from your device. If you have any legal issues please contact the appropriate media file owners or host sites.
+
+	aNZac Build has no control over the links on any site that it provides a link to. If you see any form of infringements, please contact appropriate media file owners or host sites immediately.
+[/COLOR]
 
 
-***ATTENTION***
 
 
-REMOVED EXODUS-REDUX
-FIXED ALL SUPREMACY SECTIONS
-FIXED A COUPLE BROKEN LINKS
-ADDED TO SOME SECTIONS FROM LIMITLESS ADDON
-
-MUST UPDATE TO GET THESE CHANGES AS I DID NOT CHANGE VERSION NUMBERS
-
-***UPDATED ALL BUILDS***
-
-KODIWORLD v.2.0.6
-KODIWORLD 2 v.2.0.3
-BLUEMAGIC v.0.6
-
-ADDED EXODUS-REDUX ADDON
-ADDED LIMITLESS ADDON
-ADDED WORLD OF WRESTLING ADDON
-ADDED TO SECTIONS
-CHANGED WIDGETS IN BLUEMAGIC AND KODIWORLD 2
-GENERAL CLEAN
-REMOVED SUBZERO (DUE TO DEV MAKING TO MANY CHANGES MAKING IT SO I CANT KEEP UP WITH BUILD UPDATES)
+[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B]
+[COLOR white]
+	A Kodi build for the lands down under compatible with both Kodi 17 and Kodi 18
+[/COLOR]
 
 
-[/B][/COLOR]
+
