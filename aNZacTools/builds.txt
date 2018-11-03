@@ -1,6 +1,6 @@
 name="aNZacBuild"
 version="8.2"
-url="https://archive.org/download/aNZacBuild-8.2.1/aNZacBuild-8.2.1.zip"
+url="https://archive.org/download/aNZacBuild-8.2.2/aNZacBuild-8.2.2.zip"
 gui="http://"
 kodi="18.0"
 theme="http://"
