@@ -22,13 +22,13 @@ fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTool
 adult="no"
 description="Kodi 17.6 Stable"
 
-name="[B]Kodi 18[/B] V.18.0 Beta 4"
+name="[B]Kodi 18[/B] V.18.0 Beta 5"
 section="no"
-url="http://mirrors.kodi.tv/releases/android/arm/kodi-18.0-Leia_beta4-armeabi-v7a.apk"
+url="http://mirrors.kodi.tv/releases/android/arm/kodi-18.0-Leia_beta5-armeabi-v7a.apk"
 icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/apkicon.png"
 fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/apkfanart.jpg"
 adult="no"
-description="Kodi 18.0 Beta 4"
+description="Kodi 18.0 Beta 5"
 
 name="[B]TVNZ On Demand[/B] V.2.11.11"
 section="no"
