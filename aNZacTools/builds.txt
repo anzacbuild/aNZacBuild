@@ -1,6 +1,6 @@
 name="aNZac"
-version="7.2"
-url="https://archive.org/download/aNZac-7.2.2_201811/aNZac-7.2.2.zip"
+version="7.3"
+url="https://archive.org/download/aNZac-7.3.1/aNZac-7.3.1.zip"
 gui="http://"
 kodi="17.6"
 theme="http://"
@@ -8,7 +8,7 @@ icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/
 fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/fanart.jpg"
 preview="http://"
 adult="no"
-description="Install aNZac Build for Kodi 17 (Libre Elec and Android)"
+description="Install aNZac Build for Kodi 17"
 
 name="aNZacBuild"
 version="8.3"
@@ -20,6 +20,6 @@ icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/
 fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/fanart.jpg"
 preview="http://"
 adult="no"
-description="Install aNZac Build for Kodi 18 (Android)"
+description="Install aNZac Build for Kodi 18"
 
 
