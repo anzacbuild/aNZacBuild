@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>aNZac Build </title>
-   <item><title> 8.3</title></item>
-   <item><title>11-11-2018</title></item>
+   <item><title> 8.4</title></item>
+   <item><title>12-12-2018</title></item>
    <item><title>https://anzacbuild.github.io - -</title></item>
    <item><title>- - A Kodi build for the lands down under - -</title></item>
    
    <item><title>- - aNZac 8 built for Kodi 18 Leia - -</title></item>
    
-   <item><title>- - Interface fixes and new scraper settings for Exodus Redux - -</title></item>
-   <item><title>- - Updated Kodi 18 APK Link to RC1 from Beta 5 - -</title></item>
+   <item><title>- - Update to Scrubs V2 - -</title></item>
+   <item><title>- - Updated Kodi 18 APK Installer Link to RC2 from RC1 - -</title></item>
 </channel></rss>
