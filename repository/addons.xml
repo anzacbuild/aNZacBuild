@@ -441,4 +441,36 @@
     </extension>
 </addon>
 
+<addon id="skin.mimic.anzac" version="1.0" name="Mimic Anzac Skin" provider-name="aNZac Build">
+    <requires>
+        <import addon="xbmc.gui" version="5.14.0"/>
+        <import addon="resource.images.studios.white" version="0.0.6"/>
+        <import addon="script.skinshortcuts" version="0.6.6"/>
+        <import addon="script.toolbox" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_AU">Mimic by braz, Adapted by aNZac Build</summary>
+        <summary lang="en_GB">Mimic by braz, Adapted by aNZac Build</summary>
+        <summary lang="en_NZ">Mimic by braz, Adapted by aNZac Build</summary>
+        <summary lang="en_US">Mimic by braz, Adapted by aNZac Build</summary>
+        <description lang="en_AU">aNZac Build Kodi Skin</description>
+        <description lang="en_GB">aNZac Build Kodi Skin</description>
+        <description lang="en_NZ">aNZac Build Kodi Skin</description>
+        <description lang="en_US">aNZac Build Kodi Skin</description>
+        <platform>all</platform>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/fanart.jpg</screenshot>
+            <screenshot>resources/splash.png</screenshot>
+            <screenshot>resources/background.jpg</screenshot>
+        </assets>
+        <news></news>
+    </extension>
+</addon>
+
+
 </addons>
