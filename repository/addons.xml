@@ -1,47 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.program.anzactools" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B]" version="1.6" provider-name="aNZac Build">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B]</summary>
-    <description lang="en">[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B] provides a complete tool set for the aNZac Build</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-	
-<addon id="plugin.program.apkupdate" name="[B]APK Update[/B]" version="1.0.2" provider-name="aNZac Build">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests" version="2.12.4"/>    
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>program executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">APK Update</summary>
-    <description lang="en">This Software is designed to give you an easy way to update APKs directly to your android device already running Kodi</description>
-    <disclaimer lang="en">None</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>None</license>
-    <forum></forum>
-    <website>http://anzacbuild.mooo.com</website>
-    <email></email>
-    <source></source>
-    <news></news>
-    <assets>
-        <icon>resources/art/icon.png</icon>
-        <fanart>resources/art/fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>	
+	<addon id="plugin.program.anzactools" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B]" version="1.6" provider-name="aNZac Build">
+	  <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	  </requires>
+	  <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	  </extension>
+	  <extension point="xbmc.service" library="startup.py" start="startup" />
+	  <extension point="xbmc.addon.metadata">
+		<summary lang="en">[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B]</summary>
+		<description lang="en">[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B] provides a complete tool set for the aNZac Build</description>
+		<platform>all</platform>
+	  </extension>
+	</addon>
 	
 	<addon id="pvr.iptvsimple.android" version="1.0.0" name="PVR IPTV Simple Client (Android)" provider-name="aNZac (nightik/BBTS)">
 		<requires>
@@ -66,28 +39,28 @@
 		</extension>
 	</addon>	
 	
-<addon id="pvr.iptvsimple.android18" version="3.5.5" name="PVR IPTV Simple Client (Android 18)" provider-name="nightik">
-	<requires>
-		<import addon="kodi.binary.global.main" version="1.0.13"/>
-		<import addon="kodi.binary.instance.pvr" version="5.10.3"/>
-	</requires>
-	<extension point="xbmc.pvrclient" library_android="libpvr.iptvsimple.so"/>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_AU">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-		<summary lang="en_GB">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-		<summary lang="en_NZ">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-		<summary lang="en_US">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-		<description lang="en_AU">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-		<description lang="en_GB">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-		<description lang="en_NZ">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-		<description lang="en_US">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-		<disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-		<disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-		<disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-		<disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-		<platform>android-armv7</platform>
-	</extension>
-</addon>	
+	<addon id="pvr.iptvsimple.android18" version="3.5.5" name="PVR IPTV Simple Client (Android 18)" provider-name="nightik">
+		<requires>
+			<import addon="kodi.binary.global.main" version="1.0.13"/>
+			<import addon="kodi.binary.instance.pvr" version="5.10.3"/>
+		</requires>
+		<extension point="xbmc.pvrclient" library_android="libpvr.iptvsimple.so"/>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en_AU">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+			<summary lang="en_GB">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+			<summary lang="en_NZ">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+			<summary lang="en_US">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+			<description lang="en_AU">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
+			<description lang="en_GB">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
+			<description lang="en_NZ">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
+			<description lang="en_US">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
+			<disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+			<disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+			<disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+			<disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+			<platform>android-armv7</platform>
+		</extension>
+	</addon>	
 	
 	<addon id="pvr.iptvsimple.libre" version="1.0.0" name="PVR IPTV Simple Client (LibreELEC)" provider-name="aNZac (nightik)">
 		<requires>
@@ -173,43 +146,43 @@
 		</extension>
 	</addon>
 
-<addon id="repository.anzacbuild" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository" version="2.7" provider-name="aNZac Build">
-	<extension point="xbmc.addon.repository" name="aNZac Build Repository">
-		<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/</datadir>
-		<hashes>false</hashes>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary>[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository</summary>
-		<description lang="en">[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository</description>
-		<license>None</license>
-		<language></language>
-		<website>https://anzacbuild.github.io</website>
-		<news></news>
-	</extension>
-</addon>
+	<addon id="repository.anzacbuild" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository" version="2.8" provider-name="aNZac Build">
+		<extension point="xbmc.addon.repository" name="aNZac Build Repository">
+			<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/</datadir>
+			<hashes>false</hashes>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<summary>[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository</summary>
+			<description lang="en">[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository</description>
+			<license>None</license>
+			<language></language>
+			<website>https://anzacbuild.github.io</website>
+			<news></news>
+		</extension>
+	</addon>
 
-<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.6" provider-name="I-A-C">
-	<extension point="xbmc.addon.repository" name="Exodus Redux Repo">
-	<dir>
-        <info compressed="false">https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/I-A-C/zips/master/</datadir>
-	</dir>
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-	</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Exodus Redux is a educational add-on. We do not host any of the contents streamed.</summary>
-		<description lang="en"></description>
-		<platform>all</platform>
-	</extension>
-</addon>
+	<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.6" provider-name="I-A-C">
+		<extension point="xbmc.addon.repository" name="Exodus Redux Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/I-A-C/zips/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Exodus Redux is a educational add-on. We do not host any of the contents streamed.</summary>
+			<description lang="en"></description>
+			<platform>all</platform>
+		</extension>
+	</addon>
 
     <addon id="repository.jewrepo" name="[COLOR purple]JewRepo[/COLOR]" version="1.5.1" provider-name="JewBMX">
         <requires>
@@ -337,165 +310,35 @@
 		</extension>
 	</addon>
 		
-	<addon id="script.update" name="Update" version="1.1.0" provider-name="anzacbuild.mooo.com">
+	<addon id="skin.mimic.anzac" version="1.1" name="Mimic Anzac Skin" provider-name="aNZac Build">
 		<requires>
-		<!-- jarvis -->
-		<import addon="xbmc.python" version="2.24.0"/>
-		<import addon="script.module.httplib2" version="0.8.0" />
-		<import addon="script.module.oauth2client" version="4.1.2" />
-		<import addon="script.module.uritemplate" version="0.6" />
-		<import addon="script.module.yaml" version="3.11"/>
-		<import addon="script.module.googleapi" version="1.6.4" />
-		<import addon="script.module.requests" version="2.9.1" />
+			<import addon="xbmc.gui" version="5.14.0"/>
+			<import addon="resource.images.studios.white" version="0.0.6"/>
+			<import addon="script.skinshortcuts" version="0.6.6"/>
+			<import addon="script.toolbox" version="1.0.0"/>
 		</requires>
-		<extension point="xbmc.python.script" library="default.py"> 
-			<provides>executable</provides> 
-		</extension> 
-		<extension point="xbmc.service" library="scheduler.py" start="startup" />
+		<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary lang="en">aNZac Build Updater</summary>
-			<summary lang="en_NZ">aNZac Build Updater</summary>
-			<summary lang="en_US">aNZac Build Updater</summary>
-			<description lang="en">Update to the latest Version</description>
-			<description lang="en_NZ">Update to the latest Version</description>
-			<description lang="en_US">Update to the latest Version</description>
-			<language></language>
+			<summary lang="en_AU">Mimic by braz, Adapted by aNZac Build</summary>
+			<summary lang="en_GB">Mimic by braz, Adapted by aNZac Build</summary>
+			<summary lang="en_NZ">Mimic by braz, Adapted by aNZac Build</summary>
+			<summary lang="en_US">Mimic by braz, Adapted by aNZac Build</summary>
+			<description lang="en_AU">aNZac Build Kodi Skin</description>
+			<description lang="en_GB">aNZac Build Kodi Skin</description>
+			<description lang="en_NZ">aNZac Build Kodi Skin</description>
+			<description lang="en_US">aNZac Build Kodi Skin</description>
 			<platform>all</platform>
-			<license>The MIT License</license>
-			<forum>Not Supported</forum>
-			<source>http://anzacbuild.mooo.com</source>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<screenshot>resources/fanart.jpg</screenshot>
+				<screenshot>resources/splash.png</screenshot>
+				<screenshot>resources/background.jpg</screenshot>
+			</assets>
+			<news></news>
 		</extension>
 	</addon>
-	
-<addon
-  id="skin.mimic"
-  version="6.0.1"
-  name="Mimic"
-  provider-name="braz">
-    <requires>
-        <import addon="xbmc.gui" version="5.14.0"/>
-        <import addon="resource.images.studios.white" version="0.0.6"/>
-        <import addon="script.skinshortcuts" version="0.6.6"/>
-        <import addon="script.toolbox" version="1.0.0"/>
-    </requires>
-    <extension
-      point="xbmc.gui.skin"
-      debugging="false"
-      effectslowdown="0.75">
-        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="bg_BG">Mimic от braz</summary>
-        <summary lang="ca_ES">Mimic per braz</summary>
-        <summary lang="cs_CZ">Mimic od braz</summary>
-        <summary lang="de_DE">Mimic von braz</summary>
-        <summary lang="en_AU">Mimic by braz</summary>
-        <summary lang="en_GB">Mimic by braz</summary>
-        <summary lang="en_NZ">Mimic by braz</summary>
-        <summary lang="en_US">Mimic by braz</summary>
-        <summary lang="es_ES">Mimic por braz</summary>
-        <summary lang="et_EE">Mimic autorilt braz</summary>
-        <summary lang="fi_FI">Mimic-ulkoasu, tekijänä braz</summary>
-        <summary lang="fr_CA">Mimic par braz</summary>
-        <summary lang="fr_FR">Mimic par braz</summary>
-        <summary lang="gl_ES">Mimic por braz</summary>
-        <summary lang="hu_HU">Mimic braz-tól</summary>
-        <summary lang="it_IT">Mimic by braz</summary>
-        <summary lang="ko_KR">braz가 만든 Mimic</summary>
-        <summary lang="lt_LT">Mimic, sukurta braz</summary>
-        <summary lang="ms_MY">Mimic oleh byranbrazil</summary>
-        <summary lang="nb_NO">Mimic av braz</summary>
-        <summary lang="nl_NL">Mimic door braz</summary>
-        <summary lang="pl_PL">Mimic autorstwa braz</summary>
-        <summary lang="pt_BR">Mimic por braz</summary>
-        <summary lang="pt_PT">Mimic por braz</summary>
-        <summary lang="ro_RO">Mimic de braz</summary>
-        <summary lang="ru_RU">Mimic от braz</summary>
-        <summary lang="sk_SK">Mimic od braz</summary>
-        <summary lang="sr_RS@latin">Mimic od braz</summary>
-        <summary lang="sv_SE">Mimic av braz</summary>
-        <summary lang="tr_TR">Mimic, yazan: braz</summary>
-        <summary lang="zh_CN">Mimic by braz</summary>
-        <description lang="bg_BG">Mimic: Облик за Kodi съдържащ елементи от Aeon Nox, reFocus и Arctic Zephyr.</description>
-        <description lang="ca_ES">Mimic: Una aparença amb tocs de reFocus i d'Aeon Nox. Gràcies a BigNoid i Jeroen.</description>
-        <description lang="de_DE">Mimic: Eine dreiste Zusammenstellung von Features meiner Lieblings-Skins, darunter Aeon Nox, reFocus und Artic Zephyr.</description>
-        <description lang="en_AU">Mimic: A shameless amalgamation of features from my favourite skins, including Aeon Nox, reFocus, and Arctic Zephyr.</description>
-        <description lang="en_GB">Mimic: A shameless amalgamation of features from my favourite skins, including Aeon Nox, reFocus, and Arctic Zephyr.</description>
-        <description lang="en_NZ">Mimic: A shameless amalgamation of features from my favourite skins, including Aeon Nox, reFocus, and Arctic Zephyr.</description>
-        <description lang="en_US">Mimic: A shameless amalgamation of features from my favorite skins, including Aeon Nox, reFocus, and Arctic Zephyr.</description>
-        <description lang="es_ES">Mimic: Un amalgama desvergonzada de funciones de mis skins favoritas, incluyendo Aeon Nox, reFocus y Arctic Zephyr.</description>
-        <description lang="et_EE">Mimic on Kodi rüü, mis on saanud mõjutusi reFocus ja Aeon Nox rüüdest. Suured tänud, BigNoid ja Jeroen.</description>
-        <description lang="fi_FI">Mimic on tehty lainailemalla häpeämättömästi ominaisuuksia suosikkiulkoasuistani, kuten Aeon Nox, reFocus ja Arctic Zephyr.</description>
-        <description lang="fr_CA">Mimic : un habillage de Kodi avec des airs de reFocus et d’Aeon Nox grâce à BigNoid et Jeroen.</description>
-        <description lang="fr_FR">Mimic : un habillage pour Kodi avec des touches d'inspiration de reFocus et Aeon Nox. De grands mercis à BigNoid et Jeroen.</description>
-        <description lang="gl_ES">Mimic: Un tema para Kodi con toques do reFocus e Aeon Nox. Moitas grazas a BigNoid e Jeroen.</description>
-        <description lang="it_IT">Mimic: Una spudorata fusione di funzioni dalle mie skin preferite, tra cui Aeon Nox, reFocus, e Arctic Zephyr.</description>
-        <description lang="ko_KR">Mimic: Aeon Nox, reFocus와 Arctic Zephyr 등 제가 가장 좋아하는 스킨들의 기능들을 염치없이 모아놓은 스킨.</description>
-        <description lang="lt_LT">Mimic: Kodi teminė išvaizda, kurioje panaudoti elementai iš reFocus ir Aeon Nox. Didelis ačiū BigNoid ir Jeroen.</description>
-        <description lang="ms_MY">Mimic: Kulit Kodi dengan sentuhan reFocus dan Aeon Nox. Ucapan terima kasih buat BigNoid dan Jeroen.</description>
-        <description lang="nl_NL">Mimic is een Kodi skin geinspireerd door reFocus en Aeon Nox. Met dank aan BigNoid en Jeroen.</description>
-        <description lang="pl_PL">Mimic: Skóra Kodi z domieszką skór reFocus i Aeon Nox. Wielkie podziękowania dla BigNoid i Jeroen.</description>
-        <description lang="pt_BR">Mimic: Uma skin Kodi con toques da reFocus e Aeon Nox. Meus agradecimentos a BigNoid e Jeroen.</description>
-        <description lang="ru_RU">Mimic: Бесстыдное слияние свойств из любимых скинов ,включая Aeon Nox, reFocus и Arctic Zephyr.</description>
-        <description lang="sk_SK">Mimic: Trúfalé zlúčenie doplnkov z mojich obľúbených skinov, vrátane Aeon Nox, reFocus a Arctic Zephyr</description>
-        <description lang="sr_RS@latin">Mimic: Kodi maska sa dozom reFocus i Aeon Nox. Mnogo hvala BigNoid i Jeroen.</description>
-        <description lang="sv_SE">Mimic: Ett Kodi-skal med en touch av reFocus och Aeon Nox. Många tack till BigNoid och Jeroen.</description>
-        <description lang="tr_TR">Mimic: Benim en sevdiğim  Aeon Nox, reFocus, ve Arctic Zephyr dış görünümlerin özelliklerinin utanmazca birleşmesi.</description>
-        <description lang="uk_UA">Mimic: Безсоромне об'єднання функцій з моїх улюблених скінів, включаючи Aeon Nox, reFocus, and Arctic Zephyr.</description>
-        <platform>all</platform>
-        <license>CC BY-NC-SA 4.0</license>
-        <forum>http://forum.kodi.tv/forumdisplay.php?fid=218</forum>
-        <website></website>
-        <email></email>
-        <source>https://github.com/braz96/skin.mimic</source>
-        <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
-            <screenshot>resources/screenshot-01.jpg</screenshot>
-            <screenshot>resources/screenshot-02.jpg</screenshot>
-            <screenshot>resources/screenshot-03.jpg</screenshot>
-            <screenshot>resources/screenshot-04.jpg</screenshot>
-            <screenshot>resources/screenshot-05.jpg</screenshot>
-            <screenshot>resources/screenshot-06.jpg</screenshot>
-            <screenshot>resources/screenshot-07.jpg</screenshot>
-            <screenshot>resources/screenshot-08.jpg</screenshot>
-            <screenshot>resources/screenshot-09.jpg</screenshot>
-            <screenshot>resources/screenshot-10.jpg</screenshot>
-        </assets>
-        <news>6.0.0[CR]- Updated for Kodi 18 Leia.[CR]- Removed support for skin.helper.service and colorbox scripts.</news>
-    </extension>
-</addon>
-
-<addon id="skin.mimic.anzac" version="1.0" name="Mimic Anzac Skin" provider-name="aNZac Build">
-    <requires>
-        <import addon="xbmc.gui" version="5.14.0"/>
-        <import addon="resource.images.studios.white" version="0.0.6"/>
-        <import addon="script.skinshortcuts" version="0.6.6"/>
-        <import addon="script.toolbox" version="1.0.0"/>
-    </requires>
-    <extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
-        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_AU">Mimic by braz, Adapted by aNZac Build</summary>
-        <summary lang="en_GB">Mimic by braz, Adapted by aNZac Build</summary>
-        <summary lang="en_NZ">Mimic by braz, Adapted by aNZac Build</summary>
-        <summary lang="en_US">Mimic by braz, Adapted by aNZac Build</summary>
-        <description lang="en_AU">aNZac Build Kodi Skin</description>
-        <description lang="en_GB">aNZac Build Kodi Skin</description>
-        <description lang="en_NZ">aNZac Build Kodi Skin</description>
-        <description lang="en_US">aNZac Build Kodi Skin</description>
-        <platform>all</platform>
-        <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
-            <screenshot>resources/fanart.jpg</screenshot>
-            <screenshot>resources/splash.png</screenshot>
-            <screenshot>resources/background.jpg</screenshot>
-        </assets>
-        <news></news>
-    </extension>
-</addon>
-
 
 </addons>
