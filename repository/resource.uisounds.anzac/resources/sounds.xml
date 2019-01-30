@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sounds>
+  <actions>
+    <action>
+      <name>left</name>
+      <file>Arrow.wav</file>
+    </action>
+    <action>
+      <name>right</name>
+      <file>Arrow.wav</file>
+    </action>
+    <action>
+      <name>up</name>
+      <file>Arrow.wav</file>
+    </action>
+    <action>
+      <name>down</name>
+      <file>Arrow.wav</file>
+    </action>
+	
+    <action>
+      <name>select</name>
+      <file>Select.wav</file>
+    </action>
+	<action>
+		<name>ContextMenu</name>
+		<file>Select.wav</file>
+	</action>
+	
+    <action>
+      <name>parentdir</name>
+      <file>Back.wav</file>
+    </action>
+    <action>
+      <name>previousmenu</name>
+      <file>Back.wav</file>
+    </action>
+	
+    <action>
+      <name>VolumeUp</name>
+      <file>VolumeUp.wav</file>
+    </action>
+	    <action>
+      <name>volampup</name>
+      <file>VolumeUp.wav</file>
+    </action>
+	
+	 <action>
+      <name>VolumeDown</name>
+      <file>VolumeDown.wav</file>
+    </action>
+	 <action>
+      <name>volampdown</name>
+      <file>VolumeDown.wav</file>
+    </action>
+	
+	<action>
+      <name>screenshot</name>
+      <file>ScreenShot.wav</file>
+    </action>
+  </actions>
+
+  <windows>
+    <window>
+      <name>infodialog</name>
+      <activate>InfoDialog.wav</activate>
+      <deactivate>InfoDialog.wav</deactivate>
+    </window>
+	
+	<window>
+	  <name>startup</name>
+	  <activate>StartUp.wav</activate>
+	</window>
+  </windows>
+</sounds>
