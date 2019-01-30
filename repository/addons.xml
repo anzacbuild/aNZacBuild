@@ -146,7 +146,7 @@
 		</extension>
 	</addon>
 
-	<addon id="repository.anzacbuild" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository" version="2.8" provider-name="aNZac Build">
+	<addon id="repository.anzacbuild" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository" version="2.9" provider-name="aNZac Build">
 		<extension point="xbmc.addon.repository" name="aNZac Build Repository">
 			<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
