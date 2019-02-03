@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <shortcuts>
+
 	<shortcut>
 		<defaultID>plugin.video.rt</defaultID>
 		<label>Russia Today News</label>
@@ -8,14 +9,7 @@
 		<thumb>special://home/addons/plugin.video.rt/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.rt",return)</action>
 	</shortcut>
-	<shortcut>
-		<defaultID>plugin.video.sport365.live</defaultID>
-		<label>Sport365</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.sport365.live/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.sport365.live/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.sport365.live",return)</action>
-	</shortcut>
+
 	<shortcut>
 		<defaultID>plugin.video.Rising.Tides</defaultID>
 		<label>[COLOR red][B]R[/B][/COLOR]ising [COLOR pink][B]T[/B][/COLOR]ides</label>
@@ -24,6 +18,7 @@
 		<thumb>special://home/addons/plugin.video.Rising.Tides/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.Rising.Tides",return)</action>
 	</shortcut>
+
 	<shortcut>
 		<defaultID />
 		<label>[COLORaqua]Live Tv[/COLOR]</label>
