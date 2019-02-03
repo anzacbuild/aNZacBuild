@@ -133,7 +133,7 @@
 	  </extension>
 	</addon>	
 
-	<addon id="repository.anzacbuild" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository" version="3.0" provider-name="aNZac Build">
+	<addon id="repository.anzacbuild" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository" version="3.1" provider-name="aNZac Build">
 		<extension point="xbmc.addon.repository" name="aNZac Build Repository">
 			<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
@@ -237,22 +237,21 @@
 		</extension>
 	</addon>		
 
-	<addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.4.1">
+	<addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.6.6">
 	  <extension point="xbmc.addon.repository" name="MattHuisman.nz Repository">
 		<dir>
-		  <info compressed="false">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml</info>
-		  <checksum>https://raw.githubusercontent.com/matthuisman/kodi-repo/master/addons.xml.md5</checksum>
-		  <datadir zip="true">https://raw.githubusercontent.com/matthuisman/kodi-repo/master/</datadir>
+		  <info compressed="false">https://k.mjh.nz/.repository/addons.xml</info>
+		  <checksum>https://k.mjh.nz/.repository/addons.xml.md5</checksum>
+		  <datadir zip="true">https://k.mjh.nz/.repository/</datadir>
 		</dir>
 	  </extension>
 	  <extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<description lang="en">Addons by MattHuisman.nz</description>
-		<license>GNU General Public License, v2</license>
-		<language/>
+		<license></license>
+		<language></language>
 		<website>https://www.matthuisman.nz/2017/03/install-matthuisman-kodi-repo.html</website>
-		<news>0.4.1 #605c97a (06/08/2018)
-	- Move back to master</news>
+		<news></news>
 	  </extension>
 	</addon>
 
