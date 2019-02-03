@@ -1,12 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><shortcuts>
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts>
 	<shortcut>
-		<defaultID>19033</defaultID>
-		<label>19033</label>
-		<label2>Common menu item</label2>
-		<icon>DefaultHardDisk.png</icon>
-		<thumb/>
-		<action>ActivateWindow(systeminfo)</action>
+		<defaultID>plugin.program.anzactools</defaultID>
+		<label>[B][COLOR white]a[/COLOR][COLOR darkgreen]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B]</label>
+		<label2>Program</label2>
+		<icon>special://home/addons/plugin.program.anzactools/icon.png</icon>
+		<thumb>special://home/addons/plugin.program.anzactools/icon.png</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.anzactools",return)</action>
 	</shortcut>
+	<shortcut>
+		<defaultID>AndroidApps</defaultID>
+		<label>Android Apps</label>
+		<label2>Programs</label2>
+		<icon>DefaultAddonProgram.png</icon>
+		<thumb />
+		<action>ActivateWindow(Programs,androidapp://sources/apps,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>14111</defaultID>
+		<label>14111</label>
+		<label2>Common menu item</label2>
+		<icon>special://skin/extras/icons/info.png</icon>
+		<thumb/>
+		<action>ActivateWindow(EventLog,events://,return)</action>
+	</shortcut>	
 	<shortcut>
 		<defaultID>7</defaultID>
 		<label>7</label>
@@ -16,12 +33,12 @@
 		<action>ActivateWindow(FileManager)</action>
 	</shortcut>
 	<shortcut>
-		<defaultID>14111</defaultID>
-		<label>14111</label>
-		<label2>Common menu item</label2>
-		<icon>special://skin/extras/icons/info.png</icon>
-		<thumb/>
-		<action>ActivateWindow(EventLog,events://,return)</action>
+		<defaultID>service.libreelec.settings</defaultID>
+		<label>LibreELEC Config</label>
+		<label2>Program</label2>
+		<icon>special://home/addons/service.libreelec.settings/resources/icon.png</icon>
+		<thumb>special://home/addons/service.libreelec.settings/resources/icon.png</thumb>
+		<action>RunAddOn(service.libreelec.settings)</action>
 	</shortcut>
 	<shortcut>
 		<defaultID>13009</defaultID>
@@ -30,5 +47,21 @@
 		<icon>Quit.png</icon>
 		<thumb/>
 		<action>Quit</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>19033</defaultID>
+		<label>19033</label>
+		<label2>Common menu item</label2>
+		<icon>DefaultHardDisk.png</icon>
+		<thumb />
+		<action>ActivateWindow(systeminfo)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>weather</defaultID>
+		<label>Weather Configure</label>
+		<label2>Favourite</label2>
+		<icon>special://skin/extras/icons/weather.png</icon>
+		<thumb>DefaultAddonWeather.png</thumb>
+		<action>ActivateWindow(10040,"addons://user/xbmc.python.weather",return)</action>
 	</shortcut>
 </shortcuts>

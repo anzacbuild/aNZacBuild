@@ -2,13 +2,15 @@
 |||
 
 
-[COLOR green][B]DISCLAIMER[/B][/COLOR]
+[COLOR darkgreen][B]DISCLAIMER:[/B][/COLOR]
 [COLOR white]
+	aNZac Build is a collection of third party Kodi media player add-ons that search the Internet and provide links to on-line content that is publicly available.
+
 	aNZac Build is not responsible for the content streamed to your device and neither does it condone piracy so you must satisfy yourself that either you or the sites accessed for streaming have the copyright agreements in place and are entitled to access this content.
 
 	aNZac Build does not host or upload any video, films, media file, live streams (avi, mov, flv, mpg, mpeg, divx, dvd rip, mp3, mp4, torrent, ipod, psp). 
 
-	aNZac Build is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content of streamed from your device. If you have any legal issues please contact the appropriate media file owners or host sites.
+	aNZac Build is not responsible for the accuracy, compliance, copyright, legality, decency, or any other aspect of the content streamed to or from your device. If you have any legal issues please contact the appropriate media file owners or host sites.
 
 	aNZac Build has no control over the links on any site that it provides a link to. If you see any form of infringements, please contact appropriate media file owners or host sites immediately.
 [/COLOR]

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.fanpass</defaultID>
+		<label>Fan Pass</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.fanpass/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.fanpass/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.fanpass",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.lightbox</defaultID>
+		<label>Lightbox</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.lightbox/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.lightbox/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.lightbox",return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.skygo.nz</defaultID>
+		<label>SKY GO</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.skygo.nz/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.skygo.nz/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.skygo.nz",return)</action>
+	</shortcut>
+</shortcuts>

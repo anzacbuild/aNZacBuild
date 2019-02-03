@@ -111,5 +111,5 @@ HEADERMESSAGE  = 'aNZac Build Tools'
 # url to image if using Image 424x180
 HEADERIMAGE    = 'http://'
 # Background for Notification Window
-BACKGROUND     = 'http://'
+BACKGROUND     = 'https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/notifybackground.png'
 #########################################################
