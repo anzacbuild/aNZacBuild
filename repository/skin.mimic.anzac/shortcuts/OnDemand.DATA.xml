@@ -57,14 +57,6 @@
 		<action>ActivateWindow(Videos,"plugin://plugin.video.tvnz.ondemand",return)</action>
 	</shortcut>
 	<shortcut>
-		<defaultID>plugin.video.Yoda</defaultID>
-		<label>[COLORgreen]Yoda[/COLOR]</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.Yoda/icon.jpg</icon>
-		<thumb>special://home/addons/plugin.video.Yoda/icon.jpg</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.Yoda",return)</action>
-	</shortcut>
-	<shortcut>
 		<defaultID>plugin.video.youtube</defaultID>
 		<label>YouTube</label>
 		<label2>Video Add-On</label2>
