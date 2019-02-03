@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+	<addon id="plugin.audio.mp3streams" name="[COLOR lime]MP3 Streams Pro[/COLOR]" version="5.7.7" provider-name="[COLOR lime]EmuZONE[/COLOR]">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.t0mm0.common" version="1.1.0"/>
+			<import addon="script.module.mutagen" version="1.22.0"/>
+			<import addon="script.module.requests" version="1.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.service" library="playerMP3.py" start="startup" />
+		<extension point="xbmc.addon.metadata">
+			<platform>all</platform>
+			<summary>Riesige MP3 Datenbank</summary>
+			<description>Suche und hoere einzelne Titel oder Komplette Alben aus der riesigen MP3 Datenbank</description>
+			<news>Download Option repariert</news>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+			</assets>
+		</extension>
+	</addon>
+
 	<addon id="plugin.program.anzactools" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B]" version="1.7" provider-name="aNZac Build">
 	  <requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -133,7 +156,7 @@
 	  </extension>
 	</addon>	
 
-	<addon id="repository.anzacbuild" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository" version="3.1" provider-name="aNZac Build">
+	<addon id="repository.anzacbuild" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository" version="3.2" provider-name="aNZac Build">
 		<extension point="xbmc.addon.repository" name="aNZac Build Repository">
 			<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
@@ -305,6 +328,31 @@
 		<summary lang="en">aNZac Build UI Sounds</summary>
 		<description lang="en">aNZac Build UI Sounds</description>
 		<platform>all</platform>
+	  </extension>
+	</addon>
+	
+	<addon id="script.module.mutagen" name="mutagen" version="1.22.0" provider-name="Joe Wreschnig">
+	  <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	  </requires>
+	  <extension point="xbmc.python.module"
+				 library="lib" />
+	  <extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<language></language>
+		<summary lang="en">Mutagen is a Python module to handle audio metadata.</summary>
+		<description lang="en">Mutagen is a Python module to handle audio metadata. It supports ASF, FLAC, 
+	M4A, Monkey's Audio, MP3, Musepack, Ogg Opus, Ogg FLAC, Ogg Speex, Ogg 
+	Theora, Ogg Vorbis, True Audio, WavPack and OptimFROG audio files. All 
+	versions of ID3v2 are supported, and all standard ID3v2.4 frames are 
+	parsed. It can read Xing headers to accurately calculate the bitrate and 
+	length of MP3s. ID3 and APEv2 tags can be edited regardless of audio 
+	format. It can also manipulate Ogg streams on an individual packet/page 
+	level.</description>
+		<disclaimer lang="en">Code taken from http://code.google.com/p/mutagen/</disclaimer>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<website>http://code.google.com/p/mutagen/</website>
+		<source>https://bitbucket.org/lazka/mutagen/overview</source>
 	  </extension>
 	</addon>
 	
