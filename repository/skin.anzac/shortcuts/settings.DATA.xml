@@ -41,8 +41,8 @@
 		<defaultID>service.libreelec.settings</defaultID>
 		<label>LibreELEC Config</label>
 		<label2>Program</label2>
-		<icon>special://home/addons/service.libreelec.settings/resources/icon.png</icon>
-		<thumb>special://home/addons/service.libreelec.settings/resources/icon.png</thumb>
+		<icon>DefaultIconSettings.png</icon>
+		<thumb>DefaultIconSettings.png</thumb>
 		<action>RunAddOn(service.libreelec.settings)</action>
 	</shortcut>
 	
