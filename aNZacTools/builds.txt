@@ -11,8 +11,8 @@ adult="no"
 description="Install aNZac Build for Kodi 17 Krypton"
 
 name="aNZacBuild"
-version="8.4"
-url="https://archive.org/download/aNZacBuild-8.4.1/aNZacBuild-8.4.1.zip"
+version="8.5"
+url="https://archive.org/download/aNZacBuild.armv7-8.5.1/aNZacBuild.armv7-8.5.1.zip"
 gui="http://"
 kodi="18.0"
 theme="http://"
@@ -20,7 +20,7 @@ icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/
 fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/fanart.jpg"
 preview="http://"
 adult="no"
-description="Install aNZac Build for Kodi 18 Leia"
+description="Install aNZac Build for Kodi 18 Leia Android Armv7 32 bit"
 
 
 name="TestBuild"
