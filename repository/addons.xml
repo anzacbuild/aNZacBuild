@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+	<addon id="inputstream.adaptive.libre18" version="2.3.13.0" name="InputStream Adaptive" provider-name="peak3d">
+	  <requires>
+		<import addon="kodi.binary.global.main" version="1.0.13"/>
+		<import addon="kodi.binary.global.general" version="1.0.3"/>
+		<import addon="kodi.binary.global.filesystem" version="1.0.2"/>
+		<import addon="kodi.binary.instance.inputstream" version="2.0.8"/>
+		<import addon="kodi.binary.instance.videocodec" version="1.0.1"/>
+	  </requires>
+	  <extension point="kodi.inputstream" name="adaptive" extension="" tags="true" listitemprops="license_type|license_key|license_data|license_flags|manifest_type|server_certificate|stream_headers|manifest_update_parameter|original_audio_language|media_renewal_url|max_bandwidth" library_linux="inputstream.adaptive.so.2.3.13"/>
+	  <extension point="xbmc.addon.metadata">
+		<summary lang="en">InputStream client for adaptive streams</summary>
+		<description lang="en">InputStream client for adaptive streams</description>
+		<platform/>
+	  </extension>
+	</addon>
+
+	<addon id="inputstream.adaptive.pc3218" version="2.3.13" name="InputStream Adaptive" provider-name="peak3d">
+	  <requires>
+	<import addon="kodi.binary.global.main" version="1.0.13"/>
+	<import addon="kodi.binary.global.general" version="1.0.3"/>
+	<import addon="kodi.binary.global.filesystem" version="1.0.2"/>
+	<import addon="kodi.binary.instance.inputstream" version="2.0.8"/>
+	<import addon="kodi.binary.instance.videocodec" version="1.0.1"/></requires>
+	  <extension point="kodi.inputstream" name="adaptive" extension="" tags="true"
+		listitemprops="license_type|license_key|license_data|license_flags|manifest_type|server_certificate|stream_headers|manifest_update_parameter|original_audio_language|media_renewal_url|max_bandwidth"
+		library_windows="inputstream.adaptive.dll"/>
+	  <extension point="xbmc.addon.metadata">
+		<summary lang="en">InputStream client for adaptive streams</summary>
+		<description lang="en">InputStream client for adaptive streams</description>
+		<platform>windows-i686</platform>
+	  </extension>
+	</addon>	
+	
+	
+	
+
+	<addon id="inputstream.rtmp.libre18" version="2.0.4.0" name="RTMP Input" provider-name="spiff">
+	  <requires>
+		<import addon="kodi.binary.global.main" version="1.0.13"/>
+		<import addon="kodi.binary.instance.inputstream" version="2.0.8"/>
+	  </requires>
+	  <extension point="kodi.inputstream" name="rtmp" protocols="rtmp|rtmpt|rtmpe|rtmpte|rtmps" library_linux="inputstream.rtmp.so.2.0.4"/>
+	  <extension point="xbmc.addon.metadata">
+		<summary lang="en">InputStream Client for RTMP streams</summary>
+		<description lang="en">InputStream Client for RTMP streams using librtmp</description>
+		<platform/>
+	  </extension>
+	</addon>
+	
+	<addon id="inputstream.rtmp.pc3218" version="2.0.4" name="RTMP Input" provider-name="spiff">
+	  <requires>
+	<import addon="kodi.binary.global.main" version="1.0.13"/>
+	<import addon="kodi.binary.instance.inputstream" version="2.0.8"/></requires>
+	  <extension point="kodi.inputstream" name="rtmp" protocols="rtmp|rtmpt|rtmpe|rtmpte|rtmps" library_windows="inputstream.rtmp.dll" />
+	  <extension point="xbmc.addon.metadata">
+		<summary lang="en">InputStream Client for RTMP streams</summary>
+		<description lang="en">InputStream Client for RTMP streams using librtmp</description>
+		<platform>windows-i686</platform>
+	  </extension>
+	</addon>	
+	
+	
+
 	<addon id="plugin.audio.mp3streams" name="[COLOR lime]MP3 Streams Pro[/COLOR]" version="5.7.7" provider-name="[COLOR lime]EmuZONE[/COLOR]">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
