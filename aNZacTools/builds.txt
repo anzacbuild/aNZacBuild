@@ -22,7 +22,7 @@ preview="http://"
 adult="no"
 description="Install aNZac Build for Kodi 18 Leia Android Armv7 32 bit"
 
-name="aNZacBuild-LibreELEC"
+name="aNZacBuild.LibreELEC"
 version="8.5"
 url="https://archive.org/download/aNZacBuild.LibreELEC-8.5.1/aNZacBuild.LibreELEC-8.5.1.zip"
 gui="http://"
