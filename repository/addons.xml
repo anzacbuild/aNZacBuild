@@ -406,7 +406,7 @@
 		</extension>
 	</addon>
 
-	<addon id="skin.anzac.kodi17" version="7.5" name="aNZac Skin (Kodi17)" provider-name="aNZac Build">
+	<addon id="skin.anzac17" version="7.5" name="aNZac Skin (Kodi17)" provider-name="aNZac Build">
 		<requires>
 			<import addon="xbmc.gui" version="5.12.0"/>
 			<import addon="resource.images.studios.white" version="0.0.4"/>
@@ -418,14 +418,14 @@
 			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
 		</extension>
 		<extension point="xbmc.addon.metadata">
-				<summary lang="en_AU">aNZac Kodi Skin</summary>
-				<summary lang="en_GB">aNZac Kodi Skin</summary>
-				<summary lang="en_NZ">aNZac Kodi Skin</summary>
-				<summary lang="en_US">aNZac Kodi Skin</summary>
-				<description lang="en_AU">aNZac Kodi Skin</description>
-				<description lang="en_GB">aNZac Kodi Skin</description>
-				<description lang="en_NZ">aNZac Kodi Skin</description>
-				<description lang="en_US">aNZac Kodi Skin</description>		
+			<summary lang="en_AU">aNZac Kodi Skin</summary>
+			<summary lang="en_GB">aNZac Kodi Skin</summary>
+			<summary lang="en_NZ">aNZac Kodi Skin</summary>
+			<summary lang="en_US">aNZac Kodi Skin</summary>
+			<description lang="en_AU">aNZac Kodi Skin</description>
+			<description lang="en_GB">aNZac Kodi Skin</description>
+			<description lang="en_NZ">aNZac Kodi Skin</description>
+			<description lang="en_US">aNZac Kodi Skin</description>		
 			<platform>all</platform>
 			<license></license>
 			<forum></forum>
@@ -435,10 +435,10 @@
 			<assets>
 				<icon>resources/icon.png</icon>
 				<fanart>resources/fanart.jpg</fanart>
-					<screenshot>resources/background.jpg</screenshot>
-					<screenshot>resources/splash.png</screenshot>
-					<screenshot>resources/fanart.jpg</screenshot>
-					<screenshot>resources/icon.png</screenshot>
+				<screenshot>resources/background.jpg</screenshot>
+				<screenshot>resources/splash.png</screenshot>
+				<screenshot>resources/fanart.jpg</screenshot>
+				<screenshot>resources/icon.png</screenshot>
 			</assets>
 			<news></news>
 		</extension>
