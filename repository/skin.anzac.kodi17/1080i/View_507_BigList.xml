@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
-    <!--BIG LIST-->
+	<!--BIG LIST-->
     <include name="View_507_BigList">
         <control type="group">
             <visible>Control.IsVisible(507) + !$EXP[isInfoDialog]</visible>
-            <include>Animation.Common</include>
+    		<include>Animation.Common</include>
             <control type="group">
                 <control type="group">
                     <visible>Integer.IsGreater(Container(507).NumItems,0)</visible>
@@ -16,7 +16,7 @@
                         <visible>Control.HasFocus(507)</visible>
                         <animation effect="fade" time="320" delay="200">Visible</animation>
                         <animation effect="fade" time="50">Hidden</animation>
-                        <texture colordiffuse="highlight" border="5">listselect_fo.png</texture>
+                        <texture colordiffuse="$VAR[ColorHighlightVar]" border="5">listselect_fo.png</texture>
                         <animation effect="slide" end="0,221" time="300" tween="cubic" easing="inout" condition="Integer.IsGreater(Container(507).Row,2)">Conditional</animation>
                         <animation effect="slide" end="0,221" time="300" tween="cubic" easing="inout" condition="Integer.IsGreater(Container(507).Row,1)">Conditional</animation>
                         <animation effect="slide" end="0,221" time="300" tween="cubic" easing="inout" condition="Integer.IsGreater(Container(507).Row,0)">Conditional</animation>
@@ -30,7 +30,7 @@
                     <width>1808</width>
                     <height>884</height>
                     <onleft>SetProperty(MediaMenu,True,home)</onleft>
-                    <onleft>SetFocus(9050)</onleft>
+    				<onleft>SetFocus(9050)</onleft>
                     <onright>60</onright>
                     <onup>507</onup>
                     <ondown>507</ondown>
@@ -55,37 +55,37 @@
                                 <width>1380</width>
                                 <height>60</height>
                                 <label>$VAR[ListSubLabelVar]</label>
-                                <visible>!Container.Content(artists)</visible>
+    							<visible>!Container.Content(artists)</visible>
                             </control>
-                            <control type="label">
+    						<control type="label">
                                 <top>51</top>
                                 <width>1380</width>
                                 <height>60</height>
                                 <label>$INFO[ListItem.Property(Artist_Genre)]</label>
-                                <visible>Container.Content(artists)</visible>
+    							<visible>Container.Content(artists)</visible>
                             </control>
                             <control type="textbox">
                                 <top>110</top>
                                 <width>1380</width>
                                 <height>85</height>
                                 <label>$VAR[VideoPlotVar]</label>
-                                <font>font13_textbox</font>
-                                <visible>!Container.Content(artists)</visible>
+    							<font>font13_textbox</font>
+    							<visible>!Container.Content(artists)</visible>
                             </control>
-                            <control type="textbox">
+    						<control type="textbox">
                                 <top>110</top>
                                 <width>1380</width>
                                 <height>85</height>
                                 <label>$VAR[MusicPlotVar]</label>
-                                <font>font13_textbox</font>
-                                <visible>Container.Content(artists)</visible>
+    							<font>font13_textbox</font>
+    							<visible>Container.Content(artists)</visible>
                             </control>
                             <control type="image">
                                 <left>1200</left>
                                 <top>16</top>
                                 <width>192</width>
                                 <height>40</height>
-                                <texture colordiffuse="maintext">$VAR[StarRatingVar]</texture>
+                                <texture colordiffuse="$VAR[ColorTextVar]">$VAR[StarRatingVar]</texture>
                                 <aspectratio align="right">keep</aspectratio>
                                 <visible>![String.IsEmpty(ListItem.Title) | Container.Content(artists) | Container.Content(musicvideos) | String.Contains(Container.FolderPath,plugin.video)]</visible>
                             </control>
@@ -108,39 +108,39 @@
                                     <width>1380</width>
                                     <height>60</height>
                                     <label>$VAR[ListSubLabelVar]</label>
-                                    <visible>!Container.Content(artists)</visible>
+    								<visible>!Container.Content(artists)</visible>
                                 </control>
-                                <control type="label">
-                                    <top>51</top>
-                                    <width>1380</width>
+    							<control type="label">
+    								<top>51</top>
+    								<width>1380</width>
                                     <height>60</height>
-                                    <label>$INFO[ListItem.Property(Artist_Genre)]</label>
-                                    <visible>Container.Content(artists)</visible>
-                                </control>
+    								<label>$INFO[ListItem.Property(Artist_Genre)]</label>
+    								<visible>Container.Content(artists)</visible>
+    							</control>
                                 <control type="textbox">
-                                    <visible>!Container.Content(artists)</visible>
+    								<visible>!Container.Content(artists)</visible>
                                     <top>110</top>
                                     <width>1380</width>
                                     <height>85</height>
                                     <label>$VAR[VideoPlotVar]</label>
-                                    <font>font13_textbox</font>
-                                    <autoscroll time="3000" delay="4000" repeat="5000">!Skin.HasSetting(Disable.AutoScroll) + !Control.HasFocus(60)</autoscroll>
+    								<font>font13_textbox</font>
+    								<autoscroll time="3000" delay="4000" repeat="5000">!Skin.HasSetting(Disable.AutoScroll) + !Control.HasFocus(60)</autoscroll>
                                 </control>
-                                <control type="textbox">
-                                    <top>110</top>
-                                    <width>1380</width>
-                                    <height>85</height>
-                                    <label>$VAR[MusicPlotVar]</label>
-                                    <font>font13_textbox</font>
-                                    <autoscroll time="3000" delay="4000" repeat="5000">!Skin.HasSetting(Disable.AutoScroll) + !Control.HasFocus(60)</autoscroll>
-                                    <visible>Container.Content(artists)</visible>
-                                </control>
+    							<control type="textbox">
+    								<top>110</top>
+    								<width>1380</width>
+    								<height>85</height>
+    								<label>$VAR[MusicPlotVar]</label>
+    								<font>font13_textbox</font>
+    								<autoscroll time="3000" delay="4000" repeat="5000">!Skin.HasSetting(Disable.AutoScroll) + !Control.HasFocus(60)</autoscroll>
+    								<visible>Container.Content(artists)</visible>
+    							</control>
                                 <control type="image">
                                     <left>1200</left>
                                     <top>16</top>
                                     <width>192</width>
                                     <height>40</height>
-                                    <texture colordiffuse="maintext">$VAR[StarRatingVar]</texture>
+                                    <texture colordiffuse="$VAR[ColorTextVar]">$VAR[StarRatingVar]</texture>
                                     <aspectratio align="right">keep</aspectratio>
                                     <visible>![String.IsEmpty(ListItem.Title) | Container.Content(artists) | Container.Content(musicvideos) | String.Contains(Container.FolderPath,plugin.video)]</visible>
                                 </control>
@@ -193,7 +193,7 @@
                                 <top>16</top>
                                 <width>192</width>
                                 <height>40</height>
-                                <texture colordiffuse="maintext">$VAR[StarRatingVar]</texture>
+                                <texture colordiffuse="$VAR[ColorTextVar]">$VAR[StarRatingVar]</texture>
                                 <aspectratio align="right">keep</aspectratio>
                                 <visible>![String.IsEmpty(ListItem.Title) | Container.Content(artists) | Container.Content(musicvideos) | String.Contains(Container.FolderPath,plugin.video)]</visible>
                             </control>
@@ -248,7 +248,7 @@
                                     <top>16</top>
                                     <width>192</width>
                                     <height>40</height>
-                                    <texture colordiffuse="maintext">$VAR[StarRatingVar]</texture>
+                                    <texture colordiffuse="$VAR[ColorTextVar]">$VAR[StarRatingVar]</texture>
                                     <aspectratio align="right">keep</aspectratio>
                                     <visible>![String.IsEmpty(ListItem.Title) | Container.Content(artists) | Container.Content(musicvideos) | String.Contains(Container.FolderPath,plugin.video)]</visible>
                                 </control>
@@ -292,7 +292,7 @@
                                 <top>16</top>
                                 <width>192</width>
                                 <height>40</height>
-                                <texture colordiffuse="maintext">$VAR[StarRatingVar]</texture>
+                                <texture colordiffuse="$VAR[ColorTextVar]">$VAR[StarRatingVar]</texture>
                                 <aspectratio align="right">keep</aspectratio>
                                 <visible>Container.Content(albums)</visible>
                             </control>
@@ -337,7 +337,7 @@
                                     <top>16</top>
                                     <width>192</width>
                                     <height>40</height>
-                                    <texture colordiffuse="maintext">$VAR[StarRatingVar]</texture>
+                                    <texture colordiffuse="$VAR[ColorTextVar]">$VAR[StarRatingVar]</texture>
                                     <aspectratio align="right">keep</aspectratio>
                                     <visible>Container.Content(albums)</visible>
                                 </control>
