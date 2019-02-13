@@ -406,4 +406,37 @@
 		</extension>
 	</addon>
 
+	<addon id="skin.anzac.kodi17" version="7.5" name="aNZac Skin" provider-name="aNZac Build">
+		<requires>
+			<import addon="xbmc.gui" version="5.12.0"/>
+			<import addon="resource.images.studios.white" version="0.0.6"/>
+			<import addon="script.skinshortcuts" version="0.6.6"/>
+			<import addon="script.toolbox" version="1.0.0"/>
+		</requires>
+		<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en_AU">aNZac Kodi Skin</summary>
+			<summary lang="en_GB">aNZac Kodi Skin</summary>
+			<summary lang="en_NZ">aNZac Kodi Skin</summary>
+			<summary lang="en_US">aNZac Kodi Skin</summary>
+			<description lang="en_AU">aNZac Kodi Skin</description>
+			<description lang="en_GB">aNZac Kodi Skin</description>
+			<description lang="en_NZ">aNZac Kodi Skin</description>
+			<description lang="en_US">aNZac Kodi Skin</description>
+			<platform>all</platform>
+			<website>https://anzacbuild.github.io</website>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<screenshot>resources/background.jpg</screenshot>
+				<screenshot>resources/splash.png</screenshot>
+				<screenshot>resources/fanart.jpg</screenshot>
+				<screenshot>resources/icon.png</screenshot>
+			</assets>
+			<news></news>
+		</extension>
+	</addon>	
+	
 </addons>
