@@ -33,9 +33,6 @@
 		<platform>windows-i686</platform>
 	  </extension>
 	</addon>	
-	
-	
-	
 
 	<addon id="inputstream.rtmp.libre18" version="2.0.4.0" name="RTMP Input" provider-name="spiff">
 	  <requires>
@@ -101,6 +98,52 @@
 		<platform>all</platform>
 	  </extension>
 	</addon>
+	
+	<addon id="pvr.iptvsimple.17armv7" version="1.0" name="Kodi 17 PVR IPTV Simple Client ArmV7 (Android 32 bit)" provider-name="aNZac (nightik/BBTS)">
+		<requires>
+			<c-pluff version="0.1"/>
+			<import addon="xbmc.pvr" version="5.2.1"/>
+		</requires>
+		<extension point="xbmc.pvrclient" library_android="libpvr.iptvsimple.so"/>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en_AU">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+			<summary lang="en_GB">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+			<summary lang="en_NZ">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+			<summary lang="en_US">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+			<description lang="en_AU">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
+			<description lang="en_GB">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
+			<description lang="en_NZ">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
+			<description lang="en_US">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
+			<disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+			<disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+			<disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+			<disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+			<platform>android</platform>
+		</extension>
+	</addon>	
+	
+	<addon id="pvr.iptvsimple.17libre" version="1.0" name="Kodi 17 PVR IPTV Simple Client (LibreELEC)" provider-name="aNZac (nightik)">
+		<requires>
+			<c-pluff version="0.1"/>
+			<import addon="xbmc.pvr" version="5.2.1"/>
+		</requires>
+		<extension point="xbmc.pvrclient" library_linux="pvr.iptvsimple.so.2.4.14"/>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en_AU">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+			<summary lang="en_GB">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+			<summary lang="en_NZ">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+			<summary lang="en_US">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+			<description lang="en_AU">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
+			<description lang="en_GB">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
+			<description lang="en_NZ">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
+			<description lang="en_US">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
+			<disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+			<disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+			<disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+			<disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+			<platform>linux</platform>
+		</extension>
+	</addon>	
 	
 	<addon id="pvr.iptvsimple.android18" version="3.5.5" name="PVR IPTV Simple Client (Android 18)" provider-name="nightik">
 		<requires>
@@ -373,6 +416,39 @@
 	  </extension>
 	</addon>
 	
+	<addon id="skin.17anzac" version="7.5" name="Kodi 17 aNZac Skin" provider-name="aNZac Build">
+		<requires>
+			<import addon="xbmc.gui" version="5.12.0"/>
+			<import addon="resource.images.studios.white" version="0.0.4"/>
+			<import addon="script.skinshortcuts" version="0.6.6"/>
+			<import addon="script.toolbox" version="1.0.0"/>
+		</requires>
+		<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en_AU">aNZac Kodi Skin</summary>
+			<summary lang="en_GB">aNZac Kodi Skin</summary>
+			<summary lang="en_NZ">aNZac Kodi Skin</summary>
+			<summary lang="en_US">aNZac Kodi Skin</summary>
+			<description lang="en_AU">aNZac Kodi Skin</description>
+			<description lang="en_GB">aNZac Kodi Skin</description>
+			<description lang="en_NZ">aNZac Kodi Skin</description>
+			<description lang="en_US">aNZac Kodi Skin</description>
+			<platform>all</platform>
+			<website>https://anzacbuild.github.io</website>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<screenshot>resources/background.jpg</screenshot>
+				<screenshot>resources/splash.png</screenshot>
+				<screenshot>resources/fanart.jpg</screenshot>
+				<screenshot>resources/icon.png</screenshot>
+			</assets>
+			<news></news>
+		</extension>
+	</addon>	
+
 	<addon id="skin.anzac" version="8.5" name="aNZac Skin" provider-name="aNZac Build">
 		<requires>
 			<import addon="xbmc.gui" version="5.14.0"/>
@@ -406,37 +482,4 @@
 		</extension>
 	</addon>
 
-	<addon id="skin.anzac17" version="7.5" name="aNZac Skin (Kodi 17)" provider-name="aNZac Build">
-		<requires>
-			<import addon="xbmc.gui" version="5.12.0"/>
-			<import addon="resource.images.studios.white" version="0.0.4"/>
-			<import addon="script.skinshortcuts" version="0.6.6"/>
-			<import addon="script.toolbox" version="1.0.0"/>
-		</requires>
-		<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
-			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en_AU">aNZac Kodi Skin</summary>
-			<summary lang="en_GB">aNZac Kodi Skin</summary>
-			<summary lang="en_NZ">aNZac Kodi Skin</summary>
-			<summary lang="en_US">aNZac Kodi Skin</summary>
-			<description lang="en_AU">aNZac Kodi Skin</description>
-			<description lang="en_GB">aNZac Kodi Skin</description>
-			<description lang="en_NZ">aNZac Kodi Skin</description>
-			<description lang="en_US">aNZac Kodi Skin</description>
-			<platform>all</platform>
-			<website>https://anzacbuild.github.io</website>
-			<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
-				<screenshot>resources/background.jpg</screenshot>
-				<screenshot>resources/splash.png</screenshot>
-				<screenshot>resources/fanart.jpg</screenshot>
-				<screenshot>resources/icon.png</screenshot>
-			</assets>
-			<news></news>
-		</extension>
-	</addon>
-	
 </addons>
