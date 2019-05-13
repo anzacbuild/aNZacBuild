@@ -1,66 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-	<addon id="inputstream.adaptive.libre18" version="2.3.13.0" name="InputStream Adaptive" provider-name="peak3d">
-	  <requires>
-		<import addon="kodi.binary.global.main" version="1.0.13"/>
-		<import addon="kodi.binary.global.general" version="1.0.3"/>
-		<import addon="kodi.binary.global.filesystem" version="1.0.2"/>
-		<import addon="kodi.binary.instance.inputstream" version="2.0.8"/>
-		<import addon="kodi.binary.instance.videocodec" version="1.0.1"/>
-	  </requires>
-	  <extension point="kodi.inputstream" name="adaptive" extension="" tags="true" listitemprops="license_type|license_key|license_data|license_flags|manifest_type|server_certificate|stream_headers|manifest_update_parameter|original_audio_language|media_renewal_url|max_bandwidth" library_linux="inputstream.adaptive.so.2.3.13"/>
-	  <extension point="xbmc.addon.metadata">
-		<summary lang="en">InputStream client for adaptive streams</summary>
-		<description lang="en">InputStream client for adaptive streams</description>
-		<platform/>
-	  </extension>
-	</addon>
-
-	<addon id="inputstream.adaptive.pc3218" version="2.3.13" name="InputStream Adaptive" provider-name="peak3d">
-	  <requires>
-	<import addon="kodi.binary.global.main" version="1.0.13"/>
-	<import addon="kodi.binary.global.general" version="1.0.3"/>
-	<import addon="kodi.binary.global.filesystem" version="1.0.2"/>
-	<import addon="kodi.binary.instance.inputstream" version="2.0.8"/>
-	<import addon="kodi.binary.instance.videocodec" version="1.0.1"/></requires>
-	  <extension point="kodi.inputstream" name="adaptive" extension="" tags="true"
-		listitemprops="license_type|license_key|license_data|license_flags|manifest_type|server_certificate|stream_headers|manifest_update_parameter|original_audio_language|media_renewal_url|max_bandwidth"
-		library_windows="inputstream.adaptive.dll"/>
-	  <extension point="xbmc.addon.metadata">
-		<summary lang="en">InputStream client for adaptive streams</summary>
-		<description lang="en">InputStream client for adaptive streams</description>
-		<platform>windows-i686</platform>
-	  </extension>
-	</addon>	
-
-	<addon id="inputstream.rtmp.libre18" version="2.0.4.0" name="RTMP Input" provider-name="spiff">
-	  <requires>
-		<import addon="kodi.binary.global.main" version="1.0.13"/>
-		<import addon="kodi.binary.instance.inputstream" version="2.0.8"/>
-	  </requires>
-	  <extension point="kodi.inputstream" name="rtmp" protocols="rtmp|rtmpt|rtmpe|rtmpte|rtmps" library_linux="inputstream.rtmp.so.2.0.4"/>
-	  <extension point="xbmc.addon.metadata">
-		<summary lang="en">InputStream Client for RTMP streams</summary>
-		<description lang="en">InputStream Client for RTMP streams using librtmp</description>
-		<platform/>
-	  </extension>
-	</addon>
-	
-	<addon id="inputstream.rtmp.pc3218" version="2.0.4" name="RTMP Input" provider-name="spiff">
-	  <requires>
-	<import addon="kodi.binary.global.main" version="1.0.13"/>
-	<import addon="kodi.binary.instance.inputstream" version="2.0.8"/></requires>
-	  <extension point="kodi.inputstream" name="rtmp" protocols="rtmp|rtmpt|rtmpe|rtmpte|rtmps" library_windows="inputstream.rtmp.dll" />
-	  <extension point="xbmc.addon.metadata">
-		<summary lang="en">InputStream Client for RTMP streams</summary>
-		<description lang="en">InputStream Client for RTMP streams using librtmp</description>
-		<platform>windows-i686</platform>
-	  </extension>
-	</addon>	
-	
-	
-
 	<addon id="plugin.audio.mp3streams" name="[COLOR lime]MP3 Streams Pro[/COLOR]" version="5.7.7" provider-name="[COLOR lime]EmuZONE[/COLOR]">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0"/>
@@ -216,7 +156,7 @@
 	  </extension>
 	</addon>	
 	
-	<addon id="repository.anzacbuild" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository" version="3.3" provider-name="aNZac Build">
+	<addon id="repository.anzacbuild" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository" version="3.4" provider-name="aNZac Build">
 		<extension point="xbmc.addon.repository" name="aNZac Build Repository">
 			<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
@@ -233,13 +173,18 @@
 			<news></news>
 		</extension>
 	</addon>
-
-	<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.6" provider-name="I-A-C">
+	
+	<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.8" provider-name="I-A-C">
 		<extension point="xbmc.addon.repository" name="Exodus Redux Repo">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/I-A-C/zips/master/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
 		</dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
@@ -254,71 +199,78 @@
 		</extension>
 	</addon>
 
-    <addon id="repository.jewrepo" name="[COLOR purple]JewRepo[/COLOR]" version="1.5.1" provider-name="JewBMX">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="[COLOR purple]JewRepo[/COLOR]">
-            <info compressed="false">https://raw.githubusercontent.com/jewbmx/repo/master/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/jewbmx/repo/master/zips/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/jewbmx/repo/master/zips/</datadir>
-            <hashes>false</hashes>
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/</datadir>
-            </dir>
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-            </dir>
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-            </dir>
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-            </dir>
-            <dir>
-	            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
-	            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
-	            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
-	        </dir>
+	<addon id="repository.jewrepo" name="[COLOR purple]JewRepo[/COLOR]" version="1.5.3" provider-name="JewBMX">
+		<requires>
+			<import addon="xbmc.addon" version="12.0.0"/>
+		</requires>
+		<extension point="xbmc.addon.repository" name="[COLOR purple]JewRepo[/COLOR]">
+			<info compressed="false">https://raw.githubusercontent.com/jewbmx/repo/master/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/jewbmx/repo/master/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/jewbmx/repo/master/zips/</datadir>
+			<hashes>false</hashes>
 			<dir>
-		        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-		        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-		        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-		    </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Free the People, Free the World!</summary>
-            <description>JewBMX's Official Repository</description>
-            <platform>all</platform>
-            <genre>movies,usa</genre>
-        </extension>
-    </addon>
-	
-	<addon id="repository.kodibae" name="[COLOR pink]Kodi Bae Repository[/COLOR]" version="1.0.0" provider-name="kodibae">
-		<extension point="xbmc.addon.repository" name="[COLOR pink]Kodi Bae Repository[/COLOR]">
-		<dir>
-			<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-			<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-		</dir>
-			<info compressed="false">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/</datadir>
+				<info compressed="false">https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+				<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+			</dir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary>Unofficial Addons for Kodi</summary>
-			<description>Would you care for some salt with that fork?</description>
+			<summary>Free the People, Free the World!</summary>
+			<description>JewBMX's Official Repository</description>
 			<platform>all</platform>
+			<genre>movies,usa</genre>
 		</extension>
-	</addon>		
+	</addon>
+	
+<addon id="repository.kodi_ghost" name="[COLOR white]Kodi Ghost Repo[/COLOR]" version="1.0" provider-name="Kodi Ghost">
+	<extension point="xbmc.addon.repository" name="KodiGhostRepo">
+	    <dir>
+			<info compressed="false">https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/zips/</datadir>
+		</dir>
+
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+        </dir>
+
+		<info compressed="false">https://raw.githubusercontent.com/Kodi-Ghost/apparitions/master/plugins/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Kodi-Ghost/apparitions/master/plugins/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Kodi-Ghost/apparitions/master/plugins/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi Ghost Repo - Home to Kodi Ghost Addons</summary>
+		<description>Kodi Ghost Repo - Home to Kodi Ghost Addons</description>
+		<platform>all</platform>
+	</extension>
+</addon>
 
 	<addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.6.6">
 	  <extension point="xbmc.addon.repository" name="MattHuisman.nz Repository">
@@ -338,11 +290,23 @@
 	  </extension>
 	</addon>
 
-	<addon id="repository.Rising.Tides" name="[COLOR red][B]R[/B][/COLOR][COLOR white][B]ising[/B][/COLOR] [COLOR pink][B]T[/B][/COLOR][COLOR white][B]ides[/B][/COLOR] Repository" version="0.4" provider-name="[COLOR turquoise][B]@mullafabz[/B][/COLOR]">
+	<addon id="repository.Rising.Tides" name="[COLOR red][B]R[/B][/COLOR][COLOR white][B]ising[/B][/COLOR] [COLOR pink][B]T[/B][/COLOR][COLOR white][B]ides[/B][/COLOR] Repository" version="1.0" provider-name="[COLOR turquoise][B]@mullafabz[/B][/COLOR]">
 		<extension point="xbmc.addon.repository" name="[COLOR red][B]R[/B][/COLOR]ising [COLOR pink][B]T[/B][/COLOR]ides Repository">
+		<dir>
 			<info compressed="false">http://mullafabz.xyz/Plugins/addons.xml</info>
 			<checksum>http://mullafabz.xyz/Plugins/addons.xml.md5</checksum>
 			<datadir zip="true">http://mullafabz.xyz/Plugins/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+			<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
 			<summary>All types of Contents</summary>
@@ -450,6 +414,39 @@
 	</addon>	
 
 	<addon id="skin.anzac" version="8.5" name="aNZac Skin" provider-name="aNZac Build">
+		<requires>
+			<import addon="xbmc.gui" version="5.14.0"/>
+			<import addon="resource.images.studios.white" version="0.0.6"/>
+			<import addon="script.skinshortcuts" version="0.6.6"/>
+			<import addon="script.toolbox" version="1.0.0"/>
+		</requires>
+		<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en_AU">aNZac Kodi Skin</summary>
+			<summary lang="en_GB">aNZac Kodi Skin</summary>
+			<summary lang="en_NZ">aNZac Kodi Skin</summary>
+			<summary lang="en_US">aNZac Kodi Skin</summary>
+			<description lang="en_AU">aNZac Kodi Skin</description>
+			<description lang="en_GB">aNZac Kodi Skin</description>
+			<description lang="en_NZ">aNZac Kodi Skin</description>
+			<description lang="en_US">aNZac Kodi Skin</description>
+			<platform>all</platform>
+			<website>https://anzacbuild.github.io</website>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<screenshot>resources/background.jpg</screenshot>
+				<screenshot>resources/splash.png</screenshot>
+				<screenshot>resources/fanart.jpg</screenshot>
+				<screenshot>resources/icon.png</screenshot>
+			</assets>
+			<news></news>
+		</extension>
+	</addon>
+
+	<addon id="skin.test" version="8.6" name="aNZac Skin" provider-name="aNZac Build">
 		<requires>
 			<import addon="xbmc.gui" version="5.14.0"/>
 			<import addon="resource.images.studios.white" version="0.0.6"/>
