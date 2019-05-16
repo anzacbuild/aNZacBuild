@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<addon id="skin.anzac" version="8.5" name="aNZac Skin" provider-name="aNZac Build">
+	<addon id="skin.anzac" version="8.6" name="aNZac Skin" provider-name="aNZac Build">
 		<requires>
 			<import addon="xbmc.gui" version="5.14.0"/>
 			<import addon="resource.images.studios.white" version="0.0.6"/>

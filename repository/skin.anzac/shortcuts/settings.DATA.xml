@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><shortcuts>
 
 	<shortcut>
-		<defaultID>plugin.program.anzactools</defaultID>
-		<label>[B][COLOR white]a[/COLOR][COLOR darkgreen]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B]</label>
-		<label2>Program</label2>
-		<icon>special://home/addons/plugin.program.anzactools/icon.png</icon>
-		<thumb>special://home/addons/plugin.program.anzactools/icon.png</thumb>
-		<action>ActivateWindow(Programs,"plugin://plugin.program.anzactools",return)</action>
-	</shortcut>
-	
-	<shortcut>
 		<defaultID>AndroidApps</defaultID>
 		<label>Android Apps</label>
 		<label2>Programs</label2>
@@ -19,11 +10,20 @@
 	</shortcut>
 	
 	<shortcut>
+		<defaultID>plugin.program.anzactools</defaultID>
+		<label>[B][COLOR white]a[/COLOR][COLOR darkgreen]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B]</label>
+		<label2>Program</label2>
+		<icon>special://home/addons/plugin.program.anzactools/icon.png</icon>
+		<thumb>special://home/addons/plugin.program.anzactools/icon.png</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.anzactools",return)</action>
+	</shortcut>
+	
+	<shortcut>
 		<defaultID>14111</defaultID>
 		<label>14111</label>
 		<label2>Common menu item</label2>
 		<icon>special://skin/extras/icons/info.png</icon>
-		<thumb/>
+		<thumb />
 		<action>ActivateWindow(EventLog,events://,return)</action>
 	</shortcut>
 	
@@ -32,8 +32,26 @@
 		<label>7</label>
 		<label2>Common menu item</label2>
 		<icon>special://skin/extras/icons/file.png</icon>
-		<thumb/>
+		<thumb />
 		<action>ActivateWindow(FileManager)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>colorwhite-forceupdateaddons-color</defaultID>
+		<label>[COLOR white]Force Update Addons[/COLOR]</label>
+		<label2>Favourite</label2>
+		<icon>DefaultFolder.png</icon>
+		<thumb>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/maintanenceicon.png</thumb>
+		<action>PlayMedia("plugin://plugin.program.anzactools/?mode=forceupdate",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>19033</defaultID>
+		<label>19033</label>
+		<label2>Common menu item</label2>
+		<icon>DefaultHardDisk.png</icon>
+		<thumb />
+		<action>ActivateWindow(systeminfo)</action>
 	</shortcut>
 	
 	<shortcut>
@@ -49,18 +67,18 @@
 		<defaultID>13009</defaultID>
 		<label>13009</label>
 		<label2>Kodi Command</label2>
-		<icon>Quit.png</icon>
-		<thumb/>
+		<icon>special://skin/extras/icons/power.png</icon>
+		<thumb />
 		<action>Quit</action>
 	</shortcut>
 	
 	<shortcut>
-		<defaultID>19033</defaultID>
-		<label>19033</label>
-		<label2>Common menu item</label2>
-		<icon>DefaultHardDisk.png</icon>
-		<thumb />
-		<action>ActivateWindow(systeminfo)</action>
+		<defaultID />
+		<label>[COLOR white]Speed Tester[/COLOR]</label>
+		<label2>Program</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fspeedicon.png/</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.anzactools/?mode=net",return)</action>
 	</shortcut>
 	
 	<shortcut>

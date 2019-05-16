@@ -2,7 +2,7 @@
 
 	<shortcut>
 		<defaultID>weather</defaultID>
-		<label>[B]a[COLOR darkgreen]NZ[/COLOR]ac 8.5[/B]</label>
+		<label>[B]a[COLOR darkgreen]NZ[/COLOR]ac 8.6[/B]</label>
 		<label2>Common menu item</label2>
 		<icon>DefaultIconFavourite.png</icon>
 		<thumb>DefaultIconFavourite.png</thumb>
@@ -47,6 +47,15 @@
 		<action>ActivateWindow(Videos,"plugin://plugin.video.skygo.nz",return)</action>
 	</shortcut>
 
+	<shortcut>
+		<defaultID></defaultID>
+		<label></label>
+		<label2></label2>
+		<icon></icon>
+		<thumb></thumb>
+		<action></action>
+	</shortcut>	
+	
 	<shortcut>
 		<defaultID>settings</defaultID>
 		<label>[B]Settings[/B]</label>
