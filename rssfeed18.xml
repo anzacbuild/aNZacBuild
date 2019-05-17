@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>aNZac Build </title>
-   <item><title> 8.5</title></item>
-   <item><title>09-02-2019</title></item>
+   <item><title> 8.6</title></item>
+   <item><title>2019-05-17</title></item>
    <item><title>https://anzacbuild.github.io</title></item>
-   <item><title>A Kodi build for the lands down under - -</title></item>
-   
-   <item><title>- - !!! FRESH INSTALL REQUIRED !!! - -</title></item>   
+   <item><title>A Kodi build for the lands down under - -</title></item> 
    
    <item><title>- - aNZac 8 built for Kodi 18 Leia - -</title></item>
    
-   <item><title>- - Added TAB to Subscriptions - -</title></item>
+   <item><title>- - Updated repos to fix Rising Tides. Added TvTap to live tv. Many new subscription options... - -</title></item>
    <item><title>- - 2019-05-16 Updated Kodi 18 APK Installer Link to 18.2 Stable - -</title></item>
    <item><title>- -  - -</title></item>
 </channel></rss>
