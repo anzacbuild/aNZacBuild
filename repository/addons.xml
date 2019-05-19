@@ -349,7 +349,7 @@
 		</extension>
 	</addon>
 	
-	<addon id="skin.17anzac" version="7.6" name="Kodi 17 aNZac Skin" provider-name="aNZac Build">
+	<addon id="skin.17anzac" version="7.6.1" name="Kodi 17 aNZac Skin" provider-name="aNZac Build">
 		<requires>
 			<import addon="xbmc.gui" version="5.12.0"/>
 			<import addon="resource.images.studios.white" version="0.0.4"/>
