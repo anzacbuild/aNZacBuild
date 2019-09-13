@@ -19,6 +19,15 @@
 	</shortcut>
 	
 	<shortcut>
+		<defaultID>plugin.video.sky.sport.now</defaultID>
+		<label>[B]NZ[/B]  SKY Sport NOW</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.sky.sport.now/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.sky.sport.now/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.sky.sport.now",return)</action>
+	</shortcut>	
+	
+	<shortcut>
 		<defaultID>plugin.video.skygo.nz</defaultID>
 		<label>[B]NZ [/B] SKY GO</label>
 		<label2>Video Add-On</label2>
@@ -43,15 +52,6 @@
 		<icon>special://home/addons/plugin.video.nz.films/icon.png</icon>
 		<thumb>special://home/addons/plugin.video.nz.films/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.nz.films",return)</action>
-	</shortcut>
-	
-	<shortcut>
-		<defaultID>plugin.video.fanpass</defaultID>
-		<label>[B]NZ [/B] Fan Pass</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.fanpass/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.fanpass/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.fanpass",return)</action>
 	</shortcut>
 	
 	<shortcut>
@@ -98,5 +98,23 @@
 		<thumb>special://home/addons/plugin.video.kayo.sports/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.kayo.sports",return)</action>
 	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.foxtel.now</defaultID>
+		<label>[B]AU[/B]  Foxtel Now</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.foxtel.now/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.foxtel.now/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.foxtel.now",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.foxtel.go</defaultID>
+		<label>[B]AU[/B]  Foxtel Go</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.foxtel.go/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.foxtel.go/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.foxtel.go",return)</action>
+	</shortcut>	
 	
 </shortcuts>

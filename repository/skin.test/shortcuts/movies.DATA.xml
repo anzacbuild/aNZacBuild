@@ -59,12 +59,12 @@
 		<action>ActivateWindow(Videos,"plugin://plugin.video.heihei",return)</action>
 	</shortcut>
 	<shortcut>
-		<defaultID>plugin.video.hgtv</defaultID>
-		<label>HGTV</label>
+		<defaultID>plugin.video.play.stuff</defaultID>
+		<label>Play Stuff</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.hgtv/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.hgtv/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.hgtv",return)</action>
+		<icon>special://home/addons/plugin.video.play.stuff/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.play.stuff/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.play.stuff",return)</action>
 	</shortcut>
 	<shortcut>
 		<defaultID>plugin.video.scrubsv2</defaultID>
