@@ -433,7 +433,7 @@
 		</extension>
 	</addon>
 
-	<addon id="skin.anzac-8.7" version="8.7.0" name="aNZac Leia Skin" provider-name="aNZac Build">
+	<addon id="skin.anzac8.7" version="8.7.0" name="aNZac 8.7 Leia Skin" provider-name="aNZac Build">
 		<requires>
 			<import addon="xbmc.gui" version="5.14.0"/>
 			<import addon="resource.images.studios.white" version="0.0.6"/>
