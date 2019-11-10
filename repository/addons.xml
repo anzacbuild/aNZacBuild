@@ -156,7 +156,7 @@
 	  </extension>
 	</addon>	
 	
-	<addon id="repository.anzacbuild" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository" version="3.6" provider-name="aNZac Build">
+	<addon id="repository.anzacbuild" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository" version="3.7" provider-name="aNZac Build">
 		<extension point="xbmc.addon.repository" name="aNZac Build Repository">
 			<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml.md5</checksum>
@@ -265,6 +265,24 @@
 		</extension>
 	</addon>
 	
+	<addon id="repository.kodibae" name="[COLOR pink]Kodi Bae Repository[/COLOR]" version="3.0.0" provider-name="kodibae">
+		<extension point="xbmc.addon.repository" name="[COLOR pink]Kodi Bae Repository[/COLOR]">
+		<dir>
+			<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+			<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+		</dir>
+			<info compressed="false">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Unofficial Addons for Kodi</summary>
+			<description>Would you care for some salt with that fork?</description>
+			<platform>all</platform>
+		</extension>
+	</addon>	
+	
 	<addon id="repository.matthuisman" name="MattHuisman.nz Repository" provider-name="MattHuisman.nz" version="0.6.6">
 	  <extension point="xbmc.addon.repository" name="MattHuisman.nz Repository">
 		<dir>
@@ -307,7 +325,55 @@
 			<platform>all</platform>
 		</extension>
 	</addon>
-	
+
+	<addon id="repository.T2K" name="T2K Repo" version="1.2.3" provider-name="T2K">
+		<extension point="xbmc.addon.repository" name="T2K Repository">
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/croneter/binary_repo/master/stable/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/croneter/binary_repo/master/stable/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/croneter/binary_repo/master/stable/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">http://t2k-repository.ml/T2K-Adult/T2K-Adult-Zone-Addon/zips/addons.xml</info>
+				<checksum>http://t2k-repository.ml/T2K-Adult/T2K-Adult-Zone-Addon/zips/addons.xml.md5</checksum>
+				<datadir zip="true">http://t2k-repository.ml/T2K-Adult/T2K-Adult-Zone-Addon/zips/</datadir>
+			</dir>
+				<info compressed="false">http://t2k-repository.ml/T2K/repository.T2K/zips/addons.xml</info>
+				<checksum>http://t2k-repository.ml/T2K/repository.T2K/zips/addons.xml.md5</checksum>
+				<datadir zip="true">http://t2k-repository.ml/T2K/repository.T2K/zips/</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">T2K</summary>
+			<description lang="en">T2K Wizard allows you to gain access to the latest Fladnag Custom Builds. Credits also goes to Pedro's.last Kindgdom Builds.</description>
+			<genre></genre>
+		</extension>
+	</addon>	
+
 	<addon id="resource.uisounds.anzac" version="1.0" name="aNZac Build UI Sounds" provider-name="marcelveldt,mgonzales">
 	  <requires>
 		<import addon="kodi.resource" version="1.0.0"/>
@@ -452,39 +518,6 @@
 			<description lang="en_GB">aNZac Build Leia Kodi Skin</description>
 			<description lang="en_NZ">aNZac Build Leia Kodi Skin</description>
 			<description lang="en_US">aNZac Build Leia Kodi Skin</description>
-			<platform>all</platform>
-			<website>https://anzacbuild.github.io</website>
-			<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
-				<screenshot>resources/background.jpg</screenshot>
-				<screenshot>resources/splash.png</screenshot>
-				<screenshot>resources/fanart.jpg</screenshot>
-				<screenshot>resources/icon.png</screenshot>
-			</assets>
-			<news></news>
-		</extension>
-	</addon>
-
-	<addon id="skin.test" version="8.6.1" name="aNZac Test Skin" provider-name="aNZac Build">
-		<requires>
-			<import addon="xbmc.gui" version="5.14.0"/>
-			<import addon="resource.images.studios.white" version="0.0.6"/>
-			<import addon="script.skinshortcuts" version="0.6.6"/>
-			<import addon="script.toolbox" version="1.0.0"/>
-		</requires>
-		<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
-			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en_AU">aNZac Kodi Skin</summary>
-			<summary lang="en_GB">aNZac Kodi Skin</summary>
-			<summary lang="en_NZ">aNZac Kodi Skin</summary>
-			<summary lang="en_US">aNZac Kodi Skin</summary>
-			<description lang="en_AU">aNZac Kodi Skin</description>
-			<description lang="en_GB">aNZac Kodi Skin</description>
-			<description lang="en_NZ">aNZac Kodi Skin</description>
-			<description lang="en_US">aNZac Kodi Skin</description>
 			<platform>all</platform>
 			<website>https://anzacbuild.github.io</website>
 			<assets>

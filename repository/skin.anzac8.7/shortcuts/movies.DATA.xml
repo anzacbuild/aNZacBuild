@@ -1,4 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?><shortcuts>
+<?xml version='1.0' encoding='UTF-8'?>
+
+<shortcuts>
 
 	<shortcut>
 		<defaultID>plugin.video.cnn</defaultID>
@@ -26,6 +28,7 @@
 		<thumb>special://home/addons/plugin.video.cook/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.cook",return)</action>
 	</shortcut>
+	
 	<shortcut>
 		<defaultID>plugin.video.crackle</defaultID>
 		<label>Crackle</label>
@@ -34,6 +37,16 @@
 		<thumb>special://home/addons/plugin.video.crackle/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.crackle",return)</action>
 	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.exodus</defaultID>
+		<label>Exodus</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.exodus/icon.png/</icon>
+		<thumb>special://home/addons/plugin.video.exodus/icon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.exodus",return)</action>
+	</shortcut>
+	
 	<shortcut>
 		<defaultID>plugin.video.exodusredux</defaultID>
 		<label>Exodus Redux</label>
@@ -42,6 +55,7 @@
 		<thumb>special://home/addons/plugin.video.exodusredux/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.exodusredux",return)</action>
 	</shortcut>
+	
 	<shortcut>
 		<defaultID>plugin.video.filmrisetv</defaultID>
 		<label>FilmRise</label>
@@ -50,6 +64,7 @@
 		<thumb>special://home/addons/plugin.video.filmrisetv/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.filmrisetv",return)</action>
 	</shortcut>
+	
 	<shortcut>
 		<defaultID>plugin.video.heihei</defaultID>
 		<label>HEIHEI</label>
@@ -58,6 +73,16 @@
 		<thumb>special://home/addons/plugin.video.heihei/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.heihei",return)</action>
 	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.it</defaultID>
+		<label>[COLOR red]IT[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.it/icon.gif/</icon>
+		<thumb>special://home/addons/plugin.video.it/icon.gif/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.it",return)</action>
+	</shortcut>
+	
 	<shortcut>
 		<defaultID>plugin.video.play.stuff</defaultID>
 		<label>Play Stuff</label>
@@ -66,6 +91,7 @@
 		<thumb>special://home/addons/plugin.video.play.stuff/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.play.stuff",return)</action>
 	</shortcut>
+	
 	<shortcut>
 		<defaultID>plugin.video.scrubsv2</defaultID>
 		<label>[COLOR orange]Scrubs v2[/COLOR]</label>
@@ -74,6 +100,7 @@
 		<thumb>special://home/addons/plugin.video.scrubsv2/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.scrubsv2",return)</action>
 	</shortcut>
+	
 	<shortcut>
 		<defaultID>plugin.video.three.now</defaultID>
 		<label>ThreeNow</label>
@@ -82,6 +109,7 @@
 		<thumb>special://home/addons/plugin.video.three.now/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.three.now",return)</action>
 	</shortcut>
+	
 	<shortcut>
 		<defaultID>plugin.video.tvnz.ondemand</defaultID>
 		<label>TVNZ OnDemand</label>
@@ -90,6 +118,7 @@
 		<thumb>special://home/addons/plugin.video.tvnz.ondemand/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.tvnz.ondemand",return)</action>
 	</shortcut>
+	
 	<shortcut>
 		<defaultID>plugin.video.youtube</defaultID>
 		<label>YouTube</label>

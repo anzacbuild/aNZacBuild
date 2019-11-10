@@ -19,15 +19,6 @@
 	</shortcut>
 	
 	<shortcut>
-		<defaultID>script.module.livenettv.net</defaultID>
-		<label> Live NetTV</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/script.module.livenettv.net/icon.png</icon>
-		<thumb>special://home/addons/script.module.livenettv.net/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://script.module.livenettv.net",return)</action>
-	</shortcut>
-	
-	<shortcut>
 		<defaultID>plugin.video.Rising.Tides</defaultID>
 		<label>[COLOR red][B]R[/B][/COLOR]ising [COLOR pink][B]T[/B][/COLOR]ides</label>
 		<label2>Video Add-On</label2>

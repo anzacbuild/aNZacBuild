@@ -17,7 +17,6 @@
 		<icon>DefaultAddonPVRClient.png</icon>
 		<thumb>DefaultAddonPVRClient.png</thumb>
 		<action>ActivateWindow(TVGuide)</action>
-		<!-- <visible>System.HasPVRAddon</visible> -->
 	</shortcut>
 	
 	<shortcut>
@@ -26,7 +25,7 @@
 		<label2>Common menu item</label2>
 		<icon>DefaultMovies.png</icon>
 		<thumb>DefaultMovies.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.scrubsv2",return)</action>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.crackle",return)</action>
 	</shortcut>
 	
 	<shortcut>
