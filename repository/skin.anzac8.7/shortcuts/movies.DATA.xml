@@ -40,8 +40,8 @@
 		<defaultID>plugin.video.exodus</defaultID>
 		<label>Exodus</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.exodus/icon.png/</icon>
-		<thumb>special://home/addons/plugin.video.exodus/icon.png/</thumb>
+		<icon>special://home/addons/plugin.video.exodus/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.exodus/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.exodus",return)</action>
 	</shortcut>
 	
@@ -76,8 +76,8 @@
 		<defaultID>plugin.video.it</defaultID>
 		<label>[COLOR red]IT[/COLOR]</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.it/icon.gif/</icon>
-		<thumb>special://home/addons/plugin.video.it/icon.gif/</thumb>
+		<icon>special://home/addons/plugin.video.it/icon.gif</icon>
+		<thumb>special://home/addons/plugin.video.it/icon.gif</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.it",return)</action>
 	</shortcut>
 	

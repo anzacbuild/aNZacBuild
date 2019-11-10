@@ -67,8 +67,8 @@
 		<defaultID>plugin.video.netflix</defaultID>
 		<label>Netflix</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.netflix/resources/icon.png/</icon>
-		<thumb>special://home/addons/plugin.video.netflix/resources/icon.png/</thumb>
+		<icon>special://home/addons/plugin.video.netflix/resources/media/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.netflix/resources/media/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.netflix",return)</action>
 	</shortcut>
 	
