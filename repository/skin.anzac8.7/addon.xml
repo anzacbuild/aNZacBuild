@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<addon id="skin.anzac8.7" version="8.7.0" name="aNZac 8.7 Leia Skin" provider-name="aNZac Build">
+	<addon id="skin.anzac8.7" version="8.7.1" name="aNZac 8.7 Leia Skin" provider-name="aNZac Build">
 		<requires>
 			<import addon="xbmc.gui" version="5.14.0"/>
 			<import addon="resource.images.studios.white" version="0.0.6"/>
@@ -10,14 +10,14 @@
 			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary lang="en_AU">aNZac Leia Kodi Skin</summary>
-			<summary lang="en_GB">aNZac Leia Kodi Skin</summary>
-			<summary lang="en_NZ">aNZac Leia Kodi Skin</summary>
-			<summary lang="en_US">aNZac Leia Kodi Skin</summary>
-			<description lang="en_AU">aNZac Build Leia Kodi Skin</description>
-			<description lang="en_GB">aNZac Build Leia Kodi Skin</description>
-			<description lang="en_NZ">aNZac Build Leia Kodi Skin</description>
-			<description lang="en_US">aNZac Build Leia Kodi Skin</description>
+			<summary lang="en_AU">aNZac Kodi Skin</summary>
+			<summary lang="en_GB">aNZac Kodi Skin</summary>
+			<summary lang="en_NZ">aNZac Kodi Skin</summary>
+			<summary lang="en_US">aNZac Kodi Skin</summary>
+			<description lang="en_AU">aNZac Kodi Skin</description>
+			<description lang="en_GB">aNZac Kodi Skin</description>
+			<description lang="en_NZ">aNZac Kodi Skin</description>
+			<description lang="en_US">aNZac Kodi Skin</description>
 			<platform>all</platform>
 			<website>https://anzacbuild.github.io</website>
 			<assets>
