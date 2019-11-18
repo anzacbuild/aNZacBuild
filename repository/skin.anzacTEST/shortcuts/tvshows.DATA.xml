@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?><shortcuts>
+
+	<shortcut>
+		<defaultID>plugin.video.tab.nz</defaultID>
+		<label>[B]NZ [/B]TAB</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.tab.nz/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.tab.nz/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.tab.nz",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.spark.sport</defaultID>
+		<label>[B]NZ [/B] Spark Sport</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.spark.sport/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.spark.sport/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.spark.sport",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.sky.sport.now</defaultID>
+		<label>[B]NZ[/B]  SKY Sport NOW</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.sky.sport.now/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.sky.sport.now/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.sky.sport.now",return)</action>
+	</shortcut>	
+	
+	<shortcut>
+		<defaultID>plugin.video.skygo.nz</defaultID>
+		<label>[B]NZ [/B] SKY GO</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.skygo.nz/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.skygo.nz/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.skygo.nz",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.lightbox</defaultID>
+		<label>[B]NZ [/B] Lightbox</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.lightbox/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.lightbox/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.lightbox",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.nz.films</defaultID>
+		<label>[B]NZ [/B] Films</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.nz.films/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.nz.films/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.nz.films",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.rugbypass</defaultID>
+		<label>RugbyPass</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.rugbypass/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.rugbypass/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.rugbypass",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.netflix</defaultID>
+		<label>Netflix</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.netflix/resources/media/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.netflix/resources/media/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.netflix",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.beinsports.apac</defaultID>
+		<label>beIN Sports Connect</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.beinsports.apac/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.beinsports.apac/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.beinsports.apac",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.superview</defaultID>
+		<label>[B]AU [/B] SuperView</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.superview/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.superview/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.superview",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.optus.sport</defaultID>
+		<label>[B]AU [/B] Optus Sport</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.optus.sport/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.optus.sport/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.optus.sport",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.kayo.sports</defaultID>
+		<label>[B]AU [/B] Kayo Sports</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.kayo.sports/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.kayo.sports/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.kayo.sports",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.foxtel.now</defaultID>
+		<label>[B]AU[/B]  Foxtel Now</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.foxtel.now/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.foxtel.now/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.foxtel.now",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.foxtel.go</defaultID>
+		<label>[B]AU[/B]  Foxtel Go</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.foxtel.go/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.foxtel.go/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.foxtel.go",return)</action>
+	</shortcut>	
+	
+</shortcuts>

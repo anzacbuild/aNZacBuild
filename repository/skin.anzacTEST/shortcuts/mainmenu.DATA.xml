@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><shortcuts>
+
+	<shortcut>
+		<defaultID>weather</defaultID>
+		<label>[B]a[COLOR darkgreen]NZ[/COLOR]ac 8.7.1[/B]</label>
+		<label2>Common menu item</label2>
+		<icon>DefaultIconFavourite.png</icon>
+		<thumb>DefaultIconFavourite.png</thumb>
+		<action condition="!String.IsEmpty(Weather.Plugin)">ActivateWindow(favourites)</action>
+		<action condition="String.IsEmpty(Weather.Plugin)">ReplaceWindow(servicesettings,weather)</action>
+	</shortcut>
+
+	<shortcut>
+		<defaultID>livetv</defaultID>
+		<label>[B]Live TV[/B]</label>
+		<label2>Common menu item</label2>
+		<icon>DefaultAddonPVRClient.png</icon>
+		<thumb>DefaultAddonPVRClient.png</thumb>
+		<action>ActivateWindow(TVGuide)</action>
+		<!-- <visible>System.HasPVRAddon</visible> -->
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>movies</defaultID>
+		<label>[B]On Demand[/B]</label>
+		<label2>Common menu item</label2>
+		<icon>DefaultMovies.png</icon>
+		<thumb>DefaultMovies.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.scrubsv2",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>music</defaultID>
+		<label>[B]Radio N Music[/B]</label>
+		<label2>Custom item</label2>
+		<icon>DefaultMusicAlbums.png</icon>
+		<thumb>DefaultMusicAlbums.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.audio.mp3streams",return)</action>
+	</shortcut>	
+	
+	<shortcut>
+		<defaultID>tvshows</defaultID>
+		<label>[B]Subscriptions[/B]</label>
+		<label2>Custom item</label2>
+		<icon>DefaultTVShows.png</icon>
+		<thumb>DefaultTVShows.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.skygo.nz",return)</action>
+	</shortcut>
+
+	<shortcut>
+		<defaultID></defaultID>
+		<label></label>
+		<label2></label2>
+		<icon></icon>
+		<thumb></thumb>
+		<action></action>
+	</shortcut>	
+	
+	<shortcut>
+		<defaultID>settings</defaultID>
+		<label>[B]Settings[/B]</label>
+		<label2>Common menu item</label2>
+		<icon>DefaultIconSettings.png</icon>
+		<thumb>DefaultIconSettings.png</thumb>
+		<action>ActivateWindow(Settings)</action>
+	</shortcut>
+	
+</shortcuts>
