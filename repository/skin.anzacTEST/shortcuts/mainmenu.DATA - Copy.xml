@@ -14,9 +14,9 @@
 		<defaultID>livetv</defaultID>
 		<label>[B]Live TV[/B]</label>
 		<label2>Common menu item</label2>
-		<icon>special://home/addons/plugin.video.au.freeview/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.au.freeview/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.nz.freeview",return)</action>
+		<icon>DefaultAddonPVRClient.png</icon>
+		<thumb>DefaultAddonPVRClient.png</thumb>
+		<action>ActivateWindow(TVGuide)</action>
 		<!-- <visible>System.HasPVRAddon</visible> -->
 	</shortcut>
 	

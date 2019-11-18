@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?><shortcuts>
 
 	<shortcut>
+		<defaultID>TVGuide</defaultID>
+		<label>Live TV Guide</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultAddonPVRClient.png</icon>
+		<thumb>DefaultAddonPVRClient.png</thumb>
+		<action>ActivateWindow(TVGuide)</action>
+	</shortcut>
+	
+	<shortcut>
 		<defaultID>plugin.video.au.freeview</defaultID>
 		<label>IPTV AU</label>
 		<label2>Video Add-On</label2>
@@ -45,5 +54,4 @@
 		<action>ActivateWindow(Videos,"plugin://script.module.tt",return)</action>
 	</shortcut>
 
-	
 </shortcuts>
