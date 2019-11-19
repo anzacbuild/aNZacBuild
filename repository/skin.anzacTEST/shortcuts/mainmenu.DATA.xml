@@ -26,7 +26,7 @@
 		<label2>Common menu item</label2>
 		<icon>DefaultMovies.png</icon>
 		<thumb>DefaultMovies.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.scrubsv2",return)</action>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.crackle",return)</action>
 	</shortcut>
 	
 	<shortcut>
@@ -35,7 +35,7 @@
 		<label2>Custom item</label2>
 		<icon>DefaultMusicAlbums.png</icon>
 		<thumb>DefaultMusicAlbums.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.audio.mp3streams",return)</action>
+		<action>ActivateWindow(Music,"plugin://plugin.audio.nz.radio",return)</action>
 	</shortcut>	
 	
 	<shortcut>
