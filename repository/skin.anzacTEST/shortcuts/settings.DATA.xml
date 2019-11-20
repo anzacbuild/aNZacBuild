@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><shortcuts>
 
 	<shortcut>
-		<defaultID>AndroidApps</defaultID>
-		<label>Android Apps</label>
-		<label2>Programs</label2>
-		<icon>DefaultAddonProgram.png</icon>
-		<thumb />
-		<action>ActivateWindow(Programs,androidapp://sources/apps,return)</action>
-	</shortcut>
-	
-	<shortcut>
 		<defaultID>plugin.program.anzactools</defaultID>
 		<label>[B][COLOR white]a[/COLOR][COLOR darkgreen]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B]</label>
 		<label2>Program</label2>
@@ -19,12 +10,12 @@
 	</shortcut>
 	
 	<shortcut>
-		<defaultID>14111</defaultID>
-		<label>14111</label>
-		<label2>Common menu item</label2>
-		<icon>special://skin/extras/icons/info.png</icon>
-		<thumb />
-		<action>ActivateWindow(EventLog,events://,return)</action>
+		<defaultID>add-onrepository</defaultID>
+		<label>[B]Repository Install[/B]</label>
+		<label2>Favourite</label2>
+		<icon>DefaultAddonRepository.png</icon>
+		<thumb>DefaultAddonRepository.png</thumb>
+		<action>ActivateWindow(10040,"addons://repository.anzacbuild/xbmc.addon.repository",return)</action>
 	</shortcut>
 	
 	<shortcut>
@@ -37,21 +28,21 @@
 	</shortcut>
 	
 	<shortcut>
-		<defaultID>colorwhite-forceupdateaddons-color</defaultID>
-		<label>[COLOR white]Force Update Addons[/COLOR]</label>
-		<label2>Favourite</label2>
-		<icon>DefaultFolder.png</icon>
-		<thumb>https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/maintanenceicon.png</thumb>
-		<action>PlayMedia("plugin://plugin.program.anzactools/?mode=forceupdate",return)</action>
-	</shortcut>
-	
-	<shortcut>
 		<defaultID>19033</defaultID>
 		<label>19033</label>
 		<label2>Common menu item</label2>
 		<icon>DefaultHardDisk.png</icon>
 		<thumb />
 		<action>ActivateWindow(systeminfo)</action>
+	</shortcut>
+
+	<shortcut>
+		<defaultID>weather</defaultID>
+		<label>Weather</label>
+		<label2>Favourite</label2>
+		<icon>special://skin/extras/icons/weather.png</icon>
+		<thumb>DefaultAddonWeather.png</thumb>
+		<action>ActivateWindow(10040,"addons://repository.xbmc.org/xbmc.python.weather",return)</action>
 	</shortcut>
 	
 	<shortcut>
@@ -73,21 +64,12 @@
 	</shortcut>
 	
 	<shortcut>
-		<defaultID />
-		<label>[COLOR white]Speed Tester[/COLOR]</label>
-		<label2>Program</label2>
-		<icon>DefaultShortcut.png</icon>
-		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fspeedicon.png/</thumb>
-		<action>ActivateWindow(Programs,"plugin://plugin.program.anzactools/?mode=net",return)</action>
+		<defaultID>13313</defaultID>
+		<label>13313</label>
+		<label2>Kodi Command</label2>
+		<icon>RestartApp.png</icon>
+		<thumb />
+		<action>RestartApp</action>
 	</shortcut>
-	
-	<shortcut>
-		<defaultID>weather</defaultID>
-		<label>Weather Configure</label>
-		<label2>Favourite</label2>
-		<icon>special://skin/extras/icons/weather.png</icon>
-		<thumb>DefaultAddonWeather.png</thumb>
-		<action>ActivateWindow(10040,"addons://user/xbmc.python.weather",return)</action>
-	</shortcut>
-	
+
 </shortcuts>

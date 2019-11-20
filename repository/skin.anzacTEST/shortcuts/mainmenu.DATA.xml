@@ -44,7 +44,7 @@
 		<label2>Custom item</label2>
 		<icon>DefaultTVShows.png</icon>
 		<thumb>DefaultTVShows.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.skygo.nz",return)</action>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.tab.nz",return)</action>
 	</shortcut>
 
 	<shortcut>

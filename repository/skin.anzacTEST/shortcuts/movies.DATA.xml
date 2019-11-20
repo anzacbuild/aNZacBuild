@@ -38,7 +38,7 @@
 	
 	<shortcut>
 		<defaultID>plugin.video.exodus</defaultID>
-		<label>Exodus</label>
+		<label>[COLOR red]Exodus[/COLOR]</label>
 		<label2>Video Add-On</label2>
 		<icon>special://home/addons/plugin.video.exodus/icon.png</icon>
 		<thumb>special://home/addons/plugin.video.exodus/icon.png</thumb>
@@ -47,7 +47,7 @@
 	
 	<shortcut>
 		<defaultID>plugin.video.exodusredux</defaultID>
-		<label>Exodus Redux</label>
+		<label>[COLOR red]Exodus Redux[/COLOR]</label>
 		<label2>Video Add-On</label2>
 		<icon>special://home/addons/plugin.video.exodusredux/icon.png</icon>
 		<thumb>special://home/addons/plugin.video.exodusredux/icon.png</thumb>
@@ -92,7 +92,7 @@
 	
 	<shortcut>
 		<defaultID>plugin.video.scrubsv2</defaultID>
-		<label>[COLOR orange]Scrubs v2[/COLOR]</label>
+		<label>[COLOR red]Scrubs v2[/COLOR]</label>
 		<label2>Video Add-On</label2>
 		<icon>special://home/addons/plugin.video.scrubsv2/icon.png</icon>
 		<thumb>special://home/addons/plugin.video.scrubsv2/icon.png</thumb>

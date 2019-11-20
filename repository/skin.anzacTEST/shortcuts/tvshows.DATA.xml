@@ -55,6 +55,15 @@
 	</shortcut>
 	
 	<shortcut>
+		<defaultID>plugin.video.seren</defaultID>
+		<label>[COLOR red]Seren (Real Debrid)[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://C%3a%5cUsers%5cAdmin%5cAppData%5cRoaming%5cKodi%5caddons%5cplugin.video.seren%5cico-fox-gold-final.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.seren",return)</action>
+	</shortcut>
+	
+	<shortcut>
 		<defaultID>plugin.video.rugbypass</defaultID>
 		<label>RugbyPass</label>
 		<label2>Video Add-On</label2>

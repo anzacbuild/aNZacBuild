@@ -29,7 +29,7 @@
 	
 	<shortcut>
 		<defaultID>plugin.video.Rising.Tides</defaultID>
-		<label>[COLOR red][B]R[/B][/COLOR]ising [COLOR pink][B]T[/B][/COLOR]ides</label>
+		<label>[COLOR red][B]R[/B]ising [B]T[/B]ides[/COLOR]</label>
 		<label2>Video Add-On</label2>
 		<icon>special://home/addons/plugin.video.Rising.Tides/icon.png</icon>
 		<thumb>special://home/addons/plugin.video.Rising.Tides/icon.png</thumb>
@@ -47,7 +47,7 @@
 	
 	<shortcut>
 		<defaultID>script.module.tt</defaultID>
-		<label> TvTap</label>
+		<label>[COLOR red]TvTap[/COLOR]</label>
 		<label2>Video Add-On</label2>
 		<icon>special://home/addons/script.module.tt/icon.png</icon>
 		<thumb>special://home/addons/script.module.tt/icon.png</thumb>
