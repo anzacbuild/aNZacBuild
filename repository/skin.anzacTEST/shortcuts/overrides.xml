@@ -167,7 +167,7 @@
     <widgetdefaultnode defaultID="script.globalsearch" group="mainmenu" label="136" type="videos" path="special://videoplaylists/" target="video">myplaylists</widgetdefaultnode>
     <widgetdefault labelID="weather" group="mainmenu">weather</widgetdefault>
     <!-- <widgetdefault labelID="settings" group="mainmenu">settings</widgetdefault> -->
-	<widgetdefaultnode labelID="settings" group="mainmenu" label="Settings" type="" path="$INCLUDE[skinshortcuts-submenu]" target="video">submenu</widgetdefaultnode>
+	<widgetdefaultnode defaultID="settings" group="mainmenu" label="Settings" type="" path="$INCLUDE[skinshortcuts-submenu]" target="video">submenu</widgetdefaultnode>
 	  
     <!-- <propertydefault defaultID="movies" property="widgetIcon">20021</propertydefault> -->
 	<propertydefault defaultID="movies" property="widgetIcon">31088</propertydefault>
