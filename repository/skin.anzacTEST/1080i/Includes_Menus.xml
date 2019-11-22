@@ -168,10 +168,10 @@
                     <width>430</width>
                     <height>760</height>
                     <onright condition="!String.IsEmpty(Container(9000).ListItem.Property(widget))">9003</onright>
-                    <onleft condition="!Skin.HasSetting(Enable.CombineMenus)">9010</onleft>
+                    <!-- <onleft condition="!Skin.HasSetting(Enable.CombineMenus)">9010</onleft> -->
                     <ondown>9000</ondown>
                     <onup>9000</onup>
-                    <onback condition="Skin.HasSetting(Enable.CombineMenus)">RunScript(script.skinshortcuts,type=hidesubmenu&amp;mainmenuID=9000)</onback>
+                    <onback <!--condition="Skin.HasSetting(Enable.CombineMenus)"-->>RunScript(script.skinshortcuts,type=hidesubmenu&amp;mainmenuID=9000)</onback>
                     <pagecontrol />
                     <scrolltime tween="quadratic" easing="out">300</scrolltime>
                     <orientation>Vertical</orientation>
@@ -232,8 +232,8 @@
                         </control>
                     </focusedlayout>
                     <content>
-                        <include condition="Skin.HasSetting(Enable.CombineMenus)">skinshortcuts-allmenus</include>
-                        <include condition="!Skin.HasSetting(Enable.CombineMenus)">skinshortcuts-mainmenu</include>
+                        <include <!--condition="Skin.HasSetting(Enable.CombineMenus)"-->>skinshortcuts-allmenus</include>
+                        <!--<include condition="!Skin.HasSetting(Enable.CombineMenus)">skinshortcuts-mainmenu</include> -->
                     </content>
                 </control>
                 <control type="group">

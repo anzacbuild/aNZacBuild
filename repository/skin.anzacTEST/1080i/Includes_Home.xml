@@ -18,7 +18,7 @@
                 <include>skinshortcuts-template-widget-vertical</include>
             </control>
         </control>
-        <include>rssfeed</include>
+        <include condition="system.getbool(lookandfeel.enablerssfeeds)">rssfeed</include>
     </include>
     <include name="HomeHorizontal">
         <control type="group">
@@ -27,7 +27,7 @@
             <animation effect="slide" tween="cubic" time="200" start="0,0" end="0,130" reversible="false">WindowClose</animation>
             <animation effect="slide" tween="cubic" time="400" start="0,130" end="0,0" reversible="false">Visible</animation>
             <animation effect="slide" tween="cubic" time="200" start="0,0" end="0,130" reversible="false">Hidden</animation>
-            <animation effect="slide" start="0,0" end="0,-15" time="0">Conditional</animation>
+            <animation effect="slide" start="0,0" end="0,-15" time="0" condition="system.getbool(lookandfeel.enablerssfeeds)">Conditional</animation>
             <include>MainMenuHorizontal</include>
         </control>
         <control type="group">
@@ -46,7 +46,7 @@
                 <include>skinshortcuts-template-widget-horizontal</include>
             </control>
         </control>
-        <include>rssfeed</include>
+        <include condition="system.getbool(lookandfeel.enablerssfeeds)">rssfeed</include>
     </include>
     <include name="rssfeed">
         <control type="group">
