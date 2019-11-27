@@ -170,6 +170,9 @@
 	<widgetdefaultnode defaultID="settings" group="mainmenu" label="Settings" type="" path="$INCLUDE[skinshortcuts-submenu]" target="video">submenu</widgetdefaultnode>
 	  
     <!-- <propertydefault defaultID="movies" property="widgetIcon">20021</propertydefault> -->
+	
+	<propertydefault defaultID="favorites" property="widgetIcon">31088</propertydefault>
+	
 	<propertydefault defaultID="movies" property="widgetIcon">31088</propertydefault>
 	<propertydefault defaultID="music" property="widgetIcon">31088</propertydefault>
     <!-- <propertydefault defaultID="tvshows" property="widgetIcon">20021</propertydefault> -->

@@ -93,21 +93,12 @@
 	</shortcut>
 
 	<shortcut>
-		<defaultID>13009</defaultID>
-		<label>13009</label>
-		<label2>Kodi Command</label2>
+		<defaultID>colorwhite-forceclosekodi-color</defaultID>
+		<label>Force Close Kodi</label>
+		<label2>Favourite</label2>
 		<icon>special://skin/extras/icons/power.png</icon>
-		<thumb />
-		<action>Quit</action>
-	</shortcut>
-	
-	<shortcut>
-		<defaultID>13313</defaultID>
-		<label>13313</label>
-		<label2>Kodi Command</label2>
-		<icon>RestartApp.png</icon>
-		<thumb />
-		<action>RestartApp</action>
+		<thumb>special://skin/extras/icons/power.png</thumb>
+		<action>PlayMedia("plugin://plugin.program.anzactools/?mode=forceclose",return)</action>
 	</shortcut>
 
 </shortcuts>
