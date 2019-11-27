@@ -87,7 +87,7 @@
 		<defaultID />
 		<label>[COLOR white]Speed Tester[/COLOR]</label>
 		<label2>Program</label2>
-		<icon>DefaultShortcut.png</icon>
+		<icon>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fspeedicon.png/</icon>
 		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fspeedicon.png/</thumb>
 		<action>ActivateWindow(Programs,"plugin://plugin.program.anzactools/?mode=net",return)</action>
 	</shortcut>
