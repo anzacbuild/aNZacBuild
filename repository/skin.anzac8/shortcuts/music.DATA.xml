@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?><shortcuts>
+
+	<shortcut>
+		<defaultID>plugin.audio.au.radio</defaultID>
+		<label>RADIO AU</label>
+		<label2>Music Add-On</label2>
+		<icon>special://home/addons/plugin.audio.au.radio/icon.png</icon>
+		<thumb>special://home/addons/plugin.audio.au.radio/icon.png</thumb>
+		<action>ActivateWindow(Music,"plugin://plugin.audio.au.radio",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.audio.nz.radio</defaultID>
+		<label>RADIO NZ</label>
+		<label2>Music Add-On</label2>
+		<icon>special://home/addons/plugin.audio.nz.radio/icon.png</icon>
+		<thumb>special://home/addons/plugin.audio.nz.radio/icon.png</thumb>
+		<action>ActivateWindow(Music,"plugin://plugin.audio.nz.radio",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.audio.mp3streams</defaultID>
+		<label>[COLOR red]Mp3 Streams[/COLOR]</label>
+		<label2>Music Add-On</label2>
+		<icon>special://home/addons/plugin.audio.mp3streams/icon.png</icon>
+		<thumb>special://home/addons/plugin.audio.mp3streams/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.audio.mp3streams",return)</action>
+	</shortcut>
+	
+</shortcuts>

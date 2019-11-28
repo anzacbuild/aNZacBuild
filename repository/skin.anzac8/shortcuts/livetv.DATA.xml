@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?><shortcuts>
+
+	<shortcut>
+		<defaultID>TVGuide</defaultID>
+		<label>Live TV Guide</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultAddonPVRClient.png</icon>
+		<thumb>DefaultAddonPVRClient.png</thumb>
+		<action>ActivateWindow(TVGuide)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.au.freeview</defaultID>
+		<label>IPTV AU</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.au.freeview/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.au.freeview/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.au.freeview",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.nz.freeview</defaultID>
+		<label>IPTV NZ</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.nz.freeview/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.nz.freeview/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.nz.freeview",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.Rising.Tides</defaultID>
+		<label>[COLOR red][B]R[/B]ising [B]T[/B]ides[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.Rising.Tides/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.Rising.Tides/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.Rising.Tides",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.rt</defaultID>
+		<label>Russia Today News</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.rt/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.rt/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.rt",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>script.module.tt</defaultID>
+		<label>[COLOR red]TvTap[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/script.module.tt/icon.png</icon>
+		<thumb>special://home/addons/script.module.tt/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://script.module.tt",return)</action>
+	</shortcut>
+
+</shortcuts>
