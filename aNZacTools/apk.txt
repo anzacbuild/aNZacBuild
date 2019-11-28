@@ -22,13 +22,13 @@ fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTool
 adult="no"
 description="Kodi 17.6 Stable"
 
-name="[B]Kodi 18.4[/B] Stable"
+name="[B]Kodi 18.5[/B] Stable"
 section="no"
-url="http://mirrors.kodi.tv/releases/android/arm/kodi-18.4-Leia-armeabi-v7a.apk"
+url="http://mirrors.kodi.tv/releases/android/arm/kodi-18.5-Leia-armeabi-v7a.apk"
 icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/apkicon.png"
 fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/apkfanart.jpg"
 adult="no"
-description="Kodi 18.4 Leia Stable"
+description="Kodi 18.5 Leia Stable"
 
 name="[B]Kodi 18[/B] V.18.0 RC4"
 section="no"
