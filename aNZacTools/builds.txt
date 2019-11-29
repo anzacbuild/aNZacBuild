@@ -36,7 +36,7 @@ description="Install aNZac Build for Kodi 18 Leia LibreELEC 9"
 
 name="aNZacBuild.Pc.32bit"
 version="8.7.2"
-url="https://archive.org/details/aNZacBuild.Pc.32bit-8.7.2"
+url="https://archive.org/download/aNZacBuild.Pc.32bit-8.7.2/aNZacBuild.Pc.32bit-8.7.2.zip"
 gui="http://"
 kodi="18.5"
 theme="http://"
