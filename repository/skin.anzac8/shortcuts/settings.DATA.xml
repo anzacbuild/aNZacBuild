@@ -78,8 +78,8 @@
 		<defaultID>service.libreelec.settings</defaultID>
 		<label>LibreELEC Config</label>
 		<label2>Program</label2>
-		<icon>DefaultIconSettings.png</icon>
-		<thumb>DefaultIconSettings.png</thumb>
+		<icon>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2flibreelec.png/</icon>
+		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2flibreelec.png/</thumb>
 		<action>RunAddOn(service.libreelec.settings)</action>
 	</shortcut>
 
