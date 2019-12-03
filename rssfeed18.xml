@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>aNZac Build </title>
-   <item><title> 8.7</title></item>
-   <item><title>2019-11-11</title></item>
+   <item><title> 8.7.2</title></item>
+   <item><title>2019-12-03</title></item>
    <item><title>https://anzacbuild.github.io</title></item>
-   <item><title>A Kodi build for the lands down under - -</title></item> 
-   
+   <item><title>A Kodi build for the lands down under - -</title></item>
+
+   <item><title>- - !!! FRESH INSTALL REQUIRED !!! to fix skin errors in aNZac Build 8.7.1 - -</title></item>
+
    <item><title>- - aNZac 8 built for Kodi 18 Leia - -</title></item>
+
+   <item><title>- - Added Seren to Subscriptions (for Real Debrid) - -</title></item>
    
-   <item><title>- - Removed live net streams from Live TV - - Added It and Exodus 8 to On Demand - - Added Netflix to Subscriptions - -</title></item>
-   <item><title>- - - 2019-09-13 Updated Kodi 18 APK Installer Link to 18.4 Stable - - -</title></item>
+   <item><title>- - - 2019-12-01 Updated Kodi 18 APK Installer Link to 18.5 Stable (armv7 32 bit) - - -</title></item>
    <item><title>- -  - -</title></item>
 </channel></rss>
