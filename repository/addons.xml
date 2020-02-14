@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-	<addon id="plugin.audio.mp3streams" name="[COLOR lime]MP3 Streams Pro[/COLOR]" version="5.7.8" provider-name="[COLOR lime]EmuZONE[/COLOR]">
-		<requires>
-			<import addon="xbmc.python" version="2.1.0"/>
-			<import addon="script.module.t0mm0.common" version="1.1.0"/>
-			<import addon="script.module.mutagen" version="1.41.1"/>
-			<import addon="script.module.requests" version="1.1.0"/>
-		</requires>
-		<extension point="xbmc.python.pluginsource" library="default.py">
-			<provides>audio</provides>
+	<addon id="doko.repository" name="Doko Repository" version="0.1.0" provider-name="doko">
+		<extension point="xbmc.addon.repository" name="Doko Repository">
+			<info compressed="false">https://raw.githubusercontent.com/doko-desuka/doko.repository/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/doko-desuka/doko.repository/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/doko-desuka/doko.repository/master/</datadir>
 		</extension>
-		<extension point="xbmc.service" library="playerMP3.py" start="startup" />
 		<extension point="xbmc.addon.metadata">
+			<summary>Doko Kodi Add-ons</summary>
+			<description>Add-ons for Kodi</description>
+			<disclaimer></disclaimer>
 			<platform>all</platform>
-			<summary>Riesige MP3 Datenbank</summary>
-			<description>Suche und hoere einzelne Titel oder Komplette Alben aus der riesigen MP3 Datenbank</description>
-			<news>Download Option repariert</news>
-			<assets>
-				<icon>icon.png</icon>
-				<fanart>fanart.jpg</fanart>
-			</assets>
+		</extension>
+	</addon>
+
+	<addon id="repository.nixgates" name="Nixgates Repo" version="1.0.0" provider-name="Nixgates">
+		<extension point="xbmc.addon.repository" name="Nixgates Repo">
+			<info compressed="false">https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/nixgates/nixgates/master/packages/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/nixgates/nixgates/master/packages</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Nixgates</summary>
+			<description>Nixgates Repository</description>
+			<disclaimer></disclaimer>
+			<platform>all</platform>
 		</extension>
 	</addon>
 
@@ -38,123 +43,49 @@
 		<platform>all</platform>
 	  </extension>
 	</addon>
-	
-	<addon id="pvr.iptvsimple.17armv7" version="1.0" name="Kodi 17 PVR IPTV Simple Client ArmV7 (Android 32 bit)" provider-name="aNZac (nightik/BBTS)">
-		<requires>
-			<c-pluff version="0.1"/>
-			<import addon="xbmc.pvr" version="5.2.1"/>
-		</requires>
-		<extension point="xbmc.pvrclient" library_android="libpvr.iptvsimple.so"/>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en_AU">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-			<summary lang="en_GB">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-			<summary lang="en_NZ">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-			<summary lang="en_US">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-			<description lang="en_AU">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-			<description lang="en_GB">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-			<description lang="en_NZ">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-			<description lang="en_US">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-			<disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-			<disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-			<disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-			<disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-			<platform>android</platform>
-		</extension>
-	</addon>	
-	
-	<addon id="pvr.iptvsimple.17libre" version="1.0" name="Kodi 17 PVR IPTV Simple Client (LibreELEC)" provider-name="aNZac (nightik)">
-		<requires>
-			<c-pluff version="0.1"/>
-			<import addon="xbmc.pvr" version="5.2.1"/>
-		</requires>
-		<extension point="xbmc.pvrclient" library_linux="pvr.iptvsimple.so.2.4.14"/>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en_AU">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-			<summary lang="en_GB">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-			<summary lang="en_NZ">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-			<summary lang="en_US">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-			<description lang="en_AU">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-			<description lang="en_GB">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-			<description lang="en_NZ">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-			<description lang="en_US">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-			<disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-			<disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-			<disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-			<disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-			<platform>linux</platform>
-		</extension>
-	</addon>	
-	
-	<addon id="pvr.iptvsimple.android18" version="3.5.5" name="PVR IPTV Simple Client (Android 18)" provider-name="nightik">
-		<requires>
-			<import addon="kodi.binary.global.main" version="1.0.13"/>
-			<import addon="kodi.binary.instance.pvr" version="5.10.3"/>
-		</requires>
-		<extension point="xbmc.pvrclient" library_android="libpvr.iptvsimple.so"/>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en_AU">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-			<summary lang="en_GB">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-			<summary lang="en_NZ">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-			<summary lang="en_US">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-			<description lang="en_AU">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-			<description lang="en_GB">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-			<description lang="en_NZ">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-			<description lang="en_US">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-			<disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-			<disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-			<disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-			<disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-			<platform>all</platform>
-		</extension>
-	</addon>	
-	
-	<addon id="pvr.iptvsimple.libre18" version="3.5.3.2" name="PVR IPTV Simple Client(LibreELEC) 18" provider-name="nightik">
-	  <requires>
-		<import addon="kodi.binary.global.main" version="1.0.13"/>
-		<import addon="kodi.binary.instance.pvr" version="5.10.1"/>
-	  </requires>
-	  <extension point="xbmc.pvrclient" library_linux="pvr.iptvsimple.so.3.5.3"/>
-	  <extension point="xbmc.addon.metadata">
-		<summary lang="en_AU">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-		<summary lang="en_GB">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-		<summary lang="en_NZ">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-		<summary lang="en_US">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-		<description lang="en_AU">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-		<description lang="en_GB">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-		<description lang="en_NZ">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-		<description lang="en_US">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-		<disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-		<disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-		<disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-		<disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-		<platform>all</platform>
-	  </extension>
-	</addon>
 
-	<addon id="pvr.iptvsimple.pc3218" version="3.5.7" name="PVR IPTV Simple Client PC 32 bit Kodi 18 (RC5)" provider-name="nightik">
-	  <requires>
-	<import addon="kodi.binary.global.main" version="1.0.13"/>
-	<import addon="kodi.binary.instance.pvr" version="5.10.3"/></requires>
-	  <extension
-		point="xbmc.pvrclient"
-		library_windows="pvr.iptvsimple.dll"/>
-	  <extension point="xbmc.addon.metadata">
-		<summary lang="en_AU">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-		<summary lang="en_GB">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-		<summary lang="en_NZ">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-		<summary lang="en_US">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
-		<description lang="en_AU">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-		<description lang="en_GB">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-		<description lang="en_NZ">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-		<description lang="en_US">IPTV Simple PVR Client support m3u playlists, streaming of Live TV for multicast/unicast sources, listening to Radio channels and EPG.</description>
-		<disclaimer lang="af_ZA">Hierdie is onstabiele sagteware! Die outeurs is op geen manier verantwoordelik vir gefaalde spele, inkorrekte EPG tye, vermorsde ure, of enige ander ongewensde effekte.</disclaimer>
-		<disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-		<disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-		<disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-		<disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
-		<platform>all</platform>
-	  </extension>
-	</addon>	
+	<addon id="plugin.video.rt" name="Russia Today News" version="3.0.8" provider-name="t1m|boeboe">
+		<requires>
+			<import addon="xbmc.python" version="2.20.0" />
+			<import addon="plugin.video.youtube" version="6.5.2" optional="true" />
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>video</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Russia Today News</summary>
+			<description lang="en">Russia Today News Kodi Plugin. RT presents round-the-clock news bulletins, documentaries, talk shows, and debates, as well as sports news and cultural programs on Russia aimed at the overseas news market. In 2011 it was the second most-watched foreign news channel in the U.S. after BBC World News, and the number one foreign station in five major U.S. urban areas in 2012</description>
+			<disclaimer lang="en">Feel free to use this script. For information visit the wiki.</disclaimer>
+			<platform>all</platform>
+			<language>en</language>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<forum>http://forum.kodi.tv/showthread.php?tid=173448</forum>
+			<website>http:www.rt.com</website>
+			<source>https://github.com/boeboe/plugin.video.rt</source>
+			<news>[B]CGTN ChangeLog v3.0.8 - Changelog - 2019-12-04[/B]
+	3.0.8 added first aired date, remove external dep to lib removed from github anymore
+	3.0.7 added screenshots and pipe to add multiple devs as recommended
+	3.0.6 regex updates, upstep and adjust youtube call, adjust arab live url, add banner, adjust fanart (boeboe)
+	3.0.5 minor website change (t1m)
+	3.0.4 added YT playback (t1m)
+	3.0.3 added French feed (t1m)
+	3.0.2 added Spanish and Arab live feeds that I forgot (t1m)
+	3.0.1 clean up and fix live feeds (t1m)
+	2.0.2 website chnages (t1m)
+	2.0.1 Isengard version - fixed live streams (Isengard)
+			</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<banner>resources/banner.png</banner>
+			<screenshot>resources/screenshots/screenshot-1.png</screenshot>
+			<screenshot>resources/screenshots/screenshot-2.png</screenshot>
+			<screenshot>resources/screenshots/screenshot-3.png</screenshot>
+			<screenshot>resources/screenshots/screenshot-4.png</screenshot>
+			<screenshot>resources/screenshots/screenshot-5.png</screenshot>
+		</assets>    
+		</extension>
+	</addon>
 	
 	<addon id="repository.anzacbuild" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository" version="3.7" provider-name="aNZac Build">
 		<extension point="xbmc.addon.repository" name="aNZac Build Repository">
@@ -192,32 +123,7 @@
 	</extension>
 	</addon>
 	
-	<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.8" provider-name="I-A-C">
-		<extension point="xbmc.addon.repository" name="Exodus Redux Repo">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/I-A-C/zips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/I-A-C/zips/master/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-		</dir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en">Exodus Redux is a educational add-on. We do not host any of the contents streamed.</summary>
-			<description lang="en"></description>
-			<platform>all</platform>
-		</extension>
-	</addon>
-
-	<addon id="repository.jewrepo" name="[COLOR purple]JewRepo[/COLOR]" version="1.5.3" provider-name="JewBMX">
+	<addon id="repository.jewrepo" name="[COLOR purple]JewRepo[/COLOR]" version="1.5.5" provider-name="JewBMX">
 		<requires>
 			<import addon="xbmc.addon" version="12.0.0"/>
 		</requires>
@@ -227,34 +133,9 @@
 				<datadir zip="true">https://raw.githubusercontent.com/jewbmx/repo/master/zips/</datadir>
 			<hashes>false</hashes>
 			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/jewbmx/JewBackD/master/zips/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-			</dir>
-			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
 				<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
 				<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-				<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
 			</dir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
@@ -301,17 +182,12 @@
 	  </extension>
 	</addon>
 
-	<addon id="repository.Rising.Tides" name="[COLOR red][B]R[/B][/COLOR][COLOR white][B]ising[/B][/COLOR] [COLOR pink][B]T[/B][/COLOR][COLOR white][B]ides[/B][/COLOR] Repository" version="1.0" provider-name="[COLOR turquoise][B]@mullafabz[/B][/COLOR]">
+	<addon id="repository.Rising.Tides" name="[COLOR red][B]R[/B][/COLOR][COLOR white][B]ising[/B][/COLOR] [COLOR pink][B]T[/B][/COLOR][COLOR white][B]ides[/B][/COLOR] Repository" version="1.1" provider-name="[COLOR turquoise][B]@mullafabz[/B][/COLOR]">
 		<extension point="xbmc.addon.repository" name="[COLOR red][B]R[/B][/COLOR]ising [COLOR pink][B]T[/B][/COLOR]ides Repository">
 		<dir>
 			<info compressed="false">http://mullafabz.xyz/Plugins/addons.xml</info>
 			<checksum>http://mullafabz.xyz/Plugins/addons.xml.md5</checksum>
 			<datadir zip="true">http://mullafabz.xyz/Plugins/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-			<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
 		</dir>
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
@@ -326,53 +202,30 @@
 		</extension>
 	</addon>
 
-	<addon id="repository.T2K" name="T2K Repo" version="1.2.3" provider-name="T2K">
-		<extension point="xbmc.addon.repository" name="T2K Repository">
+	<addon id="repository.tikipeter" name="Tikipeter's Repository" version="0.0.4" provider-name="Tikipeter">
+		<extension point="xbmc.addon.repository" name="Tikipeter's Repository">
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/Tikipeter/repository.tikipeter/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/Tikipeter/repository.tikipeter/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/Tikipeter/repository.tikipeter/master/zip</datadir>
+			</dir>
 			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
 				<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
 				<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
 			</dir>
 			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/croneter/binary_repo/master/stable/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/croneter/binary_repo/master/stable/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/croneter/binary_repo/master/stable/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
-			</dir>
-			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
 				<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
 				<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
 			</dir>
-			<dir>
-				<info compressed="false">http://t2k-repository.ml/T2K-Adult/T2K-Adult-Zone-Addon/zips/addons.xml</info>
-				<checksum>http://t2k-repository.ml/T2K-Adult/T2K-Adult-Zone-Addon/zips/addons.xml.md5</checksum>
-				<datadir zip="true">http://t2k-repository.ml/T2K-Adult/T2K-Adult-Zone-Addon/zips/</datadir>
-			</dir>
-				<info compressed="false">http://t2k-repository.ml/T2K/repository.T2K/zips/addons.xml</info>
-				<checksum>http://t2k-repository.ml/T2K/repository.T2K/zips/addons.xml.md5</checksum>
-				<datadir zip="true">http://t2k-repository.ml/T2K/repository.T2K/zips/</datadir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary lang="en">T2K</summary>
-			<description lang="en">T2K Wizard allows you to gain access to the latest Fladnag Custom Builds. Credits also goes to Pedro's.last Kindgdom Builds.</description>
-			<genre></genre>
+			<platform>all</platform>
+			<summary>Tikipeter's Repository</summary>
+			<description>Unofficial add-ons repository</description>
 		</extension>
-	</addon>	
+	</addon>
 
 	<addon id="resource.uisounds.anzac" version="1.0" name="aNZac Build UI Sounds" provider-name="marcelveldt,mgonzales">
 	  <requires>
@@ -401,61 +254,6 @@
 		</extension>
 	</addon>
 	
-	<addon id="script.module.urlresolver" name="URLResolver" version="5.0.35" provider-name="tvaddons">
-		<requires>
-			<import addon="xbmc.python" version="2.1.0" />
-			<import addon="plugin.video.youtube" optional="true" />
-			<import addon="script.module.python.twitch" optional="true" />
-			<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-			<import addon="plugin.video.gdrive" optional="true" />
-		</requires>
-		<extension point="xbmc.python.module" library="lib" />
-		<extension point="xbmc.python.pluginsource" library="lib/default.py" />
-		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
-			<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-			<summary lang="es">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-			<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
-			<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-			<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
-			<forum>https://www.tvaddons.co/forums</forum>
-			<website>https://www.tvaddons.co</website>
-		</extension>
-	</addon>
-	
-	<addon id="skin.17anzac" version="7.6.1" name="Kodi 17 aNZac Skin" provider-name="aNZac Build">
-		<requires>
-			<import addon="xbmc.gui" version="5.12.0"/>
-			<import addon="resource.images.studios.white" version="0.0.4"/>
-			<import addon="script.skinshortcuts" version="0.6.6"/>
-			<import addon="script.toolbox" version="1.0.0"/>
-		</requires>
-		<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
-			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en_AU">aNZac Kodi Skin</summary>
-			<summary lang="en_GB">aNZac Kodi Skin</summary>
-			<summary lang="en_NZ">aNZac Kodi Skin</summary>
-			<summary lang="en_US">aNZac Kodi Skin</summary>
-			<description lang="en_AU">aNZac Kodi Skin</description>
-			<description lang="en_GB">aNZac Kodi Skin</description>
-			<description lang="en_NZ">aNZac Kodi Skin</description>
-			<description lang="en_US">aNZac Kodi Skin</description>
-			<platform>all</platform>
-			<website>https://anzacbuild.github.io</website>
-			<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
-				<screenshot>resources/background.jpg</screenshot>
-				<screenshot>resources/splash.png</screenshot>
-				<screenshot>resources/fanart.jpg</screenshot>
-				<screenshot>resources/icon.png</screenshot>
-			</assets>
-			<news></news>
-		</extension>
-	</addon>	
-
 	<addon id="skin.anzac7" version="7.7.2" name="aNZac 7 Kodi 17 Krypton Skin" provider-name="aNZac Build">
 		<requires>
 			<import addon="xbmc.gui" version="5.12.0"/>
