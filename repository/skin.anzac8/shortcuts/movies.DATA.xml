@@ -46,12 +46,12 @@
 	</shortcut>
 	
 	<shortcut>
-		<defaultID>plugin.video.exodusredux</defaultID>
-		<label>[COLOR red]Exodus Redux[/COLOR]</label>
+		<defaultID>plugin.video.fen</defaultID>
+		<label>[COLOR red]Fen[/COLOR]</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.exodusredux/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.exodusredux/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.exodusredux",return)</action>
+		<icon>special://home/addons/plugin.video.fen/icon.png/</icon>
+		<thumb>special://home/addons/plugin.video.fen/icon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.fen",return)</action>
 	</shortcut>
 	
 	<shortcut>
@@ -70,15 +70,6 @@
 		<icon>special://home/addons/plugin.video.heihei/icon.png</icon>
 		<thumb>special://home/addons/plugin.video.heihei/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.heihei",return)</action>
-	</shortcut>
-	
-	<shortcut>
-		<defaultID>plugin.video.it</defaultID>
-		<label>[COLOR red]IT[/COLOR]</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.it/icon.gif</icon>
-		<thumb>special://home/addons/plugin.video.it/icon.gif</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.it",return)</action>
 	</shortcut>
 	
 	<shortcut>
@@ -115,6 +106,15 @@
 		<icon>special://home/addons/plugin.video.tvnz.ondemand/icon.png</icon>
 		<thumb>special://home/addons/plugin.video.tvnz.ondemand/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.tvnz.ondemand",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.watchnixtoons2</defaultID>
+		<label>[COLOR red]WatchNixtoons2[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.watchnixtoons2/icon.png/</icon>
+		<thumb>special://home/addons/plugin.video.watchnixtoons2/icon.png/</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.watchnixtoons2",return)</action>
 	</shortcut>
 	
 	<shortcut>

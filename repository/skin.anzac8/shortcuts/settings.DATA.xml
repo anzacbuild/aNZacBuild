@@ -61,7 +61,7 @@
 		<label2>Favourite</label2>
 		<icon>DefaultFolder.png</icon>
 		<thumb>DefaultAddonVisualization.png</thumb>
-		<action>ActivateWindow(10040,"addons://repository.xbmc.org/xbmc.player.musicviz",return)</action>
+		<action>ActivateWindow(10040,"addons://all/xbmc.player.musicviz",return)</action>
 	</shortcut>	
 	
 	<shortcut>
@@ -70,7 +70,7 @@
 		<label2>Favourite</label2>
 		<icon>special://skin/extras/icons/weather.png</icon>
 		<thumb>DefaultAddonWeather.png</thumb>
-		<action>ActivateWindow(10040,"addons://repository.xbmc.org/xbmc.python.weather",return)</action>
+		<action>ActivateWindow(10040,"addons://all/xbmc.python.weather",return)</action>
 	</shortcut>
 
 
