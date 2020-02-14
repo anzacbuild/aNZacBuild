@@ -40,8 +40,8 @@
 		<defaultID>plugin.video.rt</defaultID>
 		<label>Russia Today News</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.rt/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.rt/icon.png</thumb>
+		<icon>special://home/addons/plugin.video.rt/resources/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.rt/resources/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.rt",return)</action>
 	</shortcut>
 	
