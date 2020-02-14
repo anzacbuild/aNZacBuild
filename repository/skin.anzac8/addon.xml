@@ -2,7 +2,7 @@
 	<addon id="skin.anzac8" version="8.7.2" name="aNZac 8 Kodi 18 Leia Skin" provider-name="aNZac Build">
 		<requires>
 			<import addon="xbmc.gui" version="5.14.0"/>
-			<import addon="resource.images.studios.white" version="0.0.6"/>
+			<import addon="resource.images.studios.white" version="0.0.24"/>
 			<import addon="script.skinshortcuts" version="0.6.6"/>
 			<import addon="script.toolbox" version="1.0.0"/>
 		</requires>
