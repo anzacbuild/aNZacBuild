@@ -12,7 +12,7 @@ description="Install aNZac Build for Kodi 17 Krypton (LibreELEC M8S Boxes)"
 
 name="aNZacBuild"
 version="8.7.2"
-url="https://archive.org/download/aNZacBuild.armv7-8.7.2/aNZacBuild.armv7-8.7.2.zip"
+url="https://archive.org/download/aNZacBuild.armv7-8.7.3/aNZacBuild.armv7-8.7.3.zip"
 gui="http://"
 kodi="18.5"
 theme="http://"
