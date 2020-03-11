@@ -4,7 +4,6 @@
 		<defaultID>plugin.video.beinsports.apac</defaultID>
 		<label>beIN Sports Connect</label>
 		<label2>Video Add-On</label2>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.tab.nz",return)</action>
 		<icon>special://home/addons/plugin.video.beinsports.apac/icon.png</icon>
 		<thumb>special://home/addons/plugin.video.beinsports.apac/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.beinsports.apac",return)</action>
