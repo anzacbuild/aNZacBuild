@@ -76,8 +76,8 @@
 		<defaultID>plugin.video.afl-video</defaultID>
 		<label>[B]AU [/B] AFL Video</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/addons%5cplugin.video.afl-video/icon.png/</icon>
-		<thumb>special://home/addons/addons%5cplugin.video.afl-video/icon.png/</thumb>
+		<icon>special://home/addons/addons%5cplugin.video.afl-video/icon.png</icon>
+		<thumb>special://home/addons/addons%5cplugin.video.afl-video/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.afl-video",return)</action>
 	</shortcut>
 
