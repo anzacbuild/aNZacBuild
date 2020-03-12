@@ -2,7 +2,7 @@
 
 	<shortcut>
 		<defaultID>weather</defaultID>
-		<label>[B]a[COLOR darkgreen]NZ[/COLOR]ac 7.7.2[/B]</label>
+		<label>[B]a[COLOR darkgreen]NZ[/COLOR]ac 7.7.4[/B]</label>
 		<label2>Common menu item</label2>
 		<icon>DefaultIconFavourite.png</icon>
 		<thumb>DefaultIconFavourite.png</thumb>
