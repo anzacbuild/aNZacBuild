@@ -14,10 +14,9 @@
 		<defaultID>livetv</defaultID>
 		<label>[B]Live TV[/B]</label>
 		<label2>Common menu item</label2>
-		<icon>special://home/addons/plugin.video.au.freeview/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.au.freeview/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.nz.freeview",return)</action>
-		<!-- <visible>System.HasPVRAddon</visible> -->
+		<icon>DefaultLiveTV.png</icon>
+		<thumb>DefaultLiveTV.png</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.iptv.merge",return)</action>
 	</shortcut>
 	
 	<shortcut>
