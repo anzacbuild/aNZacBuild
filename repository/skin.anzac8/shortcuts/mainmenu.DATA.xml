@@ -4,8 +4,8 @@
 		<defaultID>weather</defaultID>
 		<label>[B]a[COLOR darkgreen]NZ[/COLOR]ac 8.7.4[/B]</label>
 		<label2>Common menu item</label2>
-		<icon>DefaultIconFavourite.png</icon>
-		<thumb>DefaultIconFavourite.png</thumb>
+		<icon>logo.png</icon>
+		<thumb>logo.png</thumb>
 		<action condition="!String.IsEmpty(Weather.Plugin)">ActivateWindow(favourites)</action>
 		<action condition="String.IsEmpty(Weather.Plugin)">ReplaceWindow(servicesettings,weather)</action>
 	</shortcut>
@@ -14,8 +14,8 @@
 		<defaultID>livetv</defaultID>
 		<label>[B]Live TV[/B]</label>
 		<label2>Common menu item</label2>
-		<icon>DefaultLiveTV.png</icon>
-		<thumb>DefaultLiveTV.png</thumb>
+		<icon>DefaultAddonPVRClient.png</icon>
+		<thumb>DefaultAddonPVRClient.png</thumb>
 		<action>ActivateWindow(Programs,"plugin://plugin.program.iptv.merge",return)</action>
 	</shortcut>
 	
@@ -23,8 +23,8 @@
 		<defaultID>movies</defaultID>
 		<label>[B]On Demand[/B]</label>
 		<label2>Common menu item</label2>
-		<icon>DefaultMovies.png</icon>
-		<thumb>DefaultMovies.png</thumb>
+		<icon>DefaultIconPlay.png</icon>
+		<thumb>DefaultIconPlay.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.crackle",return)</action>
 	</shortcut>
 	
@@ -41,17 +41,17 @@
 		<defaultID>tvshows</defaultID>
 		<label>[B]Subscriptions[/B]</label>
 		<label2>Custom item</label2>
-		<icon>DefaultTVShows.png</icon>
-		<thumb>DefaultTVShows.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.tab.nz",return)</action>
+		<icon>DefaultAddSource.png</icon>
+		<thumb>DefaultAddSource.png</thumb>
+		<action></action>
 	</shortcut>
 
 	<shortcut>
 		<defaultID></defaultID>
 		<label></label>
 		<label2></label2>
-		<icon></icon>
-		<thumb></thumb>
+		<icon>blank.png</icon>
+		<thumb>blank.png</thumb>
 		<action></action>
 	</shortcut>	
 	
