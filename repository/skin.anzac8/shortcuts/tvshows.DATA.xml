@@ -1,6 +1,69 @@
 <?xml version='1.0' encoding='UTF-8'?><shortcuts>
 
 	<shortcut>
+		<defaultID>plugin.video.nz.films</defaultID>
+		<label>[B]NZ [/B] Films</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.nz.films/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.nz.films/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.nz.films",return)</action>
+	</shortcut>
+
+	<shortcut>
+		<defaultID>plugin.video.lightbox</defaultID>
+		<label>[B]NZ [/B] Lightbox</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.lightbox/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.lightbox/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.lightbox",return)</action>
+	</shortcut>
+
+	<shortcut>
+		<defaultID>plugin.video.tab.nz</defaultID>
+		<label>[B]NZ [/B]TAB</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.tab.nz/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.tab.nz/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.tab.nz",return)</action>
+	</shortcut>
+
+	<shortcut>
+		<defaultID>plugin.video.skygo.nz</defaultID>
+		<label>[B]NZ [/B] SKY GO</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.skygo.nz/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.skygo.nz/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.skygo.nz",return)</action>
+	</shortcut>
+
+	<shortcut>
+		<defaultID>plugin.video.sky.sport.now</defaultID>
+		<label>[B]NZ[/B]  SKY Sport NOW</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.sky.sport.now/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.sky.sport.now/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.sky.sport.now",return)</action>
+	</shortcut>		
+
+	<shortcut>
+		<defaultID>plugin.video.spark.sport</defaultID>
+		<label>[B]NZ [/B] Spark Sport</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.spark.sport/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.spark.sport/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.spark.sport",return)</action>
+	</shortcut>
+
+	<shortcut>
+		<defaultID>plugin.video.amazon-test</defaultID>
+		<label>Amazon VOD</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.amazon-test/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.amazon-test/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.amazon-test",return)</action>
+	</shortcut>
+
+	<shortcut>
 		<defaultID>plugin.video.beinsports.apac</defaultID>
 		<label>beIN Sports Connect</label>
 		<label2>Video Add-On</label2>
@@ -17,7 +80,16 @@
 		<thumb>special://home/addons/plugin.video.curiositystream/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.curiositystream",return)</action>
 	</shortcut>
-
+	
+	<shortcut>
+		<defaultID>slyguy.disney.plus</defaultID>
+		<label>Disney+</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/slyguy.disney.plus/icon.png</icon>
+		<thumb>special://home/addons/slyguy.disney.plus/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://slyguy.disney.plus",return)</action>
+	</shortcut>
+	
 	<shortcut>
 		<defaultID>plugin.video.dstv.now</defaultID>
 		<label>DStv Now</label>
@@ -169,60 +241,6 @@
 		<icon>special://home/addons/plugin.video.rugbypass/icon.png</icon>
 		<thumb>special://home/addons/plugin.video.rugbypass/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.rugbypass",return)</action>
-	</shortcut>
-
-	<shortcut>
-		<defaultID>plugin.video.nz.films</defaultID>
-		<label>[B]NZ [/B] Films</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.nz.films/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.nz.films/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.nz.films",return)</action>
-	</shortcut>
-
-	<shortcut>
-		<defaultID>plugin.video.lightbox</defaultID>
-		<label>[B]NZ [/B] Lightbox</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.lightbox/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.lightbox/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.lightbox",return)</action>
-	</shortcut>
-
-	<shortcut>
-		<defaultID>plugin.video.tab.nz</defaultID>
-		<label>[B]NZ [/B]TAB</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.tab.nz/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.tab.nz/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.tab.nz",return)</action>
-	</shortcut>
-
-	<shortcut>
-		<defaultID>plugin.video.skygo.nz</defaultID>
-		<label>[B]NZ [/B] SKY GO</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.skygo.nz/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.skygo.nz/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.skygo.nz",return)</action>
-	</shortcut>
-
-	<shortcut>
-		<defaultID>plugin.video.sky.sport.now</defaultID>
-		<label>[B]NZ[/B]  SKY Sport NOW</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.sky.sport.now/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.sky.sport.now/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.sky.sport.now",return)</action>
-	</shortcut>		
-
-	<shortcut>
-		<defaultID>plugin.video.spark.sport</defaultID>
-		<label>[B]NZ [/B] Spark Sport</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.spark.sport/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.spark.sport/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.spark.sport",return)</action>
 	</shortcut>
 
 	<shortcut>

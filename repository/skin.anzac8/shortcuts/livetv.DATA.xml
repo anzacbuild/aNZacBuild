@@ -44,6 +44,23 @@
 		<thumb>special://home/addons/plugin.video.rt/resources/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.rt",return)</action>
 	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.temptv</defaultID>
+		<label>[COLOR red]TempTV[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.temptv/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.temptv/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.temptv",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>plugin.video.tv1.samoa</defaultID>
+		<label>TV1 Samoa</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.tv1.samoa/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.tv1.samoa/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.tv1.samoa",return)</action>
+	</shortcut>
 	
 	<shortcut>
 		<defaultID>script.module.tt</defaultID>

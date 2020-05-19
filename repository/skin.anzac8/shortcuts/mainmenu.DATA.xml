@@ -21,11 +21,11 @@
 	
 	<shortcut>
 		<defaultID>movies</defaultID>
-		<label>[B]On Demand[/B]</label>
+		<label>[COLOR red][B]On Demand[/B][/COLOR]</label>
 		<label2>Common menu item</label2>
 		<icon>DefaultIconPlay.png</icon>
 		<thumb>DefaultIconPlay.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.crackle",return)</action>
+		<action>RunAddOn(script.extendedinfo)</action>
 	</shortcut>
 	
 	<shortcut>
@@ -34,7 +34,7 @@
 		<label2>Custom item</label2>
 		<icon>DefaultMusicAlbums.png</icon>
 		<thumb>DefaultMusicAlbums.png</thumb>
-		<action>ActivateWindow(Music,"plugin://plugin.audio.nz.radio",return)</action>
+		<action></action>
 	</shortcut>	
 	
 	<shortcut>

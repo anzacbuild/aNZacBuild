@@ -1,32 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?><shortcuts>
 
 	<shortcut>
-		<defaultID>plugin.video.cnn</defaultID>
-		<label>CNN</label>
+		<defaultID>plugin.video.heihei</defaultID>
+		<label>[B]NZ [/B] HEIHEI</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.cnn/resources/images/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.cnn/resources/images/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.cnn",return)</action>
+		<icon>special://home/addons/plugin.video.heihei/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.heihei/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.heihei",return)</action>
 	</shortcut>
 
 	<shortcut>
-		<defaultID>plugin.video.comedycentral</defaultID>
-		<label>Comedy Central</label>
+		<defaultID>plugin.video.play.stuff</defaultID>
+		<label>[B]NZ [/B] Play Stuff</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.comedycentral/resources/images/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.comedycentral/resources/images/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.comedycentral",return)</action>
+		<icon>special://home/addons/plugin.video.play.stuff/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.play.stuff/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.play.stuff",return)</action>
 	</shortcut>
 
 	<shortcut>
-		<defaultID>plugin.video.cook</defaultID>
-		<label>Cooking Channel</label>
+		<defaultID>plugin.video.three.now</defaultID>
+		<label>[B]NZ [/B] ThreeNow</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.cook/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.cook/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.cook",return)</action>
+		<icon>special://home/addons/plugin.video.three.now/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.three.now/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.three.now",return)</action>
 	</shortcut>
 
+	<shortcut>
+		<defaultID>plugin.video.tvnz.ondemand</defaultID>
+		<label>[B]NZ [/B] TVNZ OnDemand</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.tvnz.ondemand/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.tvnz.ondemand/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.tvnz.ondemand",return)</action>
+	</shortcut>
+	
 	<shortcut>
 		<defaultID>plugin.video.crackle</defaultID>
 		<label>Crackle</label>
@@ -37,12 +46,12 @@
 	</shortcut>
 
 	<shortcut>
-		<defaultID>plugin.video.exodus</defaultID>
-		<label>[COLOR red]Exodus[/COLOR]</label>
+		<defaultID>plugin.video.exodusredux</defaultID>
+		<label>[COLOR red]Exodus Redux[/COLOR]</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.exodus/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.exodus/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.exodus",return)</action>
+		<icon>special://home/addons/plugin.video.exodusredux/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.exodusredux/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.exodusredux",return)</action>
 	</shortcut>
 
 	<shortcut>
@@ -55,21 +64,30 @@
 	</shortcut>
 
 	<shortcut>
-		<defaultID>plugin.video.filmrisetv</defaultID>
-		<label>FilmRise</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.filmrisetv/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.filmrisetv/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.filmrisetv",return)</action>
-	</shortcut>
-
-	<shortcut>
 		<defaultID>plugin.video.scrubsv2</defaultID>
 		<label>[COLOR red]Scrubs v2[/COLOR]</label>
 		<label2>Video Add-On</label2>
 		<icon>special://home/addons/plugin.video.scrubsv2/icon.png</icon>
 		<thumb>special://home/addons/plugin.video.scrubsv2/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.scrubsv2",return)</action>
+	</shortcut>
+
+	<shortcut>
+		<defaultID>plugin.video.tempest</defaultID>
+		<label>[COLOR red]Tempest[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.tempest/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.tempest/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.tempest",return)</action>
+	</shortcut>
+
+	<shortcut>
+		<defaultID>plugin.video.venom</defaultID>
+		<label>[COLOR red]Venom[/COLOR]</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.venom/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.venom/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.venom",return)</action>
 	</shortcut>
 
 	<shortcut>
@@ -124,42 +142,6 @@
 		<icon>special://home/addons/plugin.video.sbs/icon.png</icon>
 		<thumb>special://home/addons/plugin.video.sbs/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.sbs",return)</action>
-	</shortcut>
-
-	<shortcut>
-		<defaultID>plugin.video.heihei</defaultID>
-		<label>[B]NZ [/B] HEIHEI</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.heihei/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.heihei/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.heihei",return)</action>
-	</shortcut>
-
-	<shortcut>
-		<defaultID>plugin.video.play.stuff</defaultID>
-		<label>[B]NZ [/B] Play Stuff</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.play.stuff/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.play.stuff/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.play.stuff",return)</action>
-	</shortcut>
-
-	<shortcut>
-		<defaultID>plugin.video.three.now</defaultID>
-		<label>[B]NZ [/B] ThreeNow</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.three.now/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.three.now/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.three.now",return)</action>
-	</shortcut>
-
-	<shortcut>
-		<defaultID>plugin.video.tvnz.ondemand</defaultID>
-		<label>[B]NZ [/B] TVNZ OnDemand</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.tvnz.ondemand/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.tvnz.ondemand/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.tvnz.ondemand",return)</action>
 	</shortcut>
 
 </shortcuts>
