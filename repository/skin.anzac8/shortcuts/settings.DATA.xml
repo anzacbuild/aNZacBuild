@@ -96,9 +96,18 @@
 		<defaultID>colorwhite-forceclosekodi-color</defaultID>
 		<label>Force Close Kodi</label>
 		<label2>Favourite</label2>
-		<icon>special://skin/extras/icons/power.png</icon>
-		<thumb>special://skin/extras/icons/power.png</thumb>
+		<icon>DefaultIconReboot.png</icon>
+		<thumb>DefaultIconReboot.png</thumb>
 		<action>PlayMedia("plugin://plugin.program.anzactools/?mode=forceclose",return)</action>
+	</shortcut>
+
+	<shortcut>
+		<defaultID>31174</defaultID>
+		<label>$SKIN[31174|skin.anzac8|Shutdown menu]</label>
+		<label2>Common menu item</label2>
+		<icon>DefaultIconPower.png</icon>
+		<thumb>DefaultIconPower.png</thumb>
+		<action>ActivateWindow(shutdownmenu)</action>
 	</shortcut>
 
 </shortcuts>

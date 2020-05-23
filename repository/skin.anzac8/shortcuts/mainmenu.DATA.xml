@@ -2,7 +2,7 @@
 
 	<shortcut>
 		<defaultID>weather</defaultID>
-		<label>[B]a[COLOR darkgreen]NZ[/COLOR]ac 8.7.5[/B]</label>
+		<label>[B]a[COLOR darkgreen]NZ[/COLOR]ac 8.7.6[/B]</label>
 		<label2>Common menu item</label2>
 		<icon>logo.png</icon>
 		<thumb>logo.png</thumb>
@@ -25,7 +25,7 @@
 		<label2>Common menu item</label2>
 		<icon>DefaultIconPlay.png</icon>
 		<thumb>DefaultIconPlay.png</thumb>
-		<action>RunAddOn(script.extendedinfo)</action>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.tempest",return)</action>
 	</shortcut>
 	
 	<shortcut>
@@ -34,7 +34,7 @@
 		<label2>Custom item</label2>
 		<icon>DefaultMusicAlbums.png</icon>
 		<thumb>DefaultMusicAlbums.png</thumb>
-		<action></action>
+		<action>ActivateWindow(MusicLibrary,Addons,return)</action>
 	</shortcut>	
 	
 	<shortcut>
@@ -43,7 +43,7 @@
 		<label2>Custom item</label2>
 		<icon>DefaultAddSource.png</icon>
 		<thumb>DefaultAddSource.png</thumb>
-		<action></action>
+		<action>ActivateWindow(Videos,Addons,return)</action>
 	</shortcut>
 
 	<shortcut>

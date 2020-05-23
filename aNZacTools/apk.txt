@@ -38,6 +38,14 @@ fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTool
 adult="no"
 description="Kodi 18.6"
 
+name="[B]Kodi 18[/B] V.18.7"
+section="no"
+url="http://mirrors.kodi.tv/releases/android/arm/kodi-18.7-Leia-armeabi-v7a.apk"
+icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/apkicon.png"
+fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/apkfanart.jpg"
+adult="no"
+description="Kodi 18.7"
+
 name="[B]TVNZ On Demand[/B] V.2.11.11"
 section="no"
 url="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/AndroidAPK/2.11.11-mattrix.apk"
