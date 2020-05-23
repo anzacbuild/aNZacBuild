@@ -2,10 +2,10 @@
 
 	<shortcut>
 		<defaultID>weather</defaultID>
-		<label>[B]a[COLOR darkgreen]NZ[/COLOR]ac 7.7.4[/B]</label>
+		<label>[B]a[COLOR darkgreen]NZ[/COLOR]ac 8.7.6[/B]</label>
 		<label2>Common menu item</label2>
-		<icon>DefaultIconFavourite.png</icon>
-		<thumb>DefaultIconFavourite.png</thumb>
+		<icon>logo.png</icon>
+		<thumb>logo.png</thumb>
 		<action condition="!String.IsEmpty(Weather.Plugin)">ActivateWindow(favourites)</action>
 		<action condition="String.IsEmpty(Weather.Plugin)">ReplaceWindow(servicesettings,weather)</action>
 	</shortcut>
@@ -14,19 +14,18 @@
 		<defaultID>livetv</defaultID>
 		<label>[B]Live TV[/B]</label>
 		<label2>Common menu item</label2>
-		<icon>special://home/addons/plugin.video.au.freeview/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.au.freeview/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.nz.freeview",return)</action>
-		<!-- <visible>System.HasPVRAddon</visible> -->
+		<icon>DefaultAddonPVRClient.png</icon>
+		<thumb>DefaultAddonPVRClient.png</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.iptv.merge",return)</action>
 	</shortcut>
 	
 	<shortcut>
 		<defaultID>movies</defaultID>
-		<label>[B]On Demand[/B]</label>
+		<label>[COLOR red][B]On Demand[/B][/COLOR]</label>
 		<label2>Common menu item</label2>
-		<icon>DefaultMovies.png</icon>
-		<thumb>DefaultMovies.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.crackle",return)</action>
+		<icon>DefaultIconPlay.png</icon>
+		<thumb>DefaultIconPlay.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.venom",return)</action>
 	</shortcut>
 	
 	<shortcut>
@@ -35,24 +34,24 @@
 		<label2>Custom item</label2>
 		<icon>DefaultMusicAlbums.png</icon>
 		<thumb>DefaultMusicAlbums.png</thumb>
-		<action>ActivateWindow(Music,"plugin://plugin.audio.nz.radio",return)</action>
+		<action>ActivateWindow(MusicLibrary,Addons,return)</action>
 	</shortcut>	
 	
 	<shortcut>
 		<defaultID>tvshows</defaultID>
 		<label>[B]Subscriptions[/B]</label>
 		<label2>Custom item</label2>
-		<icon>DefaultTVShows.png</icon>
-		<thumb>DefaultTVShows.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.tab.nz",return)</action>
+		<icon>DefaultAddSource.png</icon>
+		<thumb>DefaultAddSource.png</thumb>
+		<action>ActivateWindow(Videos,Addons,return)</action>
 	</shortcut>
 
 	<shortcut>
 		<defaultID></defaultID>
 		<label></label>
 		<label2></label2>
-		<icon></icon>
-		<thumb></thumb>
+		<icon>blank.png</icon>
+		<thumb>blank.png</thumb>
 		<action></action>
 	</shortcut>	
 	

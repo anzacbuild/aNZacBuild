@@ -1,26 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><shortcuts>
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts>
+
 	<shortcut>
-		<defaultID>589</defaultID>
-		<label>589</label>
-		<label2>Common menu item</label2>
-		<icon>special://skin/extras/icons/musicdisc.png</icon>
-		<thumb/>
-		<action>PlayerControl(PartyMode)</action>
+		<defaultID />
+		<label>[COLOR white]aNZac Builds[/COLOR]</label>
+		<label2>Program</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fbuildicon.png/</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.anzactools/?mode=builds",return)</action>
 	</shortcut>
+
 	<shortcut>
-		<defaultID>7</defaultID>
-		<label>7</label>
-		<label2>Common menu item</label2>
-		<icon>special://skin/extras/icons/file.png</icon>
-		<thumb/>
-		<action>ActivateWindow(FileManager)</action>
+		<defaultID>24001</defaultID>
+		<label>24001</label>
+		<label2>Settings</label2>
+		<icon>special://skin/extras/icons/addon.png</icon>
+		<thumb />
+		<action>ActivateWindow(AddonBrowser)</action>
 	</shortcut>
+
 	<shortcut>
-		<defaultID>14111</defaultID>
-		<label>14111</label>
-		<label2>Common menu item</label2>
-		<icon>Events.png</icon>
-		<thumb/>
-		<action>ActivateWindow(EventLog,events://,return)</action>
+		<defaultID>13009</defaultID>
+		<label>13009</label>
+		<label2>Kodi Command</label2>
+		<icon>special://skin/extras/icons/power.png</icon>
+		<thumb />
+		<action>Quit</action>
 	</shortcut>
+
 </shortcuts>

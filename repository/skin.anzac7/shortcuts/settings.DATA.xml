@@ -61,7 +61,7 @@
 		<label2>Favourite</label2>
 		<icon>DefaultFolder.png</icon>
 		<thumb>DefaultAddonVisualization.png</thumb>
-		<action>ActivateWindow(10040,"addons://repository.xbmc.org/xbmc.player.musicviz",return)</action>
+		<action>ActivateWindow(10040,"addons://all/xbmc.player.musicviz",return)</action>
 	</shortcut>	
 	
 	<shortcut>
@@ -70,7 +70,7 @@
 		<label2>Favourite</label2>
 		<icon>special://skin/extras/icons/weather.png</icon>
 		<thumb>DefaultAddonWeather.png</thumb>
-		<action>ActivateWindow(10040,"addons://repository.xbmc.org/xbmc.python.weather",return)</action>
+		<action>ActivateWindow(10040,"addons://all/xbmc.python.weather",return)</action>
 	</shortcut>
 
 
@@ -96,9 +96,18 @@
 		<defaultID>colorwhite-forceclosekodi-color</defaultID>
 		<label>Force Close Kodi</label>
 		<label2>Favourite</label2>
-		<icon>special://skin/extras/icons/power.png</icon>
-		<thumb>special://skin/extras/icons/power.png</thumb>
+		<icon>DefaultIconReboot.png</icon>
+		<thumb>DefaultIconReboot.png</thumb>
 		<action>PlayMedia("plugin://plugin.program.anzactools/?mode=forceclose",return)</action>
+	</shortcut>
+
+	<shortcut>
+		<defaultID>31174</defaultID>
+		<label>$SKIN[31174|skin.anzac8|Shutdown menu]</label>
+		<label2>Common menu item</label2>
+		<icon>DefaultIconPower.png</icon>
+		<thumb>DefaultIconPower.png</thumb>
+		<action>ActivateWindow(shutdownmenu)</action>
 	</shortcut>
 
 </shortcuts>

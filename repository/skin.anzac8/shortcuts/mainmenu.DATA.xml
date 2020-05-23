@@ -25,7 +25,7 @@
 		<label2>Common menu item</label2>
 		<icon>DefaultIconPlay.png</icon>
 		<thumb>DefaultIconPlay.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.tempest",return)</action>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.venom",return)</action>
 	</shortcut>
 	
 	<shortcut>
