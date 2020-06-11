@@ -16,7 +16,7 @@
 		<label2>Common menu item</label2>
 		<icon>DefaultAddonPVRClient.png</icon>
 		<thumb>DefaultAddonPVRClient.png</thumb>
-		<action>ActivateWindow(Programs,"plugin://plugin.program.iptv.merge",return)</action>
+		<action></action>
 	</shortcut>
 	
 	<shortcut>
