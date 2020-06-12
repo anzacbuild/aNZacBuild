@@ -1,6 +1,6 @@
 name="aNZac"
-version="7.7.4"
-url="https://archive.org/download/aNZac-7.7.4/aNZac-7.7.4.zip"
+version="7.7.6"
+url="https://archive.org/download/anzac-7.7.6_202006/aNZac-7.7.6.zip"
 gui="http://"
 kodi="17.6"
 theme="http://"
