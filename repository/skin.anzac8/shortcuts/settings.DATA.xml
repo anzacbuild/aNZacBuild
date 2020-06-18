@@ -54,6 +54,15 @@
 		<thumb>DefaultAddonPVRClient.png</thumb>
 		<action>ActivateWindow(10040,"addons://all/xbmc.pvrclient",return)</action>
 	</shortcut>
+
+	<shortcut>
+		<defaultID>script.keymap</defaultID>
+		<label>Remote Editor</label>
+		<label2>Program</label2>
+		<icon>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fkeymap.png/</icon>
+		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fkeymap.png/</thumb>
+		<action>RunAddOn(script.keymap)</action>
+	</shortcut>
 	
 	<shortcut>
 		<defaultID>visualisation</defaultID>
@@ -71,16 +80,6 @@
 		<icon>special://skin/extras/icons/weather.png</icon>
 		<thumb>DefaultAddonWeather.png</thumb>
 		<action>ActivateWindow(10040,"addons://all/xbmc.python.weather",return)</action>
-	</shortcut>
-
-
-	<shortcut>
-		<defaultID>service.libreelec.settings</defaultID>
-		<label>LibreELEC Config</label>
-		<label2>Program</label2>
-		<icon>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2flibreelec.png/</icon>
-		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2flibreelec.png/</thumb>
-		<action>RunAddOn(service.libreelec.settings)</action>
 	</shortcut>
 
 	<shortcut>
@@ -109,5 +108,23 @@
 		<thumb>DefaultIconPower.png</thumb>
 		<action>ActivateWindow(shutdownmenu)</action>
 	</shortcut>
-
+	
+	<shortcut>
+		<defaultID>service.alexelec.settings</defaultID>
+		<label>AlexELEC Configuration</label>
+		<label2>Program</label2>
+		<icon>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2falexelec.png/</icon>
+		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2falexelec.png/</thumb>
+		<action>RunAddOn(service.alexelec.settings)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>service.libreelec.settings</defaultID>
+		<label>LibreELEC Config</label>
+		<label2>Program</label2>
+		<icon>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2flibreelec.png/</icon>
+		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2flibreelec.png/</thumb>
+		<action>RunAddOn(service.libreelec.settings)</action>
+	</shortcut>
+	
 </shortcuts>
