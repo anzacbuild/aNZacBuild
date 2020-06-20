@@ -3,7 +3,7 @@
 
 	<shortcut>
 		<defaultID>TVGuide</defaultID>
-		<label>Live TV Guide</label>
+		<label>IPTV Guide</label>
 		<label2>Video Add-On</label2>
 		<icon>DefaultAddonPVRClient.png</icon>
 		<thumb>DefaultAddonPVRClient.png</thumb>
@@ -11,8 +11,26 @@
 	</shortcut>
 
 	<shortcut>
+		<defaultID />
+		<label>IPTV Channels</label>
+		<label2>Program</label2>
+		<icon>special://home/addons/plugin.program.iptv.merge/icon.png</icon>
+		<thumb>special://home/addons/plugin.program.iptv.merge/icon.png</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.iptv.merge/?_=playlists",return)</action>
+	</shortcut>
+
+	<shortcut>
+		<defaultID />
+		<label>IPTV Install</label>
+		<label2>Program</label2>
+		<icon>special://home/addons/plugin.program.iptv.merge/icon.png</icon>
+		<thumb>special://home/addons/plugin.program.iptv.merge/icon.png</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.iptv.merge/?_=setup",return)</action>
+	</shortcut>
+
+	<shortcut>
 		<defaultID>plugin.video.au.freeview</defaultID>
-		<label>IPTV AU</label>
+		<label>IPTV Australia</label>
 		<label2>Video Add-On</label2>
 		<icon>special://home/addons/plugin.video.au.freeview/icon.png</icon>
 		<thumb>special://home/addons/plugin.video.au.freeview/icon.png</thumb>
@@ -21,7 +39,7 @@
 
 	<shortcut>
 		<defaultID>plugin.video.nz.freeview</defaultID>
-		<label>IPTV NZ</label>
+		<label>IPTV New Zealand</label>
 		<label2>Video Add-On</label2>
 		<icon>special://home/addons/plugin.video.nz.freeview/icon.png</icon>
 		<thumb>special://home/addons/plugin.video.nz.freeview/icon.png</thumb>
@@ -35,15 +53,6 @@
 		<icon>special://home/addons/plugin.video.rt/resources/icon.png</icon>
 		<thumb>special://home/addons/plugin.video.rt/resources/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.rt",return)</action>
-	</shortcut>
-
-	<shortcut>
-		<defaultID>plugin.video.tv1.samoa</defaultID>
-		<label>TV1 Samoa</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.tv1.samoa/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.tv1.samoa/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.tv1.samoa",return)</action>
 	</shortcut>
 
 	<shortcut>

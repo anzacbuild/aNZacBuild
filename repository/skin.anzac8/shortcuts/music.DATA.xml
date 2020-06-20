@@ -2,7 +2,7 @@
 
 	<shortcut>
 		<defaultID>plugin.audio.au.radio</defaultID>
-		<label>RADIO AU</label>
+		<label>RADIO Australia</label>
 		<label2>Music Add-On</label2>
 		<icon>special://home/addons/plugin.audio.au.radio/icon.png</icon>
 		<thumb>special://home/addons/plugin.audio.au.radio/icon.png</thumb>
@@ -11,7 +11,7 @@
 	
 	<shortcut>
 		<defaultID>plugin.audio.nz.radio</defaultID>
-		<label>RADIO NZ</label>
+		<label>RADIO New Zealand</label>
 		<label2>Music Add-On</label2>
 		<icon>special://home/addons/plugin.audio.nz.radio/icon.png</icon>
 		<thumb>special://home/addons/plugin.audio.nz.radio/icon.png</thumb>

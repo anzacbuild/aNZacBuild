@@ -56,12 +56,12 @@
 	</shortcut>
 
 	<shortcut>
-		<defaultID>script.keymap</defaultID>
+		<defaultID>script.remote.edit</defaultID>
 		<label>Remote Editor</label>
 		<label2>Program</label2>
 		<icon>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fkeymap.png/</icon>
 		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fkeymap.png/</thumb>
-		<action>RunAddOn(script.keymap)</action>
+		<action>RunAddOn(script.remote.edit)</action>
 	</shortcut>
 	
 	<shortcut>
