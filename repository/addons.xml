@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-	<addon id="doko.repository" name="Doko Repository" version="0.1.0" provider-name="doko">
-		<extension point="xbmc.addon.repository" name="Doko Repository">
-			<info compressed="false">https://raw.githubusercontent.com/doko-desuka/doko.repository/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/doko-desuka/doko.repository/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/doko-desuka/doko.repository/master/</datadir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>Doko Kodi Add-ons</summary>
-			<description>Add-ons for Kodi</description>
-			<disclaimer></disclaimer>
-			<platform>all</platform>
-		</extension>
-	</addon>
-
 	<addon id="plugin.program.anzactools" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B]" version="1.8" provider-name="aNZac Build">
 	  <requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -96,32 +82,6 @@
 		</extension>
 	</addon>
 
-	<addon id="repository.addons4kodi" name="Addons4Kodi Repository" version="1.3" provider-name="A4K">
-		<extension point="xbmc.addon.repository" name="Addons4Kodi Repository">
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.addons4kodi/master/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.addons4kodi/master/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.addons4kodi/master/zips/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openmeta/master/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openmeta/master/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openmeta/master/zips/</datadir>
-			</dir>
-			<dir>
-				<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
-			</dir>
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary>Addons4Kodi Repository</summary>
-			<description>The official repo of /r/Addons4Kodi!.</description>
-			<disclaimer></disclaimer>
-			<platform>all</platform>
-		</extension>
-	</addon>
-
 	<addon id="repository.anzacbuild" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Build[/COLOR][/B] Repository" version="3.9" provider-name="aNZac Build">
 		<extension point="xbmc.addon.repository" name="aNZac Build Repository">
 			<info compressed="false">https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/repository/addons.xml</info>
@@ -200,6 +160,29 @@
 			<platform>all</platform>
 		</extension>
 	</addon>	
+
+	<addon id="repository.gujal" name="Gujal Addon Repository" version="1.10" provider-name="Gujal">
+		<extension point="xbmc.addon.repository" name="Gujal Addons Repository">
+			<dir>
+				<info compressed="true">https://raw.githubusercontent.com/back-to/repo/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/back-to/repo/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/back-to/repo/master/</datadir>
+			</dir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+			</dir>
+			<info compressed="false">https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/addons.xml</info>
+			<checksum>https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/zips</datadir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Third party Addons for Kodi</summary>
+			<description>Gujal Addons Repository</description>
+			<platform>all</platform>
+		</extension>
+	</addon>
 	
 	<addon id="repository.jewrepo" name="[COLOR purple]JewRepo[/COLOR]" version="1.5.5" provider-name="JewBMX">
 		<requires>
