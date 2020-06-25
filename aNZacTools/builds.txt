@@ -1,4 +1,4 @@
-name="Test Build Final[/B]"
+name="[B]Test Build Final[/B]"
 version="3"
 url="https://archive.org/download/test-3_202006/test-3.zip"
 gui="http://"
