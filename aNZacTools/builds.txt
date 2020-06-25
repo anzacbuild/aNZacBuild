@@ -1,4 +1,4 @@
-name="[B]Test Build Final[/B]"
+name="Test Build Final[/B]"
 version="3"
 url="https://archive.org/download/test-3_202006/test-3.zip"
 gui="http://"
@@ -11,7 +11,7 @@ adult="no"
 description="Install aNZac Build for Kodi 18 Leia. Compatible with Android, Windows and Linux."
 
 
-name="aNZacBuild"
+name="aNZacBuild.armv7"
 version="8.7.6"
 url="https://archive.org/download/aNZacBuild.armv7-8.7.6/aNZacBuild.armv7-8.7.6.zip"
 gui="http://"
