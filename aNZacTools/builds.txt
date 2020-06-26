@@ -1,6 +1,6 @@
-name="[B]Test Build Final[/B]"
+name="aNZacBuild [B]Test Build Final[/B]"
 version="3"
-url="https://archive.org/download/test-3_202006/test-3.zip"
+url="https://archive.org/download/aNZacBuild-4/aNZacBuild-4.zip"
 gui="http://"
 kodi="18.7"
 theme="http://"

@@ -21,7 +21,7 @@
 
 	<shortcut>
 		<defaultID />
-		<label>IPTV Install</label>
+		<label>[B]IPTV Install[/B]</label>
 		<label2>Program</label2>
 		<icon>special://home/addons/plugin.program.iptv.merge/icon.png</icon>
 		<thumb>special://home/addons/plugin.program.iptv.merge/icon.png</thumb>
