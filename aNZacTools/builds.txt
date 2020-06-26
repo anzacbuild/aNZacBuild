@@ -1,4 +1,4 @@
-name="aNZacBuild [B]Test Build Final[/B]"
+name="aNZacBuild"
 version="4"
 url="https://archive.org/download/aNZacBuild-4/aNZacBuild-4.zip"
 gui="http://"
