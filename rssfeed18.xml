@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>aNZac Build </title>
-   <item><title> 8.7.6</title></item>
-   <item><title>2020-05-24</title></item>
+   <item><title> 8.7.7</title></item>
+   <item><title>2020-06-27</title></item>
    <item><title>https://anzacbuild.github.io</title></item>
    <item><title>A Kodi build for the lands down under - -</title></item>
 
    <item><title>- - aNZac 8 built for Kodi 18 Leia - -</title></item>
 
-   <item><title>- - A new way of doing things! Just install the addons you use after updating making the system faster to load and run. Recommend a fresh install and then Standard Install from now on unless something goes wrong. - -</title></item>
+   <item><title>- - Compatibility fixes. The one build is now compatible with all systems including m8s boxes running AlexELEC. Note: you will need to click IPTV Install under Live TV to activate after a fresh install. - -</title></item>
    
    <item><title>- - - 2020-05-24 Updated Kodi 18 APK Installer Link to 18.7 Stable (armv7 32 bit) - - -</title></item>
    <item><title>- -  - -</title></item>
