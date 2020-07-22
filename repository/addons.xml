@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-	<addon id="plugin.program.anzactools" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B]" version="1.8" provider-name="aNZac Build">
+	<addon id="plugin.program.anzactools" name="[B][COLOR white]a[/COLOR][COLOR green]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B]" version="1.9" provider-name="aNZac Build">
 	  <requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	  </requires>
@@ -15,6 +15,7 @@
 		<platform>all</platform>
 	  </extension>
 	</addon>
+
 
 	<addon id="plugin.video.rt" name="Russia Today News" version="3.0.8" provider-name="t1m|boeboe">
 		<requires>
