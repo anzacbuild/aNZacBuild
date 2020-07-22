@@ -3,29 +3,11 @@
 
 	<shortcut>
 		<defaultID>TVGuide</defaultID>
-		<label>IPTV Guide</label>
+		<label>[B]IPTV Guide[/B]</label>
 		<label2>Video Add-On</label2>
 		<icon>DefaultAddonPVRClient.png</icon>
 		<thumb>DefaultAddonPVRClient.png</thumb>
 		<action>ActivateWindow(TVGuide)</action>
-	</shortcut>
-
-	<shortcut>
-		<defaultID />
-		<label>IPTV Channels</label>
-		<label2>Program</label2>
-		<icon>special://home/addons/plugin.program.iptv.merge/icon.png</icon>
-		<thumb>special://home/addons/plugin.program.iptv.merge/icon.png</thumb>
-		<action>ActivateWindow(Programs,"plugin://plugin.program.iptv.merge/?_=playlists",return)</action>
-	</shortcut>
-
-	<shortcut>
-		<defaultID />
-		<label>[B]IPTV Install[/B]</label>
-		<label2>Program</label2>
-		<icon>special://home/addons/plugin.program.iptv.merge/icon.png</icon>
-		<thumb>special://home/addons/plugin.program.iptv.merge/icon.png</thumb>
-		<action>ActivateWindow(Programs,"plugin://plugin.program.iptv.merge/?_=setup",return)</action>
 	</shortcut>
 
 	<shortcut>

@@ -2,7 +2,7 @@
 
 	<shortcut>
 		<defaultID>weather</defaultID>
-		<label>[B]a[COLOR darkgreen]NZ[/COLOR]ac 8.7.7[/B]</label>
+		<label>[B]a[COLOR darkgreen]NZ[/COLOR]ac 8.7.8[/B]</label>
 		<label2>Common menu item</label2>
 		<icon>logo.png</icon>
 		<thumb>logo.png</thumb>
@@ -12,11 +12,11 @@
 
 	<shortcut>
 		<defaultID>livetv</defaultID>
-		<label>[B]Live TV[/B]</label>
+		<label>[B]IPTV[/B]</label>
 		<label2>Common menu item</label2>
-		<icon>DefaultAddonPVRClient.png</icon>
-		<thumb>DefaultAddonPVRClient.png</thumb>
-		<action>ActivateWindow(Programs,"plugin://plugin.program.iptv.merge/?_=merge",return)</action>
+		<icon>special://home/addons/plugin.program.iptv.merge/icon.png</icon>
+		<thumb>special://home/addons/plugin.program.iptv.merge/icon.png</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.iptv.merge",return)</action>
 	</shortcut>
 	
 	<shortcut>
@@ -32,9 +32,9 @@
 		<defaultID>music</defaultID>
 		<label>[B]Radio N Music[/B]</label>
 		<label2>Custom item</label2>
-		<icon>DefaultMusicAlbums.png</icon>
-		<thumb>DefaultMusicAlbums.png</thumb>
-		<action>ActivateWindow(MusicLibrary,Addons,return)</action>
+		<icon>special://home/addons/plugin.program.iptv.merge/icon.png</icon>
+		<thumb>special://home/addons/plugin.program.iptv.merge/icon.png</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.iptv.merge",return)</action>
 	</shortcut>	
 	
 	<shortcut>
