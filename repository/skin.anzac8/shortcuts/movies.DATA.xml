@@ -100,6 +100,15 @@
 	</shortcut>
 
 	<shortcut>
+		<defaultID>plugin.video.iplayerwww</defaultID>
+		<label>[B]UK [/B] iPlayer WWW</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.iplayerwww/resources/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.iplayerwww/resources/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.iplayerwww",return)</action>
+	</shortcut>
+
+	<shortcut>
 		<defaultID>plugin.video.exodusredux</defaultID>
 		<label>[COLOR red]Exodus Redux[/COLOR]</label>
 		<label2>Video Add-On</label2>

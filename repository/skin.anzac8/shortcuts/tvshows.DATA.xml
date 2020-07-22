@@ -10,14 +10,14 @@
 	</shortcut>
 
 	<shortcut>
-		<defaultID>plugin.video.lightbox</defaultID>
-		<label>[B]NZ [/B] Lightbox</label>
+		<defaultID>slyguy.neon</defaultID>
+		<label>[B]NZ [/B] NEON</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.lightbox/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.lightbox/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.lightbox",return)</action>
+		<icon>special://home/addons/slyguy.neon/icon.png</icon>
+		<thumb>special://home/addons/slyguy.neon/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://slyguy.neon",return)</action>
 	</shortcut>
-
+	
 	<shortcut>
 		<defaultID>plugin.video.tab.nz</defaultID>
 		<label>[B]NZ [/B]TAB</label>
@@ -72,13 +72,14 @@
 		<action>ActivateWindow(Videos,"plugin://plugin.video.beinsports.apac",return)</action>
 	</shortcut>
 
+
 	<shortcut>
-		<defaultID>plugin.video.curiositystream</defaultID>
+		<defaultID>slyguy.curiositystream</defaultID>
 		<label>CuriosityStream</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.curiositystream/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.curiositystream/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.curiositystream",return)</action>
+		<icon>special://home/addons/slyguy.curiositystream/icon.png</icon>
+		<thumb>special://home/addons/slyguy.curiositystream/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://slyguy.curiositystream",return)</action>
 	</shortcut>
 	
 	<shortcut>
@@ -118,15 +119,6 @@
 	</shortcut>
 
 	<shortcut>
-		<defaultID>plugin.video.seren</defaultID>
-		<label>[COLOR red]Seren (Real Debrid)[/COLOR]</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.seren/ico-fox-gold-final.png</icon>
-		<thumb>special://home/addons/plugin.video.seren/ico-fox-gold-final.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.seren",return)</action>
-	</shortcut>	
-
-	<shortcut>
 		<defaultID>plugin.video.showmax</defaultID>
 		<label>Showmax</label>
 		<label2>Video Add-On</label2>
@@ -151,6 +143,15 @@
 		<icon>special://home/addons/plugin.video.afl-video/icon.png</icon>
 		<thumb>special://home/addons/plugin.video.afl-video/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.afl-video",return)</action>
+	</shortcut>
+
+	<shortcut>
+		<defaultID>slyguy.binge</defaultID>
+		<label>[B]AU [/B] Binge</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/slyguy.binge/icon.png</icon>
+		<thumb>special://home/addons/slyguy.binge/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://slyguy.binge",return)</action>
 	</shortcut>
 
 	<shortcut>
