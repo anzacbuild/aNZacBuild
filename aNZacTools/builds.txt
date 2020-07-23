@@ -61,4 +61,14 @@ adult="no"
 description="Install aNZac Build for Kodi 17 Krypton (LibreELEC MS8 Boxes)"
 
 
-
+name="Test"
+version="5"
+url="https://archive.org/download/test-5_202007/test-5.zip"
+gui="http://"
+kodi="18.7"
+theme="http://"
+icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/MultiOS.png"
+fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/fanart.jpg"
+preview="http://"
+adult="no"
+description="Install aNZac Build for Kodi 18 Leia. Compatible with Android, Windows and Linux. (All users should use this build moving forward)"
