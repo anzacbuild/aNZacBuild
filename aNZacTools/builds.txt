@@ -1,14 +1,14 @@
-name="test build"
+name="test-5"
 version="5.0"
 url="https://archive.org/download/test-5_202007/test-5.zip"
 gui="http://"
-kodi="18.7"
+kodi="18.0"
 theme="http://"
 icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/MultiOS.png"
 fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/fanart.jpg"
 preview="http://"
 adult="no"
-description="Install aNZac TEST Build for Kodi 18 Leia."
+description="Install aNZac test Build for Kodi 18 Leia."
 
 
 
