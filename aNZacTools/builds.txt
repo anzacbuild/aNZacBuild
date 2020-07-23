@@ -1,5 +1,5 @@
-name="test"
-version="5"
+name="test build"
+version="5.0"
 url="https://archive.org/download/test-5_202007/test-5.zip"
 gui="http://"
 kodi="18.7"
