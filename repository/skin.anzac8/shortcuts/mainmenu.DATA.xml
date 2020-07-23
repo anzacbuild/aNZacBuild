@@ -12,7 +12,7 @@
 
 	<shortcut>
 		<defaultID>livetv</defaultID>
-		<label>[B]IPTV[/B]</label>
+		<label>[B]Live IPTV[/B]</label>
 		<label2>Common menu item</label2>
 		<icon>special://home/addons/plugin.program.iptv.merge/icon.png</icon>
 		<thumb>special://home/addons/plugin.program.iptv.merge/icon.png</thumb>
