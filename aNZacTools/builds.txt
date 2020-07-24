@@ -1,16 +1,3 @@
-name="test-5"
-version="5.0"
-url="https://archive.org/download/test-5_202007/test-5.zip"
-gui="http://"
-kodi="18.0"
-theme="http://"
-icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/MultiOS.png"
-fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/fanart.jpg"
-preview="http://"
-adult="no"
-description="Install aNZac test Build for Kodi 18 Leia."
-
-
 
 name="aNZacBuild"
 version="8.7.7"
@@ -74,3 +61,15 @@ preview="http://"
 adult="no"
 description="Install aNZac Build for Kodi 17 Krypton (LibreELEC MS8 Boxes)"
 
+
+name="test-6"
+version="6.0"
+url="https://archive.org/download/test-6_202007/test-6.zip"
+gui="http://"
+kodi="18.0"
+theme="http://"
+icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/MultiOS.png"
+fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/fanart.jpg"
+preview="http://"
+adult="no"
+description="Install aNZac test Build for Kodi 18 Leia."
