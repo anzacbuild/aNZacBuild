@@ -63,8 +63,8 @@ description="Install aNZac Build for Kodi 17 Krypton (LibreELEC MS8 Boxes)"
 
 
 name="test-7"
-version="7.0"
-url="https://archive.org/download/test-7/test-7.zip"
+version="7.1"
+url="https://archive.org/download/test-7.1/test-7.1.zip"
 gui="http://"
 kodi="18.0"
 theme="http://"
