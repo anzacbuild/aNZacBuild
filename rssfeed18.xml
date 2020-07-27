@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>aNZac Build </title>
-   <item><title> Version 8.7.8 Released 2020-07-26 </title></item>
-   <item><title> https://anzacbuild.github.io - A Kodi build for the lands down under </title></item>
 
+<rss version="2.0"><channel><title>aNZac Build | anzacbuild.github.io - - - - -</title>
 
-   <item><title>- - aNZac 8 built for Kodi 18 Leia - -</title></item>
+	<item><title> Version: 8.7.8 - - - - -</title></item>
 
-   <item><title>- - Compatibility fixes. The one build is now compatible with all systems including m8s boxes running AlexELEC. Note: you will need to click IPTV Install under Live TV to activate after a fresh install. - -</title></item>
+	<item><title> Released: 2020-07-26 - - - - -</title></item>
+
+	<item><title> Live IPTV: Added Pluto TV (about 300 channels) and STIRR (about 100 channels) See website Tips section for how to activate - - - - -</title></item>
+
+	<item><title> Subscriptions: Removed LightBox and added NEON - - - - -</title></item>
+
+   <item><title> 2020-07-25 Added more Tips to the WebSite including Weather, Subtitles, Stream Language Select, IPTV management and Premium Services - - - - -</title></item>
    
-   <item><title>- - - 2020-05-24 Updated Kodi 18 APK Installer Link to 18.7 Stable (armv7 32 bit) - - -</title></item>
-   <item><title>- - 2020-07-01 MAJOR WEBSITE UPDATE! Including new detailed install guide and Tips section. Check out anzacbuild.github.io for details. - -</title></item>
+   <item><title> 2020-05-24 Updated Android Kodi 18 APK Installer Link to 18.7 Stable (armv7 32 bit) - - - - -</title></item>
+
 </channel></rss>
