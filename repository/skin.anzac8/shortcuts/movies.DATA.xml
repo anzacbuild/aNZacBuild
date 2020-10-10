@@ -46,6 +46,15 @@
 	</shortcut>
 
 	<shortcut>
+		<defaultID>plugin.video.hgtv</defaultID>
+		<label>HGTV</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/plugin.video.hgtv/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.hgtv/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.hgtv",return)</action>
+	</shortcut>
+
+	<shortcut>
 		<defaultID>plugin.video.watchnixtoons2</defaultID>
 		<label>[COLOR red]WatchNixtoons2[/COLOR]</label>
 		<label2>Video Add-On</label2>
@@ -118,12 +127,12 @@
 	</shortcut>
 
 	<shortcut>
-		<defaultID>plugin.video.fen</defaultID>
-		<label>[COLOR red]Fen[/COLOR]</label>
+		<defaultID>plugin.video.thecrew</defaultID>
+		<label>[COLOR red]THE CREW[/COLOR]</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.fen/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.fen/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.fen",return)</action>
+		<icon>special://home/addons/plugin.video.thecrew/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.thecrew/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.thecrew",return)</action>
 	</shortcut>
 
 	<shortcut>

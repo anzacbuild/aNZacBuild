@@ -2,7 +2,7 @@
 
 	<shortcut>
 		<defaultID>plugin.program.anzactools</defaultID>
-		<label>[B][COLOR white]a[/COLOR][COLOR darkgreen]NZ[/COLOR][COLOR white]ac Tools[/COLOR][/B]</label>
+		<label>[B]a[COLOR darkgreen]NZ[/COLOR]ac Tools[/B]</label>
 		<label2>Program</label2>
 		<icon>special://home/addons/plugin.program.anzactools/icon.png</icon>
 		<thumb>special://home/addons/plugin.program.anzactools/icon.png</thumb>
@@ -10,17 +10,35 @@
 	</shortcut>
 	
 	<shortcut>
-		<defaultID>add-onrepository</defaultID>
-		<label>[B]Repository Install[/B]</label>
+		<defaultID />
+		<label>[B]Speed Test[/B]</label>
+		<label2>Program</label2>
+		<icon>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fspeedicon.png/</icon>
+		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fspeedicon.png/</thumb>
+		<action>ActivateWindow(Programs,"plugin://plugin.program.anzactools/?mode=net",return)</action>
+	</shortcut>	
+	
+	<shortcut>
+		<defaultID>script.remote.edit</defaultID>
+		<label>[B]Remote Editor[/B]</label>
+		<label2>Program</label2>
+		<icon>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fkeymap.png/</icon>
+		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fkeymap.png/</thumb>
+		<action>RunAddOn(script.remote.edit)</action>
+	</shortcut>
+
+	<shortcut>
+		<defaultID>videoadd-ons</defaultID>
+		<label>[B]Install add-ons[/B]</label>
 		<label2>Favourite</label2>
-		<icon>DefaultAddonRepository.png</icon>
-		<thumb>DefaultAddonRepository.png</thumb>
-		<action>ActivateWindow(10040,"addons://repository.anzacbuild/xbmc.addon.repository",return)</action>
+		<icon>DefaultAddonContextItem.png</icon>
+		<thumb>DefaultAddonContextItem.png</thumb>
+		<action>ActivateWindow(10040,"addons://all/xbmc.addon.video",return)</action>
 	</shortcut>
 	
 	<shortcut>
 		<defaultID>7</defaultID>
-		<label>7</label>
+		<label>[B]File Manager[/B]</label>
 		<label2>Common menu item</label2>
 		<icon>special://skin/extras/icons/file.png</icon>
 		<thumb />
@@ -29,44 +47,25 @@
 	
 	<shortcut>
 		<defaultID>19033</defaultID>
-		<label>19033</label>
+		<label>[B]System Info[/B]</label>
 		<label2>Common menu item</label2>
 		<icon>DefaultHardDisk.png</icon>
 		<thumb />
 		<action>ActivateWindow(systeminfo)</action>
 	</shortcut>
 
-
 	<shortcut>
-		<defaultID>guisounds</defaultID>
-		<label>GUI sounds</label>
+		<defaultID>screensaver</defaultID>
+		<label>[B]Screensaver[/B]</label>
 		<label2>Favourite</label2>
 		<icon>DefaultFolder.png</icon>
-		<thumb>DefaultAddonUISounds.png</thumb>
-		<action>ActivateWindow(10040,"addons://repository.anzacbuild/kodi.resource.uisounds",return)</action>
-	</shortcut>
-	
-	<shortcut>
-		<defaultID>pvrclients</defaultID>
-		<label>Live Tv PVR clients</label>
-		<label2>Favourite</label2>
-		<icon>DefaultFolder.png</icon>
-		<thumb>DefaultAddonPVRClient.png</thumb>
-		<action>ActivateWindow(10040,"addons://all/xbmc.pvrclient",return)</action>
-	</shortcut>
-
-	<shortcut>
-		<defaultID>script.remote.edit</defaultID>
-		<label>Remote Editor</label>
-		<label2>Program</label2>
-		<icon>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fkeymap.png/</icon>
-		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fkeymap.png/</thumb>
-		<action>RunAddOn(script.remote.edit)</action>
+		<thumb>DefaultAddonScreensaver.png</thumb>
+		<action>ActivateWindow(10040,"addons://all/xbmc.ui.screensaver",return)</action>
 	</shortcut>
 	
 	<shortcut>
 		<defaultID>visualisation</defaultID>
-		<label>Music Visualisation</label>
+		<label>[B]Visualisation[/B]</label>
 		<label2>Favourite</label2>
 		<icon>DefaultFolder.png</icon>
 		<thumb>DefaultAddonVisualization.png</thumb>
@@ -75,7 +74,7 @@
 	
 	<shortcut>
 		<defaultID>weather</defaultID>
-		<label>Weather</label>
+		<label>[B]Weather[/B]</label>
 		<label2>Favourite</label2>
 		<icon>special://skin/extras/icons/weather.png</icon>
 		<thumb>DefaultAddonWeather.png</thumb>
@@ -83,26 +82,8 @@
 	</shortcut>
 
 	<shortcut>
-		<defaultID />
-		<label>[COLOR white]Speed Tester[/COLOR]</label>
-		<label2>Program</label2>
-		<icon>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fspeedicon.png/</icon>
-		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2fspeedicon.png/</thumb>
-		<action>ActivateWindow(Programs,"plugin://plugin.program.anzactools/?mode=net",return)</action>
-	</shortcut>
-
-	<shortcut>
-		<defaultID>colorwhite-forceclosekodi-color</defaultID>
-		<label>Force Close Kodi</label>
-		<label2>Favourite</label2>
-		<icon>DefaultIconReboot.png</icon>
-		<thumb>DefaultIconReboot.png</thumb>
-		<action>PlayMedia("plugin://plugin.program.anzactools/?mode=forceclose",return)</action>
-	</shortcut>
-
-	<shortcut>
 		<defaultID>31174</defaultID>
-		<label>$SKIN[31174|skin.anzac8|Shutdown menu]</label>
+		<label>[B]Exit / Shutdown[/B]</label>
 		<label2>Common menu item</label2>
 		<icon>DefaultIconPower.png</icon>
 		<thumb>DefaultIconPower.png</thumb>
@@ -111,7 +92,7 @@
 	
 	<shortcut>
 		<defaultID>service.alexelec.settings</defaultID>
-		<label>AlexELEC Configuration</label>
+		<label>AlexELEC Config</label>
 		<label2>Program</label2>
 		<icon>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2falexelec.png/</icon>
 		<thumb>image://https%3a%2f%2fraw.githubusercontent.com%2fanzacbuild%2faNZacBuild%2fmaster%2faNZacTools%2falexelec.png/</thumb>

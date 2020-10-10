@@ -2,7 +2,7 @@
 
 	<shortcut>
 		<defaultID>weather</defaultID>
-		<label>[B]a[COLOR darkgreen]NZ[/COLOR]ac 8.7.8[/B]</label>
+		<label>[B]a[COLOR darkgreen]NZ[/COLOR]ac 8.7.9[/B]</label>
 		<label2>Common menu item</label2>
 		<icon>logo.png</icon>
 		<thumb>logo.png</thumb>
@@ -14,8 +14,8 @@
 		<defaultID>livetv</defaultID>
 		<label>[B]Live IPTV[/B]</label>
 		<label2>Common menu item</label2>
-		<icon>special://home/addons/plugin.program.iptv.merge/icon.png</icon>
-		<thumb>special://home/addons/plugin.program.iptv.merge/icon.png</thumb>
+		<icon>DefaultTVShows.png</icon>
+		<thumb>DefaultTVShows.png</thumb>
 		<action>ActivateWindow(Programs,"plugin://plugin.program.iptv.merge",return)</action>
 	</shortcut>
 	
@@ -25,24 +25,24 @@
 		<label2>Common menu item</label2>
 		<icon>DefaultIconPlay.png</icon>
 		<thumb>DefaultIconPlay.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.fen",return)</action>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.tempest",return)</action>
 	</shortcut>
 	
 	<shortcut>
 		<defaultID>music</defaultID>
 		<label>[B]Radio N Music[/B]</label>
 		<label2>Custom item</label2>
-		<icon>special://home/addons/plugin.program.iptv.merge/icon.png</icon>
-		<thumb>special://home/addons/plugin.program.iptv.merge/icon.png</thumb>
-		<action>ActivateWindow(Programs,"plugin://plugin.program.iptv.merge",return)</action>
+		<icon>DefaultAddonMusic.png</icon>
+		<thumb>DefaultAddonMusic.png</thumb>
+		<action>ActivateWindow(10040,"addons://user/xbmc.addon.audio",return)</action>
 	</shortcut>	
 	
 	<shortcut>
 		<defaultID>tvshows</defaultID>
 		<label>[B]Subscriptions[/B]</label>
 		<label2>Custom item</label2>
-		<icon>DefaultAddSource.png</icon>
-		<thumb>DefaultAddSource.png</thumb>
+		<icon>DefaultAddonMovieInfo.png</icon>
+		<thumb>DefaultAddonMovieInfo.png</thumb>
 		<action>ActivateWindow(Videos,Addons,return)</action>
 	</shortcut>
 
@@ -50,8 +50,8 @@
 		<defaultID></defaultID>
 		<label></label>
 		<label2></label2>
-		<icon>blank.png</icon>
-		<thumb>blank.png</thumb>
+		<icon>kodi.png</icon>
+		<thumb>kodi.png</thumb>
 		<action></action>
 	</shortcut>	
 	
