@@ -2,16 +2,14 @@
 
 <rss version="2.0"><channel><title>aNZac Build | anzacbuild.github.io - - - - -</title>
 
-	<item><title> Version: 8.7.8 - - - - -</title></item>
+	<item><title> Version: 8.7.9 - - - - -</title></item>
 
-	<item><title> Released: 2020-07-26 - - - - -</title></item>
+	<item><title> Released: 2020-10-12 - - - - -</title></item>
 
-	<item><title> Live IPTV: Added Pluto TV (about 300 channels) and STIRR (about 100 channels) See website Tips section for how to activate - - - - -</title></item>
-
-	<item><title> Subscriptions: Removed LightBox and added NEON - - - - -</title></item>
+	<item><title> On Demand: Removed FEN Real debrid users should now use Venom for RD Streams. Note: Venom no longer supports free hosters. Added The Crew as this addon is finding good free sources. - - - - -</title></item>
 
    <item><title> 2020-07-31 Updated Android Kodi 18 APK Installer Link to 18.8 Stable (armv7 32 bit) - - - - -</title></item>
 
-   <item><title> 2020-07-25 Added more Tips to the WebSite including Weather, Subtitles, Stream Language Select, IPTV management and Premium Services - - - - -</title></item>
+   <item><title> 2020-07-25 Added more Tips to the WebSite (https://anzacbuild.github.io) including Weather, Subtitles, Stream Language Select, IPTV management and Premium Services - - - - -</title></item>
    
 </channel></rss>
