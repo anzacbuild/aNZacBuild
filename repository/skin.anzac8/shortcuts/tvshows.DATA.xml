@@ -245,6 +245,33 @@
 	</shortcut>
 
 	<shortcut>
+		<defaultID>slyguy.singtel.tv.go</defaultID>
+		<label>[B]SG[/B]  Singtel TV GO</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/slyguy.singtel.tv.go/icon.png</icon>
+		<thumb>special://home/addons/slyguy.singtel.tv.go/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://slyguy.singtel.tv.go",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>slyguy.hbo.max</defaultID>
+		<label>[B]USA[/B]  HBO Max</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/slyguy.hbo.max/icon.png</icon>
+		<thumb>special://home/addons/slyguy.hbo.max/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://slyguy.hbo.max",return)</action>
+	</shortcut>
+	
+	<shortcut>
+		<defaultID>slyguy.pbs.live</defaultID>
+		<label>[B]USA[/B]  PBS Live</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/slyguy.pbs.live/icon.png</icon>
+		<thumb>special://home/addons/slyguy.pbs.live/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://slyguy.pbs.live",return)</action>
+	</shortcut>
+	
+	<shortcut>
 		<defaultID>plugin.video.willow.tv</defaultID>
 		<label>[B]USA [/B] Willow TV</label>
 		<label2>Video Add-On</label2>

@@ -1,15 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?><shortcuts>
 
 	<shortcut>
-		<defaultID>plugin.video.heihei</defaultID>
-		<label>[B]NZ [/B] HEIHEI</label>
-		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.heihei/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.heihei/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.heihei",return)</action>
-	</shortcut>
-
-	<shortcut>
 		<defaultID>plugin.video.play.stuff</defaultID>
 		<label>[B]NZ [/B] Play Stuff</label>
 		<label2>Video Add-On</label2>

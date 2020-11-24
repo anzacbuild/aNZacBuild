@@ -27,7 +27,16 @@
 		<thumb>special://home/addons/plugin.video.nz.freeview/icon.png</thumb>
 		<action>ActivateWindow(Videos,"plugin://plugin.video.nz.freeview",return)</action>
 	</shortcut>
-
+	
+	<shortcut>
+		<defaultID>slyguy.pluto.tv.provider</defaultID>
+		<label>Pluto TV</label>
+		<label2>Video Add-On</label2>
+		<icon>special://home/addons/slyguy.pluto.tv.provider/icon.png</icon>
+		<thumb>special://home/addons/slyguy.pluto.tv.provider/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://slyguy.pluto.tv.provider",return)</action>
+	</shortcut>
+	
 	<shortcut>
 		<defaultID>plugin.video.rt</defaultID>
 		<label>Russia Today News</label>
@@ -38,30 +47,30 @@
 	</shortcut>
 
 	<shortcut>
-		<defaultID>plugin.video.Rising.Tides</defaultID>
-		<label>[COLOR red][B]R[/B]ising [B]T[/B]ides[/COLOR]</label>
+		<defaultID>slyguy.stirr.provider</defaultID>
+		<label>STIRR</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.Rising.Tides/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.Rising.Tides/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.Rising.Tides",return)</action>
+		<icon>special://home/addons/slyguy.stirr.provider/icon.png</icon>
+		<thumb>special://home/addons/slyguy.stirr.provider/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://slyguy.stirr.provider",return)</action>
 	</shortcut>
 	
 	<shortcut>
-		<defaultID>plugin.video.temptv</defaultID>
-		<label>[COLOR red]TempTV[/COLOR]</label>
+		<defaultID>plugin.video.PLsportowo</defaultID>
+		<label>[COLOR red]Sportowa TV[/COLOR]</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/plugin.video.temptv/icon.png</icon>
-		<thumb>special://home/addons/plugin.video.temptv/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://plugin.video.temptv",return)</action>
+		<icon>special://home/addons/plugin.video.PLsportowo/icon.png</icon>
+		<thumb>special://home/addons/plugin.video.PLsportowo/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://plugin.video.PLsportowo",return)</action>
 	</shortcut>
 	
 	<shortcut>
-		<defaultID>script.module.tt</defaultID>
-		<label>[COLOR red]TvTap[/COLOR]</label>
+		<defaultID>script.module.7of9-live</defaultID>
+		<label>[COLOR red]TVtap (Clone)[/COLOR] (v2.5)</label>
 		<label2>Video Add-On</label2>
-		<icon>special://home/addons/script.module.tt/icon.png</icon>
-		<thumb>special://home/addons/script.module.tt/icon.png</thumb>
-		<action>ActivateWindow(Videos,"plugin://script.module.tt",return)</action>
+		<icon>special://home/addons/script.module.7of9-live/icon.png</icon>
+		<thumb>special://home/addons/script.module.7of9-live/icon.png</thumb>
+		<action>ActivateWindow(Videos,"plugin://script.module.7of9-live",return)</action>
 	</shortcut>
 
 </shortcuts>
