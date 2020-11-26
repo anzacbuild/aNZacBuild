@@ -2,11 +2,15 @@
 
 <rss version="2.0"><channel><title>aNZac Build | anzacbuild.github.io - - - - -</title>
 
-	<item><title> Version: 8.7.9 - - - - -</title></item>
+	<item><title> Version: 8.8.0 - - - - -</title></item>
 
-	<item><title> Released: 2020-10-12 - - - - -</title></item>
+	<item><title> Released: 2020-11-26 - - - - -</title></item>
 
-	<item><title> On Demand: Removed FEN Real debrid users should now use Venom for RD Streams. Note: Venom no longer supports free hosters. Added The Crew as this addon is finding good free sources. - - - - -</title></item>
+	<item><title> Live TV: Updated TvTap and added Sportswa, PlutoTV and STIRR. Removed Rising Tides and TempTV as no longer being updated. - - - - -</title></item>
+
+	<item><title> On Demand: Removed HeiHei as the addon has been discontinued. - - - - -</title></item>
+	
+	<item><title> Subscriptions: Added HBO Max, SingtelTV and PBS. - - - - -</title></item>
 
    <item><title> 2020-10-29 Updated Android Kodi 18 APK Installer Link to 18.9 Stable (armv7 32 bit) - - - - -</title></item>
 

@@ -1,9 +1,9 @@
 
 name="aNZacBuild"
-version="8.7.9"
-url="https://archive.org/download/aNZacBuild-8.7.9/aNZacBuild-8.7.9.zip"
+version="8.8.0"
+url="https://archive.org/download/aNZacBuild-8.8.0/aNZacBuild-8.8.0.zip"
 gui="http://"
-kodi="18.7"
+kodi="18.9"
 theme="http://"
 icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/MultiOS.png"
 fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/fanart.jpg"
