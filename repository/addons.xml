@@ -132,16 +132,21 @@
 	</extension>
 	</addon>
 
-	<addon id="repository.diamond-wizard-repo" name=" (v7.5) [COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Primary Server, Main Repo)[/COLOR][COLORwhite]***[/COLOR]" version="7.5" provider-name="Diamond Build">
+	<addon id="repository.diamond-wizard-repo" name=" [COLORwhite]***[/COLOR][COLOR crimson]D[/COLOR][COLOR silver]iamond Build Repo (Primary Server, Main Repo)[/COLOR][COLORwhite]***[/COLOR]" version="8.0" provider-name="Diamond Build">
 		<requires>
 			<import addon="xbmc.addon" version="12.0.0"/>
 		</requires>
 		<extension point="xbmc.addon.repository" name="Diamond Wizard Repo - Primary Server">
 		<!-- Diamond Repository -->
-			<info compressed="false">https://raw.githubusercontent.com/bobbybark/diamond-build-repo/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/bobbybark/diamond-build-repo/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/bobbybark/diamond-build-repo/master/</datadir>
+				<info compressed="false">https://diamondbuild.xyz/repository/diamond/diamond_build_repo/zips/addons.xml</info>
+				<checksum>https://diamondbuild.xyz/repository/diamond/diamond_build_repo/zips/addons.xml.md5</checksum>
+				<datadir zip="true">https://diamondbuild.xyz/repository/diamond/diamond_build_repo/zips/</datadir>
 			<hashes>false</hashes>	
+			<dir>
+			<info compressed="false">https://diamondbuild.xyz/repository/diamond/diamond_build_back2thepass/zips/addons.xml</info>
+			<checksum>https://diamondbuild.xyz/repository/diamond/diamond_build_back2thepass/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://diamondbuild.xyz/repository/diamond/diamond_build_back2thepass/zips/</datadir>
+			</dir>		
 			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
 				<checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
@@ -168,10 +173,10 @@
 				<datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
 			</dir>	
 			<dir>
-				<info compressed="false">https://repo.rubyjewelwizard.com/repo/diamond/back2thepass/zips/addons.xml</info>
-				<checksum>https://repo.rubyjewelwizard.com/repo/diamond/back2thepass/zips/addons.xml.md5</checksum>
-				<datadir zip="true">https://repo.rubyjewelwizard.com/repo/diamond/back2thepass/zips/</datadir>
-			</dir>			
+				<info compressed="true">https://raw.githubusercontent.com/back-to/repo/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/back-to/repo/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/back-to/repo/master/</datadir>	
+			</dir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
 			<summary lang="en">Diamond Addons / Primary Server, Main Repo</summary>
@@ -181,7 +186,7 @@
 			<genre>movies,usa</genre>
 		</extension>
 	</addon>
-	
+		
 	<addon id="repository.exodusredux" name="Exodus Redux Repo" version="0.0.9" provider-name="I-A-C">
 		<extension point="xbmc.addon.repository" name="Exodus Redux Repo">
 		<dir>
