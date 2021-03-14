@@ -28,7 +28,7 @@ url="https://mirrors.kodi.tv/releases/android/arm/kodi-18.9-Leia-armeabi-v7a.apk
 icon="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/apkicon.png"
 fanart="https://raw.githubusercontent.com/anzacbuild/aNZacBuild/master/aNZacTools/apkfanart.jpg"
 adult="no"
-description="Kodi 18.9"
+description="Kodi 18.9 Stable"
 
 name="[B]TVNZ On Demand[/B] V.2.11.11"
 section="no"

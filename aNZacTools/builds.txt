@@ -1,4 +1,18 @@
 
+name="kodi.kiwi.tk_Leia"
+version="2021.03.11"
+url="https://kodi.kiwi.tk/resources/buildfiles18/kodi.kiwi.tk_Leia-2021.03.11.zip"
+minor="http://"
+gui="http://"
+kodi="18.9"
+theme="http://"
+icon="https://kodi.kiwi.tk/resources/icons/MultiOS.png"
+fanart="https://kodi.kiwi.tk/resources/images/fanart.jpg"
+preview="http://"
+adult="no"
+info="http://"
+description="Install the kodi.kiwi.tk build for Kodi 18 Leia. Compatible with Android, Windows and Linux."
+
 name="aNZacBuild"
 version="8.8.0"
 url="https://archive.org/download/aNZacBuild-8.8.0/aNZacBuild-8.8.0.zip"
