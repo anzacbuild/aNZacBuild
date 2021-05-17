@@ -1,7 +1,7 @@
 
 name="kodi.kiwi.tk_Leia"
-version="2021.03.11"
-url="https://kodi.kiwi.tk/resources/buildfiles18/kodi.kiwi.tk_Leia-2021.03.11.zip"
+version="2021.05.16"
+url="https://kodi.kiwi.tk/resources/buildfiles18/kodi.kiwi.tk_Leia-2021.05.16.zip"
 minor="http://"
 gui="http://"
 kodi="18.9"
